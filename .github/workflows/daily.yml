@@ -1,0 +1,69 @@
+name: Daily Report
+
+# 每天北京时间 06:00（UTC 22:00）抓取前一天的新星榜并部署
+on:
+  schedule:
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch trending repos & generate reports
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+        run: |
+          # 默认昨天（UTC），如需补偿跑更早的日期可手动传参
+          python scripts/fetch_trending.py
+
+      - name: Commit & push reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "docs: daily report for $(date -u -d 'yesterday' +%F) [skip ci]"
+            git push
+          fi
+
+  deploy:
+    needs: report
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Pull latest reports (pushed by report job)
+        run: git pull --ff-only origin main
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

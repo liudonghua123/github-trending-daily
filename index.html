@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Daily Top 10 Rising Stars · 每日新星榜</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  :root {
+    --bg: #0d1117; --panel: #161b22; --border: #30363d;
+    --text: #e6edf3; --muted: #8b949e; --accent: #f78166; --link: #58a6ff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.6;
+  }
+  header {
+    padding: 2rem 1rem 1rem; text-align: center;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, #1a2130 0%, var(--bg) 100%);
+  }
+  header h1 { margin: 0 0 .3rem; font-size: 1.6rem; }
+  header h1 .star { color: var(--accent); }
+  header p { margin: 0; color: var(--muted); font-size: .9rem; }
+  .controls {
+    display: flex; flex-wrap: wrap; gap: .5rem; align-items: center;
+    justify-content: center; padding: .8rem 1rem;
+  }
+  select, button {
+    background: var(--panel); color: var(--text); border: 1px solid var(--border);
+    border-radius: 6px; padding: .45rem .9rem; font-size: .9rem; cursor: pointer;
+  }
+  button:hover, select:hover { border-color: var(--link); }
+  .stats {
+    display: flex; flex-wrap: wrap; gap: .8rem; justify-content: center;
+    padding: 0 1rem 1rem; color: var(--muted); font-size: .85rem;
+  }
+  .stats span b { color: var(--text); }
+  main { max-width: 960px; margin: 0 auto; padding: 1rem; }
+  .lang-switch { text-align: center; margin: .5rem 0 1rem; }
+  .lang-switch button.active { border-color: var(--accent); color: var(--accent); }
+  .card {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 10px; padding: 1.4rem 1.6rem; min-height: 300px;
+  }
+  .markdown-body h1 { font-size: 1.4rem; border-bottom: 1px solid var(--border); padding-bottom: .5rem; }
+  .markdown-body h3 { margin-top: 1.4rem; }
+  .markdown-body a { color: var(--link); text-decoration: none; }
+  .markdown-body a:hover { text-decoration: underline; }
+  .markdown-body blockquote {
+    margin: .5rem 0; padding: .2rem 1rem; color: var(--muted);
+    border-left: 3px solid var(--border);
+  }
+  .markdown-body table { border-collapse: collapse; width: 100%; margin: 1rem 0; display: block; overflow-x: auto; }
+  .markdown-body th, .markdown-body td { border: 1px solid var(--border); padding: .45rem .7rem; font-size: .88rem; }
+  .markdown-body th { background: #1c2433; }
+  .markdown-body tr:nth-child(2n) td { background: #10151d; }
+  footer { text-align: center; color: var(--muted); font-size: .8rem; padding: 1.5rem 0 2.5rem; }
+  footer a { color: var(--link); }
+  #loading { text-align: center; color: var(--muted); padding: 3rem 0; }
+  .error { color: #f85149; text-align: center; padding: 2rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1><span class="star">🌟</span> GitHub Daily Top 10 Rising Stars</h1>
+  <p>每天自动抓取 GitHub 上前一天 star 增长最猛的 10 个新项目 · 中英双语报告</p>
+</header>
+
+<div class="controls">
+  <label style="color:var(--muted);font-size:.9rem">📅 报告日期：</label>
+  <select id="dateSelect"><option>加载中…</option></select>
+</div>
+<div class="stats" id="stats"></div>
+<div class="lang-switch">
+  <button id="btnZh" class="active">中文 🇨🇳</button>
+  <button id="btnEn">English 🇺🇸</button>
+</div>
+
+<main>
+  <div class="card"><div id="loading">⏳ 正在加载报告…</div><div id="content" class="markdown-body"></div></div>
+</main>
+
+<footer>
+  Powered by GitHub Actions · 自动抓取 &gt; 自动生成 &gt; 自动部署 ·
+  <a href="https://github.com/liudonghua123/github-trending-daily">源码仓库</a>
+</footer>
+
+<script>
+const params = new URLSearchParams(location.search);
+let lang = (params.get('lang') || 'zh').toLowerCase();
+let currentDate = null;
+
+const btnZh = document.getElementById('btnZh');
+const btnEn = document.getElementById('btnEn');
+
+function setLang(l) {
+  lang = l;
+  btnZh.classList.toggle('active', l === 'zh');
+  btnEn.classList.toggle('active', l === 'en');
+  if (currentDate) loadReport(currentDate, false);
+}
+
+btnZh.onclick = () => setLang('zh');
+btnEn.onclick = () => setLang('en');
+
+async function init() {
+  try {
+    const resp = await fetch('reports/index.json');
+    const entries = await resp.json();
+    const sel = document.getElementById('dateSelect');
+    sel.innerHTML = '';
+    entries.forEach(e => {
+      const opt = document.createElement('option');
+      opt.value = e.date;
+      opt.textContent = e.date + ' · ' + (lang === 'zh' ? '最火 ' : 'Top: ') + e.top_repo;
+      sel.appendChild(opt);
+    });
+    sel.onchange = () => loadReport(sel.value, true);
+    await loadReport(entries[0].date, true);
+  } catch (err) {
+    document.getElementById('loading').innerHTML =
+      '<div class="error">加载 index.json 失败：' + err.message + '</div>';
+  }
+}
+
+async function loadReport(date, updateUrl) {
+  currentDate = date;
+  if (updateUrl) {
+    const u = new URL(location);
+    u.searchParams.set('date', date);
+    u.searchParams.set('lang', lang);
+    history.replaceState(null, '', u);
+  }
+  document.getElementById('loading').style.display = 'block';
+  document.getElementById('content').innerHTML = '';
+  try {
+    const resp = await fetch('reports/' + date + '-' + lang + '.md');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const md = await resp.text();
+    document.getElementById('content').innerHTML = marked.parse(md);
+    document.getElementById('loading').style.display = 'none';
+    // 显示统计条
+    const respIdx = await fetch('reports/index.json');
+    const entries = await respIdx.json();
+    const e = entries.find(x => x.date === date);
+    if (e) {
+      document.getElementById('stats').innerHTML =
+        '<span>🔥 最火仓库：<b>' + e.top_repo + '</b></span>' +
+        '<span>⭐ 单仓最高：<b>' + e.top_stars.toLocaleString() + '</b></span>' +
+        '<span>📊 合计 Star：<b>' + e.total_stars.toLocaleString() + '</b></span>';
+    }
+  } catch (err) {
+    document.getElementById('loading').innerHTML =
+      '<div class="error">报告加载失败：' + err.message + '</div>';
+  }
+}
+
+// 从 URL 参数恢复状态
+marked.setOptions({ breaks: true, gfm: true });
+init().then(() => {
+  const d = params.get('date');
+  const l = params.get('lang');
+  if (l) setLang(l);
+  if (d) {
+    const sel = document.getElementById('dateSelect');
+    if ([...sel.options].some(o => o.value === d)) { sel.value = d; loadReport(d, false); }
+  }
+});
+</script>
+</body>
+</html>
