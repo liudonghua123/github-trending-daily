@@ -1,0 +1,115 @@
+# 🌟 GitHub 每月 Top 10 — 2026-10-23
+
+> 生成时间：2026-10-25 16:01 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
+> 榜单口径：过去 30 天 star ≥ 100 且最近有推送
+
+## 📊 今日快照
+
+| 指标 | 数值 |
+| --- | --- |
+| 统计日期 | 2026-10-23 |
+| 上榜仓库数 | 10 |
+| 合计 Star 数 | ⭐ 3,764,606 |
+| 最火仓库 | **public-apis/public-apis** (⭐ 492,052) |
+| 主导语言 | **TypeScript** |
+
+## 🏆 十强一览
+
+| 排名 | 仓库 | Star | Fork | 语言 | 点评 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | ⭐ 492,052 | 🍴 54,776 | Python | 传奇殿堂 👑 |
+| 2 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | ⭐ 457,901 | 🍴 48,788 | TypeScript | 传奇殿堂 👑 |
+| 3 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | ⭐ 400,067 | 🍴 66,994 | Python | 传奇殿堂 👑 |
+| 4 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | ⭐ 393,020 | 🍴 82,606 | TypeScript | 传奇殿堂 👑 |
+| 5 | [morluto/rea](https://github.com/morluto/rea) | ⭐ 382,775 | 🍴 95,759 | TypeScript | 传奇殿堂 👑 |
+| 6 | [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | ⭐ 370,386 | 🍴 45,149 | TypeScript | 传奇殿堂 👑 |
+| 7 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | ⭐ 330,300 | 🍴 15,537 | Other | 传奇殿堂 👑 |
+| 8 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | ⭐ 330,189 | 🍴 28,998 | Python | 传奇殿堂 👑 |
+| 9 | [obra/superpowers](https://github.com/obra/superpowers) | ⭐ 304,900 | 🍴 27,161 | Shell | 传奇殿堂 👑 |
+| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | ⭐ 303,016 | 🍴 25,483 | Shell | 传奇殿堂 👑 |
+
+## 🔍 仓库详情
+
+### 1. [public-apis/public-apis](https://github.com/public-apis/public-apis)
+
+- ⭐ Star 数：**492,052** | 🍴 Fork 数：**54,776** | 👀 关注数：**0** | 🐛 未关闭 issue：**2,357**
+- 🧠 主要语言：**Python** | 归属：Organization | 创建：2016-03-20 | 最近推送：2026-10-24
+- 🏷️ 话题标签：api, apis, dataset, development, free, list
+
+> A collective list of free APIs
+
+### 2. [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
+
+- ⭐ Star 数：**457,901** | 🍴 Fork 数：**48,788** | 👀 关注数：**0** | 🐛 未关闭 issue：**175**
+- 🧠 主要语言：**TypeScript** | 归属：Organization | 创建：2014-12-24 | 最近推送：2026-10-25
+- 🏷️ 话题标签：careers, certification, community, curriculum, d3, education
+
+> freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
+
+### 3. [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
+
+- ⭐ Star 数：**400,067** | 🍴 Fork 数：**66,994** | 👀 关注数：**0** | 🐛 未关闭 issue：**96**
+- 🧠 主要语言：**Python** | 归属：Organization | 创建：2013-10-11 | 最近推送：2026-10-25
+- 🏷️ 话题标签：books, education, hacktoberfest, list, resource
+
+> :books: Freely available programming books
+
+### 4. [openclaw/openclaw](https://github.com/openclaw/openclaw)
+
+- ⭐ Star 数：**393,020** | 🍴 Fork 数：**82,606** | 👀 关注数：**0** | 🐛 未关闭 issue：**7,856**
+- 🧠 主要语言：**TypeScript** | 归属：Organization | 创建：2025-11-24 | 最近推送：2026-10-25
+- 🏷️ 话题标签：ai, assistant, crustacean, molty, openclaw, own-your-data
+
+> The AI that really does things. Any OS. Any Platform. The lobster way. 🦞
+
+### 5. [morluto/rea](https://github.com/morluto/rea)
+
+- ⭐ Star 数：**382,775** | 🍴 Fork 数：**95,759** | 👀 关注数：**0** | 🐛 未关闭 issue：**1,060**
+- 🧠 主要语言：**TypeScript** | 归属：User | 创建：2026-04-14 | 最近推送：2026-10-25
+- 🏷️ 话题标签：agent-skills, ai-agents, binary-analysis, claude-code, cli, codex
+
+> Reverse engineer anything with agents, from app behavior down to native binaries.
+
+### 6. [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)
+
+- ⭐ Star 数：**370,386** | 🍴 Fork 数：**45,149** | 👀 关注数：**0** | 🐛 未关闭 issue：**6**
+- 🧠 主要语言：**TypeScript** | 归属：User | 创建：2017-03-15 | 最近推送：2026-10-25
+- 🏷️ 话题标签：angular-roadmap, backend-roadmap, blockchain-roadmap, computer-science, dba-roadmap, developer-roadmap
+
+> Interactive roadmaps, guides and other educational content to help developers grow in their careers.
+
+### 7. [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+
+- ⭐ Star 数：**330,300** | 🍴 Fork 数：**15,537** | 👀 关注数：**0** | 🐛 未关闭 issue：**0**
+- 🧠 主要语言：**Other** | 归属：Organization | 创建：2015-06-01 | 最近推送：2026-10-22
+- 🏷️ 话题标签：awesome, awesome-list, cloud, free-software, hosting, privacy
+
+> A list of Free Software network services and web applications which can be hosted on your own servers
+
+### 8. [vinta/awesome-python](https://github.com/vinta/awesome-python)
+
+- ⭐ Star 数：**330,189** | 🍴 Fork 数：**28,998** | 👀 关注数：**0** | 🐛 未关闭 issue：**17**
+- 🧠 主要语言：**Python** | 归属：User | 创建：2014-06-27 | 最近推送：2026-10-25
+- 🏷️ 话题标签：awesome, awesome-list, python, python-frameworks, python-libraries, python-tools
+
+> The definitive list that answers "I want to do X in Python, which tool should I use?"
+
+### 9. [obra/superpowers](https://github.com/obra/superpowers)
+
+- ⭐ Star 数：**304,900** | 🍴 Fork 数：**27,161** | 👀 关注数：**0** | 🐛 未关闭 issue：**364**
+- 🧠 主要语言：**Shell** | 归属：User | 创建：2025-10-09 | 最近推送：2026-10-23
+- 🏷️ 话题标签：ai, brainstorming, coding, obra, sdlc, skills
+
+> An agentic skills framework & software development methodology that works.
+
+### 10. [mattpocock/skills](https://github.com/mattpocock/skills)
+
+- ⭐ Star 数：**303,016** | 🍴 Fork 数：**25,483** | 👀 关注数：**0** | 🐛 未关闭 issue：**204**
+- 🧠 主要语言：**Shell** | 归属：User | 创建：2026-02-03 | 最近推送：2026-10-22
+- 🏷️ 话题标签：-
+
+> Skills for Real Engineers. Straight from my .agents directory.
+
+---
+
+*本报告由 [github-trending-daily](https://github.com/liudonghua123/github-trending-daily) 自动生成。*

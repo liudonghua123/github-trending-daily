@@ -3,71 +3,254 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GitHub Daily Top 10 Rising Stars · 每日新星榜</title>
+<title>GitHub Trending Daily · 每日 / 每周 / 每月开源热榜</title>
+<meta name="description" content="每天自动抓取 GitHub 上前一天 star 增长最猛的 10 个新项目，附每周、每月热榜，中英双语报告。">
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <style>
   :root {
-    --bg: #0d1117; --panel: #161b22; --border: #30363d;
-    --text: #e6edf3; --muted: #8b949e; --accent: #f78166; --link: #58a6ff;
+    --bg: #0a0e14; --bg2: #0d1420; --panel: #111827; --panel2: #16203200;
+    --border: #1f2b3e; --border2: #2c3e57;
+    --text: #e8eef7; --muted: #7d8ca3; --faint: #4a5871;
+    --accent: #f78166; --accent2: #ffa657; --link: #6cb6ff;
+    --gold: #ffd33d; --green: #57d9a3; --purple: #b48eff;
+    --radius: 14px;
   }
   * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
   body {
-    margin: 0; background: var(--bg); color: var(--text);
+    margin: 0; background:
+      radial-gradient(1200px 500px at 80% -10%, rgba(247,129,102,.08), transparent 60%),
+      radial-gradient(900px 420px at 10% -10%, rgba(108,182,255,.07), transparent 60%),
+      var(--bg);
+    color: var(--text);
     font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
-    line-height: 1.6;
+    line-height: 1.65;
   }
+
+  /* ---------- Header ---------- */
   header {
-    padding: 2rem 1rem 1rem; text-align: center;
+    padding: 2.2rem 1rem 1.2rem; text-align: center;
     border-bottom: 1px solid var(--border);
-    background: linear-gradient(180deg, #1a2130 0%, var(--bg) 100%);
+    position: relative; overflow: hidden;
   }
-  header h1 { margin: 0 0 .3rem; font-size: 1.6rem; }
-  header h1 .star { color: var(--accent); }
-  header p { margin: 0; color: var(--muted); font-size: .9rem; }
+  header::after {  /* 底部光晕 */
+    content: ""; position: absolute; left: 50%; bottom: -1px;
+    width: 420px; height: 2px; transform: translateX(-50%);
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  }
+  .logo-row { display: inline-flex; align-items: center; gap: 1rem; }
+  .logo-row h1 {
+    margin: 0; font-size: 1.7rem; letter-spacing: .5px;
+    background: linear-gradient(92deg, #e8eef7 30%, var(--accent2) 70%, var(--accent));
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  header p.sub { margin: .45rem 0 0; color: var(--muted); font-size: .92rem; }
+  header p.sub b { color: var(--text); font-weight: 600; }
+
+  /* ---------- 周期 Tab ---------- */
+  .period-tabs {
+    display: inline-flex; gap: .3rem; margin-top: 1.2rem;
+    background: var(--panel); border: 1px solid var(--border);
+    padding: .3rem; border-radius: 999px;
+  }
+  .period-tabs button {
+    background: transparent; color: var(--muted); border: none;
+    padding: .5rem 1.3rem; border-radius: 999px; font-size: .92rem;
+    cursor: pointer; transition: all .25s ease; display: inline-flex; align-items: center; gap: .45rem;
+  }
+  .period-tabs button:hover { color: var(--text); }
+  .period-tabs button.active {
+    background: linear-gradient(135deg, rgba(247,129,102,.18), rgba(255,166,87,.14));
+    color: var(--accent2); box-shadow: inset 0 0 0 1px rgba(247,129,102,.35);
+  }
+  .period-tabs .dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; opacity: .8; }
+
+  /* ---------- 焦点卡片（首页内容） ---------- */
+  .focus-wrap { max-width: 1020px; margin: 1.4rem auto 0; padding: 0 1rem; }
+  .focus {
+    display: grid; grid-template-columns: 1.35fr 1fr; gap: 1rem;
+  }
+  @media (max-width: 760px) { .focus { grid-template-columns: 1fr; } }
+  .focus-card {
+    background: linear-gradient(160deg, var(--panel), #0e1522);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 1.2rem 1.4rem; text-align: left;
+    transition: transform .2s ease, border-color .2s ease;
+  }
+  .focus-card:hover { transform: translateY(-2px); border-color: var(--border2); }
+  .focus-card .tag {
+    display: inline-block; font-size: .72rem; letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--accent2); border: 1px solid rgba(255,166,87,.35);
+    padding: .15rem .6rem; border-radius: 999px; margin-bottom: .6rem;
+  }
+  .focus-card h3 { margin: .2rem 0 .4rem; font-size: 1.15rem; }
+  .focus-card h3 a { color: var(--link); text-decoration: none; }
+  .focus-card h3 a:hover { text-decoration: underline; }
+  .focus-card .desc {
+    color: var(--muted); font-size: .86rem; margin: 0 0 .8rem; min-height: 2.4em;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .focus-card .nums { display: flex; flex-wrap: wrap; gap: 1.1rem; font-size: .85rem; color: var(--muted); }
+  .focus-card .nums b { color: var(--text); }
+  .mini-list { list-style: none; margin: .2rem 0 0; padding: 0; }
+  .mini-list li {
+    display: flex; justify-content: space-between; gap: .8rem;
+    padding: .42rem 0; border-bottom: 1px dashed var(--border); font-size: .86rem;
+  }
+  .mini-list li:last-child { border-bottom: none; }
+  .mini-list a { color: var(--link); text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .mini-list a:hover { text-decoration: underline; }
+  .mini-list .stars { color: var(--gold); flex-shrink: 0; }
+  .card-hint { font-size: .78rem; color: var(--faint); margin: .5rem 0 0; }
+
+  /* ---------- 控制条 ---------- */
   .controls {
-    display: flex; flex-wrap: wrap; gap: .5rem; align-items: center;
-    justify-content: center; padding: .8rem 1rem;
+    display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; justify-content: center;
+    padding: 1.2rem 1rem .4rem;
   }
   select, button {
-    background: var(--panel); color: var(--text); border: 1px solid var(--border);
-    border-radius: 6px; padding: .45rem .9rem; font-size: .9rem; cursor: pointer;
+    background: var(--panel); color: var(--text); border: 1px solid var(--border2);
+    border-radius: 8px; padding: .5rem 1rem; font-size: .9rem; cursor: pointer;
+    transition: border-color .2s ease;
   }
-  button:hover, select:hover { border-color: var(--link); }
+  select:hover, button:hover { border-color: var(--link); }
   .stats {
-    display: flex; flex-wrap: wrap; gap: .8rem; justify-content: center;
-    padding: 0 1rem 1rem; color: var(--muted); font-size: .85rem;
+    display: flex; flex-wrap: wrap; gap: 1.4rem; justify-content: center;
+    padding: .4rem 1rem 1rem; color: var(--muted); font-size: .86rem;
   }
   .stats span b { color: var(--text); }
-  main { max-width: 960px; margin: 0 auto; padding: 1rem; }
-  .lang-switch { text-align: center; margin: .5rem 0 1rem; }
-  .lang-switch button.active { border-color: var(--accent); color: var(--accent); }
-  .card {
-    background: var(--panel); border: 1px solid var(--border);
-    border-radius: 10px; padding: 1.4rem 1.6rem; min-height: 300px;
+  .stats .gold b { color: var(--gold); }
+
+  /* ---------- 语言切换 ---------- */
+  .lang-switch { text-align: center; margin: .3rem 0 1.1rem; }
+  .lang-switch button { padding: .4rem 1.1rem; border-radius: 999px; font-size: .85rem; color: var(--muted); }
+  .lang-switch button.active {
+    color: var(--text); border-color: var(--accent);
+    background: rgba(247,129,102,.12);
   }
-  .markdown-body h1 { font-size: 1.4rem; border-bottom: 1px solid var(--border); padding-bottom: .5rem; }
-  .markdown-body h3 { margin-top: 1.4rem; }
+
+  /* ---------- 报告卡片 ---------- */
+  main { max-width: 1000px; margin: 0 auto; padding: 0 1rem 2rem; }
+  .card {
+    background: linear-gradient(180deg, rgba(22,32,50,.55), rgba(17,24,39,.9));
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 1.6rem 1.8rem; min-height: 320px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.35);
+  }
+  .markdown-body h1 {
+    font-size: 1.35rem; padding-bottom: .6rem; margin-top: 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .markdown-body h3 { margin-top: 1.6rem; }
   .markdown-body a { color: var(--link); text-decoration: none; }
   .markdown-body a:hover { text-decoration: underline; }
   .markdown-body blockquote {
-    margin: .5rem 0; padding: .2rem 1rem; color: var(--muted);
-    border-left: 3px solid var(--border);
+    margin: .6rem 0; padding: .25rem 1rem; color: var(--muted);
+    border-left: 3px solid var(--accent); background: rgba(247,129,102,.05);
+    border-radius: 0 8px 8px 0;
   }
   .markdown-body table { border-collapse: collapse; width: 100%; margin: 1rem 0; display: block; overflow-x: auto; }
-  .markdown-body th, .markdown-body td { border: 1px solid var(--border); padding: .45rem .7rem; font-size: .88rem; }
-  .markdown-body th { background: #1c2433; }
-  .markdown-body tr:nth-child(2n) td { background: #10151d; }
-  footer { text-align: center; color: var(--muted); font-size: .8rem; padding: 1.5rem 0 2.5rem; }
-  footer a { color: var(--link); }
+  .markdown-body th, .markdown-body td { border: 1px solid var(--border); padding: .5rem .75rem; font-size: .88rem; }
+  .markdown-body th { background: rgba(108,182,255,.08); white-space: nowrap; }
+  .markdown-body tr:nth-child(2n) td { background: rgba(255,255,255,.015); }
+  .markdown-body hr { border: none; border-top: 1px solid var(--border); margin: 1.6rem 0 .8rem; }
+
   #loading { text-align: center; color: var(--muted); padding: 3rem 0; }
   .error { color: #f85149; text-align: center; padding: 2rem; }
+
+  footer {
+    text-align: center; color: var(--faint); font-size: .8rem;
+    padding: 1.6rem 0 2.6rem; border-top: 1px solid var(--border); margin-top: 1rem;
+  }
+  footer a { color: var(--link); }
+  footer .heart { color: var(--accent); }
 </style>
 </head>
 <body>
+
 <header>
-  <h1><span class="star">🌟</span> GitHub Daily Top 10 Rising Stars</h1>
-  <p>每天自动抓取 GitHub 上前一天 star 增长最猛的 10 个新项目 · 中英双语报告</p>
+  <div class="logo-row">
+    <!-- 动态 SVG logo：自转轨道 + 闪烁星星 + 脉冲核心 -->
+    <svg width="64" height="64" viewBox="0 0 64 64" aria-label="logo" role="img">
+      <defs>
+        <linearGradient id="lg-core" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#ffa657"/><stop offset="1" stop-color="#f78166"/>
+        </linearGradient>
+        <linearGradient id="lg-ring" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#6cb6ff"/><stop offset="1" stop-color="#b48eff"/>
+        </linearGradient>
+      </defs>
+      <!-- 轨道环（自转） -->
+      <g transform="translate(32,32)">
+        <ellipse rx="24" ry="9" fill="none" stroke="url(#lg-ring)" stroke-width="1.6" opacity=".85"
+                 transform="rotate(-22)">
+          <animateTransform attributeName="transform" type="rotate" from="-22" to="338" dur="9s" repeatCount="indefinite"/>
+        </ellipse>
+        <!-- 轨道上的小星（跟随环旋转） -->
+        <g>
+          <circle r="2.6" fill="#6cb6ff" cx="24" cy="0" transform="rotate(-22)">
+            <animateTransform attributeName="transform" type="rotate" from="-22" to="338" dur="9s" repeatCount="indefinite"/>
+          </circle>
+        </g>
+        <!-- 脉冲核心 -->
+        <circle r="10" fill="url(#lg-core)">
+          <animate attributeName="r" values="10;11.5;10" dur="2.4s" repeatCount="indefinite"/>
+        </circle>
+        <circle r="10" fill="none" stroke="#ffa657" stroke-width="1" opacity=".5">
+          <animate attributeName="r" values="10;18" dur="2.4s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".5;0" dur="2.4s" repeatCount="indefinite"/>
+        </circle>
+        <!-- GitHub 触角剪影（简化 octocat 意象：五角星核心） -->
+        <path fill="#0d1117" opacity=".9" transform="translate(-7,-7) scale(.58)"
+              d="M12 .5C5.6.5.5 5.6.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.25.8-.55v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.65.8.55A11.5 11.5 0 0 0 23.5 12C23.5 5.6 18.4.5 12 .5z"/>
+      </g>
+      <!-- 闪烁小星星 -->
+      <g fill="#ffd33d">
+        <path d="M8 14 l1.2 2.6 2.6 1.2 -2.6 1.2 -1.2 2.6 -1.2-2.6 -2.6-1.2 2.6-1.2z">
+          <animate attributeName="opacity" values="1;.2;1" dur="2.1s" repeatCount="indefinite"/>
+        </path>
+        <path d="M55 40 l1 2.2 2.2 1 -2.2 1 -1 2.2 -1-2.2 -2.2-1 2.2-1z">
+          <animate attributeName="opacity" values=".3;1;.3" dur="2.7s" repeatCount="indefinite"/>
+        </path>
+        <circle cx="14" cy="48" r="1.4">
+          <animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="52" cy="12" r="1.2">
+          <animate attributeName="opacity" values="1;.15;1" dur="2.4s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </svg>
+    <h1>GitHub Trending Daily</h1>
+  </div>
+  <p class="sub">每天早上 6 点自动更新 · <b>每日新星</b> / <b>每周热榜</b> / <b>月度热榜</b> · 中英双语报告</p>
+
+  <div class="period-tabs" id="periodTabs">
+    <button data-period="daily" class="active"><span class="dot"></span>每日 Daily</button>
+    <button data-period="weekly"><span class="dot"></span>每周 Weekly</button>
+    <button data-period="monthly"><span class="dot"></span>每月 Monthly</button>
+  </div>
 </header>
+
+<!-- 首页焦点卡片 -->
+<div class="focus-wrap">
+  <div class="focus">
+    <div class="focus-card" id="focusCard">
+      <span class="tag" id="focusTag">DAILY NO.1</span>
+      <h3 id="focusRepo">加载中…</h3>
+      <p class="desc" id="focusDesc"></p>
+      <div class="nums">
+        <span>⭐ <b id="focusStars">-</b></span>
+        <span>📊 合计 <b id="focusTotal">-</b></span>
+        <span>🧠 <b id="focusLang">-</b></span>
+      </div>
+    </div>
+    <div class="focus-card">
+      <span class="tag">TOP 2-10</span>
+      <ul class="mini-list" id="miniList"><li><span style="color:var(--muted)">加载中…</span></li></ul>
+      <p class="card-hint" id="miniHint">点击上方 Tab 切换榜单周期</p>
+    </div>
+  </div>
+</div>
 
 <div class="controls">
   <label style="color:var(--muted);font-size:.9rem">📅 报告日期：</label>
@@ -84,17 +267,25 @@
 </main>
 
 <footer>
-  Powered by GitHub Actions · 自动抓取 &gt; 自动生成 &gt; 自动部署 ·
+  Made with <span class="heart">♥</span> by GitHub Actions · 每天北京时间 6:00 自动抓取、生成与部署 ·
   <a href="https://github.com/liudonghua123/github-trending-daily">源码仓库</a>
 </footer>
 
 <script>
 const params = new URLSearchParams(location.search);
 let lang = (params.get('lang') || 'zh').toLowerCase();
+let period = (params.get('period') || 'daily').toLowerCase();
 let currentDate = null;
+let INDEX = null;
 
 const btnZh = document.getElementById('btnZh');
 const btnEn = document.getElementById('btnEn');
+const tabs = document.querySelectorAll('#periodTabs button');
+
+function fmtStars(n) {
+  if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+  return String(n);
+}
 
 function setLang(l) {
   lang = l;
@@ -106,20 +297,62 @@ function setLang(l) {
 btnZh.onclick = () => setLang('zh');
 btnEn.onclick = () => setLang('en');
 
+tabs.forEach(btn => btn.onclick = () => {
+  period = btn.dataset.period;
+  tabs.forEach(b => b.classList.toggle('active', b === btn));
+  renderFocus();
+  const sel = document.getElementById('dateSelect');
+  if (sel.options.length) loadReport(sel.value, true);
+});
+
+async function fetchIndex() {
+  const resp = await fetch('reports/index.json');
+  INDEX = await resp.json();
+  INDEX.daily = INDEX.daily || []; INDEX.weekly = INDEX.weekly || []; INDEX.monthly = INDEX.monthly || [];
+}
+
+function renderFocus() {
+  const list = INDEX[period] || [];
+  const periodZh = {daily: '每日', weekly: '每周', monthly: '每月'}[period];
+  document.getElementById('focusTag').textContent = period.toUpperCase() + ' NO.1';
+  if (!list.length) return;
+  const top = list[0];
+  document.getElementById('focusRepo').innerHTML =
+    '<a href="https://github.com/' + top.top_repo + '" target="_blank" rel="noopener">' + top.top_repo + '</a>';
+  document.getElementById('focusDesc').textContent = top.top_repo_desc || '（仓库未填写简介）';
+  document.getElementById('focusStars').textContent = fmtStars(top.top_stars);
+  document.getElementById('focusTotal').textContent = fmtStars(top.total_stars);
+  document.getElementById('focusLang').textContent = top.top_repo_lang || '-';
+  // mini list 2-10
+  const ul = document.getElementById('miniList');
+  ul.innerHTML = '';
+  list.slice(1, 10).forEach((e, i) => {
+    const li = document.createElement('li');
+    li.innerHTML = '<a href="https://github.com/' + e.top_repo + '" target="_blank" rel="noopener">#' + (i + 2) + ' ' + e.top_repo + '</a>' +
+                   '<span class="stars">⭐ ' + fmtStars(e.top_stars) + '</span>';
+    ul.appendChild(li);
+  });
+  document.getElementById('miniHint').textContent = '以上为 ' + periodZh + '榜第 2-10 名（按各期榜首展示）';
+}
+
+function fillDateSelect(list) {
+  const sel = document.getElementById('dateSelect');
+  sel.innerHTML = '';
+  list.forEach(e => {
+    const opt = document.createElement('option');
+    opt.value = e.date;
+    opt.textContent = e.date + ' · ' + e.top_repo + ' (⭐' + fmtStars(e.top_stars) + ')';
+    sel.appendChild(opt);
+  });
+  sel.onchange = () => loadReport(sel.value, true);
+}
+
 async function init() {
   try {
-    const resp = await fetch('reports/index.json');
-    const entries = await resp.json();
-    const sel = document.getElementById('dateSelect');
-    sel.innerHTML = '';
-    entries.forEach(e => {
-      const opt = document.createElement('option');
-      opt.value = e.date;
-      opt.textContent = e.date + ' · ' + (lang === 'zh' ? '最火 ' : 'Top: ') + e.top_repo;
-      sel.appendChild(opt);
-    });
-    sel.onchange = () => loadReport(sel.value, true);
-    await loadReport(entries[0].date, true);
+    await fetchIndex();
+    renderFocus();
+    fillDateSelect(INDEX[period] || []);
+    await loadReport((INDEX[period] || [])[0]?.date, true);
   } catch (err) {
     document.getElementById('loading').innerHTML =
       '<div class="error">加载 index.json 失败：' + err.message + '</div>';
@@ -127,43 +360,51 @@ async function init() {
 }
 
 async function loadReport(date, updateUrl) {
+  if (!date) {
+    document.getElementById('loading').innerHTML =
+      '<div class="error">该周期暂无报告</div>';
+    return;
+  }
   currentDate = date;
   if (updateUrl) {
     const u = new URL(location);
     u.searchParams.set('date', date);
     u.searchParams.set('lang', lang);
+    u.searchParams.set('period', period);
     history.replaceState(null, '', u);
   }
-  document.getElementById('loading').style.display = 'block';
+  const loading = document.getElementById('loading');
+  loading.style.display = 'block';
+  loading.textContent = '⏳ 正在加载报告…';
   document.getElementById('content').innerHTML = '';
   try {
-    const resp = await fetch('reports/' + date + '-' + lang + '.md');
+    const resp = await fetch('reports/' + period + '-' + date + '-' + lang + '.md');
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const md = await resp.text();
     document.getElementById('content').innerHTML = marked.parse(md);
-    document.getElementById('loading').style.display = 'none';
-    // 显示统计条
-    const respIdx = await fetch('reports/index.json');
-    const entries = await respIdx.json();
-    const e = entries.find(x => x.date === date);
+    loading.style.display = 'none';
+    const e = (INDEX[period] || []).find(x => x.date === date);
     if (e) {
       document.getElementById('stats').innerHTML =
         '<span>🔥 最火仓库：<b>' + e.top_repo + '</b></span>' +
-        '<span>⭐ 单仓最高：<b>' + e.top_stars.toLocaleString() + '</b></span>' +
+        '<span class="gold">⭐ 单仓最高：<b>' + e.top_stars.toLocaleString() + '</b></span>' +
         '<span>📊 合计 Star：<b>' + e.total_stars.toLocaleString() + '</b></span>';
     }
   } catch (err) {
-    document.getElementById('loading').innerHTML =
-      '<div class="error">报告加载失败：' + err.message + '</div>';
+    loading.innerHTML = '<div class="error">报告加载失败：' + err.message + '</div>';
   }
 }
 
-// 从 URL 参数恢复状态
 marked.setOptions({ breaks: true, gfm: true });
 init().then(() => {
-  const d = params.get('date');
-  const l = params.get('lang');
+  const d = params.get('date'), l = params.get('lang'), p = params.get('period');
   if (l) setLang(l);
+  if (p && ['daily','weekly','monthly'].includes(p)) {
+    period = p;
+    tabs.forEach(b => b.classList.toggle('active', b.dataset.period === p));
+    renderFocus();
+    fillDateSelect(INDEX[p] || []);
+  }
   if (d) {
     const sel = document.getElementById('dateSelect');
     if ([...sel.options].some(o => o.value === d)) { sel.value = d; loadReport(d, false); }

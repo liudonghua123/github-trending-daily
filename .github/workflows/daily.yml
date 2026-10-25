@@ -30,8 +30,10 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_URL: ${{ github.server_url }}/${{ github.repository }}
         run: |
-          # 默认昨天（UTC），如需补偿跑更早的日期可手动传参
-          python scripts/fetch_trending.py
+          # 默认昨天（UTC）。日/周/月三份榜单
+          python scripts/fetch_trending.py --period daily
+          python scripts/fetch_trending.py --period weekly
+          python scripts/fetch_trending.py --period monthly
 
       - name: Commit & push reports
         run: |

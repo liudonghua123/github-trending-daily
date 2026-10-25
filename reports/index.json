@@ -1,10 +1,136 @@
-[
-  {
-    "date": "2026-10-24",
-    "en": "reports/2026-10-24-en.md",
-    "zh": "reports/2026-10-24-zh.md",
-    "top_repo": "rddmwmddr/android-ad-cleaner",
-    "top_stars": 263,
-    "total_stars": 2107
-  }
-]
+{
+  "daily": [
+    {
+      "date": "2026-10-24",
+      "top_repo": "rddmwmddr/android-ad-cleaner",
+      "top_stars": 614,
+      "total_stars": 3737,
+      "top_repo_desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "top_repo_lang": "Python"
+    },
+    {
+      "date": "2026-10-23",
+      "top_repo": "JustAResearcher/gpu-unlock-ada",
+      "top_stars": 2235,
+      "total_stars": 5904,
+      "top_repo_desc": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+      "top_repo_lang": "C"
+    },
+    {
+      "date": "2026-10-22",
+      "top_repo": "JustAResearcher/gpu-unlock-ada",
+      "top_stars": 2235,
+      "total_stars": 8256,
+      "top_repo_desc": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+      "top_repo_lang": "C"
+    },
+    {
+      "date": "2026-10-21",
+      "top_repo": "JustAResearcher/gpu-unlock-ada",
+      "top_stars": 2235,
+      "total_stars": 15174,
+      "top_repo_desc": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+      "top_repo_lang": "C"
+    },
+    {
+      "date": "2026-10-20",
+      "top_repo": "pengchujin/aerial-tv",
+      "top_stars": 4910,
+      "total_stars": 19563,
+      "top_repo_desc": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "top_repo_lang": "Kotlin"
+    },
+    {
+      "date": "2026-10-19",
+      "top_repo": "pengchujin/aerial-tv",
+      "top_stars": 4910,
+      "total_stars": 24392,
+      "top_repo_desc": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "top_repo_lang": "Kotlin"
+    },
+    {
+      "date": "2026-10-18",
+      "top_repo": "Zagitta/gpu-unlock",
+      "top_stars": 5579,
+      "total_stars": 30771,
+      "top_repo_desc": "Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents",
+      "top_repo_lang": "C"
+    }
+  ],
+  "weekly": [
+    {
+      "date": "2026-10-24",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492052,
+      "total_stars": 3764606,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
+      "date": "2026-10-23",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492052,
+      "total_stars": 3764603,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
+      "date": "2026-10-22",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492052,
+      "total_stars": 3764603,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
+      "date": "2026-10-21",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492052,
+      "total_stars": 3764603,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
+      "date": "2026-10-20",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492052,
+      "total_stars": 3764603,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
+      "date": "2026-10-19",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492052,
+      "total_stars": 3764602,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
+      "date": "2026-10-18",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492052,
+      "total_stars": 3764602,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    }
+  ],
+  "monthly": [
+    {
+      "date": "2026-10-24",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492052,
+      "total_stars": 3764606,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
+      "date": "2026-10-23",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492052,
+      "total_stars": 3764606,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    }
+  ]
+}
