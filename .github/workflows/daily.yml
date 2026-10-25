@@ -30,10 +30,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_URL: ${{ github.server_url }}/${{ github.repository }}
         run: |
-          # 默认昨天（UTC）。日/周/月三份榜单
+          # 默认昨天（UTC）。日/周/月 + 7 种语言新星榜
           python scripts/fetch_trending.py --period daily
           python scripts/fetch_trending.py --period weekly
           python scripts/fetch_trending.py --period monthly
+          python scripts/fetch_trending.py --period language --all-languages
 
       - name: Commit & push reports
         run: |

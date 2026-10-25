@@ -222,12 +222,13 @@
     </svg>
     <h1>GitHub Trending Daily</h1>
   </div>
-  <p class="sub">每天早上 6 点自动更新 · <b>每日新星</b> / <b>每周热榜</b> / <b>月度热榜</b> · 中英双语报告</p>
+  <p class="sub">每天早上 6 点自动更新 · <b>每日新星</b> / <b>每周热榜</b> / <b>月度热榜</b> / <b>语言榜</b> · 中英双语报告</p>
 
   <div class="period-tabs" id="periodTabs">
     <button data-period="daily" class="active"><span class="dot"></span>每日 Daily</button>
     <button data-period="weekly"><span class="dot"></span>每周 Weekly</button>
     <button data-period="monthly"><span class="dot"></span>每月 Monthly</button>
+    <button data-period="language"><span class="dot"></span>语言 Language</button>
   </div>
 </header>
 
@@ -255,6 +256,7 @@
 <div class="controls">
   <label style="color:var(--muted);font-size:.9rem">📅 报告日期：</label>
   <select id="dateSelect"><option>加载中…</option></select>
+  <select id="langSelect" style="display:none"></select>
 </div>
 <div class="stats" id="stats"></div>
 <div class="lang-switch">
@@ -297,9 +299,32 @@ function setLang(l) {
 btnZh.onclick = () => setLang('zh');
 btnEn.onclick = () => setLang('en');
 
+let currentLangKey = 'python';
+
+// 当前 period 对应的索引列表（语言维度从 INDEX.languages 取）
+function currentList() {
+  if (period === 'language') return (INDEX.languages && INDEX.languages[currentLangKey]) || [];
+  return INDEX[period] || [];
+}
+
+function renderLangSelect() {
+  const sel = document.getElementById('langSelect');
+  sel.innerHTML = '';
+  const langs = Object.keys(INDEX.languages || {}).sort();
+  langs.forEach(k => {
+    const opt = document.createElement('option');
+    opt.value = k;
+    opt.textContent = k.toUpperCase();
+    sel.appendChild(opt);
+  });
+  sel.style.display = period === 'language' ? 'inline-block' : 'none';
+  sel.value = currentLangKey;
+}
+
 tabs.forEach(btn => btn.onclick = () => {
   period = btn.dataset.period;
   tabs.forEach(b => b.classList.toggle('active', b === btn));
+  renderLangSelect();
   renderFocus();
   const sel = document.getElementById('dateSelect');
   if (sel.options.length) loadReport(sel.value, true);
@@ -308,13 +333,15 @@ tabs.forEach(btn => btn.onclick = () => {
 async function fetchIndex() {
   const resp = await fetch('reports/index.json');
   INDEX = await resp.json();
-  INDEX.daily = INDEX.daily || []; INDEX.weekly = INDEX.weekly || []; INDEX.monthly = INDEX.monthly || [];
+  INDEX.daily = INDEX.daily || []; INDEX.weekly = INDEX.weekly || [];
+  INDEX.monthly = INDEX.monthly || []; INDEX.languages = INDEX.languages || {};
 }
 
 function renderFocus() {
-  const list = INDEX[period] || [];
-  const periodZh = {daily: '每日', weekly: '每周', monthly: '每月'}[period];
-  document.getElementById('focusTag').textContent = period.toUpperCase() + ' NO.1';
+  const list = currentList();
+  const periodZh = {daily: '每日', weekly: '每周', monthly: '每月', language: '语言'}[period];
+  document.getElementById('focusTag').textContent =
+    (period === 'language' ? 'LANG:' + currentLangKey.toUpperCase() : period.toUpperCase()) + ' NO.1';
   if (!list.length) return;
   const top = list[0];
   document.getElementById('focusRepo').innerHTML =
@@ -350,9 +377,10 @@ function fillDateSelect(list) {
 async function init() {
   try {
     await fetchIndex();
+    renderLangSelect();
     renderFocus();
-    fillDateSelect(INDEX[period] || []);
-    await loadReport((INDEX[period] || [])[0]?.date, true);
+    fillDateSelect(currentList());
+    await loadReport(currentList()[0]?.date, true);
   } catch (err) {
     document.getElementById('loading').innerHTML =
       '<div class="error">加载 index.json 失败：' + err.message + '</div>';
@@ -362,7 +390,7 @@ async function init() {
 async function loadReport(date, updateUrl) {
   if (!date) {
     document.getElementById('loading').innerHTML =
-      '<div class="error">该周期暂无报告</div>';
+      '<div class="error">该维度暂无报告</div>';
     return;
   }
   currentDate = date;
@@ -371,6 +399,7 @@ async function loadReport(date, updateUrl) {
     u.searchParams.set('date', date);
     u.searchParams.set('lang', lang);
     u.searchParams.set('period', period);
+    if (period === 'language') u.searchParams.set('pl', currentLangKey);
     history.replaceState(null, '', u);
   }
   const loading = document.getElementById('loading');
@@ -378,12 +407,15 @@ async function loadReport(date, updateUrl) {
   loading.textContent = '⏳ 正在加载报告…';
   document.getElementById('content').innerHTML = '';
   try {
-    const resp = await fetch('reports/' + period + '-' + date + '-' + lang + '.md');
+    const fname = period === 'language'
+      ? 'lang-' + currentLangKey + '-' + date
+      : period + '-' + date;
+    const resp = await fetch('reports/' + fname + '-' + lang + '.md');
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const md = await resp.text();
     document.getElementById('content').innerHTML = marked.parse(md);
     loading.style.display = 'none';
-    const e = (INDEX[period] || []).find(x => x.date === date);
+    const e = currentList().find(x => x.date === date);
     if (e) {
       document.getElementById('stats').innerHTML =
         '<span>🔥 最火仓库：<b>' + e.top_repo + '</b></span>' +
@@ -395,15 +427,27 @@ async function loadReport(date, updateUrl) {
   }
 }
 
+// 语言下拉切换
+document.getElementById('langSelect').onchange = function () {
+  currentLangKey = this.value;
+  renderLangSelect();
+  renderFocus();
+  fillDateSelect(currentList());
+  loadReport(currentList()[0]?.date, true);
+};
+
 marked.setOptions({ breaks: true, gfm: true });
 init().then(() => {
-  const d = params.get('date'), l = params.get('lang'), p = params.get('period');
+  const d = params.get('date'), l = params.get('lang'), p = params.get('period'),
+        pl = params.get('pl');
   if (l) setLang(l);
-  if (p && ['daily','weekly','monthly'].includes(p)) {
+  if (p && ['daily','weekly','monthly','language'].includes(p)) {
     period = p;
     tabs.forEach(b => b.classList.toggle('active', b.dataset.period === p));
+    if (p === 'language' && pl && INDEX.languages[pl]) currentLangKey = pl;
+    renderLangSelect();
     renderFocus();
-    fillDateSelect(INDEX[p] || []);
+    fillDateSelect(currentList());
   }
   if (d) {
     const sel = document.getElementById('dateSelect');

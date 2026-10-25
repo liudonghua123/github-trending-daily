@@ -1,11 +1,12 @@
-"""GitHub Trending Daily 报告生成器（daily / weekly / monthly）.
+"""GitHub Trending Daily 报告生成器（daily / weekly / monthly / language）.
 
 抓取 GitHub 上某个时间维度内 star 排名前 10 的开源项目，生成中英文双语 Markdown 报告。
 
 周期口径（均为 GitHub Search API 的客观排序）：
-- daily   : created:>前一天        —— 前一天新建且 star 最多的仓库（新星榜）
-- weekly  : pushed:>一周前 stars:>=100 + sort=stars   —— 过去 7 天最活跃的高星项目
-- monthly : pushed:>一个月前 stars:>=100 + sort=stars —— 过去 30 天最活跃的高星项目
+- daily    : created:>前一天        —— 前一天新建且 star 最多的仓库（新星榜）
+- weekly   : pushed:>一周前 stars:>=100 + sort=stars   —— 过去 7 天最活跃的高星项目
+- monthly  : pushed:>一个月前 stars:>=100 + sort=stars —— 过去 30 天最活跃的高星项目
+- language : created:>30天前 language:X + sort=stars —— 各语言近 30 天新星榜
 """
 
 import json
@@ -20,6 +21,9 @@ PER_PAGE = 10
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPORTS_DIR = os.path.join(REPO_ROOT, "reports")
 
+# 语言维度覆盖的主流编程语言（--period language 时逐个生成）
+LANGUAGES = ["python", "javascript", "typescript", "rust", "go", "java", "c++"]
+
 
 def _headers():
     h = {"User-Agent": "github-trending-daily-bot", "Accept": "application/vnd.github+json"}
@@ -30,7 +34,7 @@ def _headers():
     return h
 
 
-def fetch_top_repos(period: str, day: datetime, per_page: int = PER_PAGE):
+def fetch_top_repos(period: str, day: datetime, per_page: int = PER_PAGE, language: str = None):
     if period == "daily":
         q = f"created:>={day.date().isoformat()}"
     elif period == "weekly":
@@ -39,6 +43,10 @@ def fetch_top_repos(period: str, day: datetime, per_page: int = PER_PAGE):
     elif period == "monthly":
         since = (day - timedelta(days=30)).date().isoformat()
         q = f"pushed:>={since} stars:>=100"
+    elif period == "language":
+        # 语言新星榜：近 30 天新建的该语言 star 最多的仓库
+        since = (day - timedelta(days=30)).date().isoformat()
+        q = f"created:>={since} language:{language} stars:>=10"
     else:
         raise ValueError(f"unknown period: {period}")
     params = f"?q={urllib.parse.quote(q)}&sort=stars&order=desc&per_page={per_page}"
@@ -94,7 +102,7 @@ def repo_row(repo, rank: int) -> dict:
     }
 
 
-def build_report(period: str, day: datetime, repos) -> tuple[str, str]:
+def build_report(period: str, day: datetime, repos, language: str = None) -> tuple[str, str]:
     day_s = day.date().isoformat()
     gen_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     repo_url = os.environ.get("REPO_URL", "https://github.com/liudonghua123/github-trending-daily")
@@ -118,7 +126,16 @@ def build_report(period: str, day: datetime, repos) -> tuple[str, str]:
             "zh_desc": "过去 30 天 star ≥ 100 且最近有推送",
             "en_desc": "most starred repos (stars>=100) with pushes in the last 30 days",
         },
-    }[period]
+    }
+    if period == "language":
+        lang_disp = (language or "Language").title()
+        meta["language"] = {
+            "title": f"GitHub {lang_disp} Rising Stars Top 10 — {day_s}",
+            "zh_title": f"GitHub {lang_disp} 语言新星榜 Top 10 — {day_s}",
+            "zh_desc": f"近 30 天新建的 {lang_disp} 项目中 star ≥ 10 最多",
+            "en_desc": f"top {lang_disp} repos created in the last 30 days (stars>=10)",
+        }
+    meta = meta[period]
 
     en_rows, zh_rows = [], []
     for i, r in enumerate(repos, 1):
@@ -236,7 +253,7 @@ def load_index() -> dict:
                     return data
             except Exception:
                 pass
-    return {"daily": [], "weekly": [], "monthly": []}
+    return {"daily": [], "weekly": [], "monthly": [], "languages": {}}
 
 
 def save_index(index: dict):
@@ -246,12 +263,13 @@ def save_index(index: dict):
         json.dump(index, f, ensure_ascii=False, indent=2)
 
 
-def write_report(period: str, day: datetime):
-    repos = fetch_top_repos(period, day)
+def write_report(period: str, day: datetime, language: str = None):
+    repos = fetch_top_repos(period, day, language=language)
+    label = f"language={language} " if period == "language" else ""
     if not repos:
-        print(f"WARN: no repos found for {period} {day.date().isoformat()}, skipped")
+        print(f"WARN: no repos found for {period} {label}{day.date().isoformat()}, skipped")
         return None
-    en, zh = build_report(period, day, repos)
+    en, zh = build_report(period, day, repos, language=language)
     os.makedirs(REPORTS_DIR, exist_ok=True)
     day_s = day.date().isoformat()
     paths = []
@@ -262,14 +280,29 @@ def write_report(period: str, day: datetime):
         paths.append(p)
 
     index = load_index()
-    bucket = index.setdefault(period, [])
-    entry = build_entry(period, day, repos)
-    bucket[:] = [e for e in bucket if e["date"] != day_s]
-    bucket.append(entry)
-    bucket.sort(key=lambda e: e["date"], reverse=True)
+    if period == "language":
+        # 语言报告文件名带语言，索引放 languages 桶
+        lang_key = (language or "other").lower()
+        for suffix, content in (("en", en), ("zh", zh)):
+            p = os.path.join(REPORTS_DIR, f"lang-{lang_key}-{day_s}-{suffix}.md")
+            with open(p, "w", encoding="utf-8") as f:
+                f.write(content)
+            paths[-2 if suffix == "en" else -1] = p
+        bucket = index.setdefault("languages", {}).setdefault(lang_key, [])
+        entry = build_entry(period, day, repos)
+        entry["language"] = lang_key
+        bucket[:] = [e for e in bucket if e["date"] != day_s]
+        bucket.append(entry)
+        bucket.sort(key=lambda e: e["date"], reverse=True)
+    else:
+        bucket = index.setdefault(period, [])
+        entry = build_entry(period, day, repos)
+        bucket[:] = [e for e in bucket if e["date"] != day_s]
+        bucket.append(entry)
+        bucket.sort(key=lambda e: e["date"], reverse=True)
     save_index(index)
 
-    print(f"OK {period} report for {day_s}: {len(repos)} repos, top={entry['top_repo']} (⭐{entry['top_stars']})")
+    print(f"OK {period} {label}report for {day_s}: {len(repos)} repos, top={entry['top_repo']} (⭐{entry['top_stars']})")
     return paths
 
 
@@ -277,7 +310,11 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(description="GitHub trending report generator")
-    parser.add_argument("--period", choices=["daily", "weekly", "monthly"], default="daily")
+    parser.add_argument("--period", choices=["daily", "weekly", "monthly", "language"],
+                        default="daily")
+    parser.add_argument("--language", help="for --period language, e.g. python, rust")
+    parser.add_argument("--all-languages", action="store_true",
+                        help="generate language reports for all LANGUAGES")
     parser.add_argument("--date", help="YYYY-MM-DD, defaults to yesterday (UTC)")
     parser.add_argument("--backfill", type=int, default=0,
                         help="also generate reports for the previous N days")
@@ -289,6 +326,14 @@ def main():
         day = datetime.now(timezone.utc) - timedelta(days=1)
 
     days = [day - timedelta(days=i) for i in range(max(0, args.backfill) + 1)]
+
+    if args.period == "language":
+        langs = LANGUAGES if args.all_languages else [args.language or "python"]
+        for lang in langs:
+            for d in reversed(days):
+                write_report("language", d, language=lang)
+        return
+
     for d in reversed(days):
         write_report(args.period, d)
 
