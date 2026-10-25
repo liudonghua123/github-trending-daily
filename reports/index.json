@@ -3,8 +3,8 @@
     {
       "date": "2026-10-24",
       "top_repo": "rddmwmddr/android-ad-cleaner",
-      "top_stars": 650,
-      "total_stars": 3866,
+      "top_stars": 752,
+      "total_stars": 4503,
       "top_repo_desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
       "top_repo_lang": "Python"
     },
@@ -61,8 +61,8 @@
     {
       "date": "2026-10-24",
       "top_repo": "public-apis/public-apis",
-      "top_stars": 492060,
-      "total_stars": 3764936,
+      "top_stars": 492133,
+      "total_stars": 3767050,
       "top_repo_desc": "A collective list of free APIs",
       "top_repo_lang": "Python"
     },
@@ -119,8 +119,8 @@
     {
       "date": "2026-10-24",
       "top_repo": "public-apis/public-apis",
-      "top_stars": 492060,
-      "total_stars": 3764937,
+      "top_stars": 492133,
+      "total_stars": 3767050,
       "top_repo_desc": "A collective list of free APIs",
       "top_repo_lang": "Python"
     },
@@ -138,8 +138,8 @@
       {
         "date": "2026-10-24",
         "top_repo": "deepseek-ai/DeepInfer",
-        "top_stars": 22282,
-        "total_stars": 78206,
+        "top_stars": 22381,
+        "total_stars": 78560,
         "top_repo_desc": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
         "top_repo_lang": "Python",
         "language": "python"
@@ -149,8 +149,8 @@
       {
         "date": "2026-10-24",
         "top_repo": "Ebony-Vinyl/dsh-our-free-model",
-        "top_stars": 42736,
-        "total_stars": 96081,
+        "top_stars": 42901,
+        "total_stars": 96597,
         "top_repo_desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
         "top_repo_lang": "JavaScript",
         "language": "javascript"
@@ -160,8 +160,8 @@
       {
         "date": "2026-10-24",
         "top_repo": "KKKKhazix/AIHOT",
-        "top_stars": 8594,
-        "total_stars": 39808,
+        "top_stars": 8602,
+        "total_stars": 39930,
         "top_repo_desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
         "top_repo_lang": "TypeScript",
         "language": "typescript"
@@ -171,8 +171,8 @@
       {
         "date": "2026-10-24",
         "top_repo": "storytold/photocraft",
-        "top_stars": 72709,
-        "total_stars": 179518,
+        "top_stars": 72818,
+        "total_stars": 179965,
         "top_repo_desc": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
         "top_repo_lang": "Rust",
         "language": "rust"
@@ -182,8 +182,8 @@
       {
         "date": "2026-10-24",
         "top_repo": "egoist/mygo",
-        "top_stars": 2961,
-        "total_stars": 14414,
+        "top_stars": 2982,
+        "total_stars": 14472,
         "top_repo_desc": "Develop desktop apps with native UI or web frontend in Go",
         "top_repo_lang": "Go",
         "language": "go"
@@ -193,8 +193,8 @@
       {
         "date": "2026-10-24",
         "top_repo": "Gathin23/cleanyourtv",
-        "top_stars": 34133,
-        "total_stars": 45077,
+        "top_stars": 34923,
+        "total_stars": 46035,
         "top_repo_desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
         "top_repo_lang": "Java",
         "language": "java"
@@ -204,8 +204,8 @@
       {
         "date": "2026-10-24",
         "top_repo": "Niko1221/Strata",
-        "top_stars": 32576,
-        "total_stars": 49745,
+        "top_stars": 32750,
+        "total_stars": 50019,
         "top_repo_desc": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
         "top_repo_lang": "C++",
         "language": "c++"

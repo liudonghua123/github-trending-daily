@@ -1,6 +1,6 @@
 # 🌟 GitHub Python 语言新星榜 Top 10 — 2026-10-24
 
-> 生成时间：2026-10-25 16:49 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
+> 生成时间：2026-10-25 23:41 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
 > 榜单口径：近 30 天新建的 Python 项目中 star ≥ 10 最多
 
 ## 📊 今日快照
@@ -9,30 +9,30 @@
 | --- | --- |
 | 统计日期 | 2026-10-24 |
 | 上榜仓库数 | 10 |
-| 合计 Star 数 | ⭐ 78,206 |
-| 最火仓库 | **deepseek-ai/DeepInfer** (⭐ 22,282) |
+| 合计 Star 数 | ⭐ 78,560 |
+| 最火仓库 | **deepseek-ai/DeepInfer** (⭐ 22,381) |
 | 主导语言 | **Python** |
 
 ## 🏆 十强一览
 
 | 排名 | 仓库 | Star | Fork | 语言 | 点评 |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | ⭐ 22,282 | 🍴 2,563 | Python | 现象级 🔥 |
-| 2 | [google-research/harness2](https://github.com/google-research/harness2) | ⭐ 19,494 | 🍴 1,922 | Python | 现象级 🔥 |
-| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | ⭐ 8,935 | 🍴 988 | Python | 持续升温 📈 |
-| 4 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | ⭐ 5,430 | 🍴 951 | Python | 持续升温 📈 |
-| 5 | [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) | ⭐ 4,635 | 🍴 462 | Python | 持续升温 📈 |
-| 6 | [nykooi1/vibe-wise](https://github.com/nykooi1/vibe-wise) | ⭐ 3,946 | 🍴 155 | Python | 持续升温 📈 |
-| 7 | [Arekejoker/qwen21-nsfw-pose-skill](https://github.com/Arekejoker/qwen21-nsfw-pose-skill) | ⭐ 3,721 | 🍴 657 | Python | 持续升温 📈 |
-| 8 | [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | ⭐ 3,645 | 🍴 889 | Python | 持续升温 📈 |
-| 9 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | ⭐ 3,233 | 🍴 220 | Python | 持续升温 📈 |
-| 10 | [KingKongRobotics/jumper](https://github.com/KingKongRobotics/jumper) | ⭐ 2,885 | 🍴 312 | Python | 持续升温 📈 |
+| 1 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | ⭐ 22,381 | 🍴 2,586 | Python | 现象级 🔥 |
+| 2 | [google-research/harness2](https://github.com/google-research/harness2) | ⭐ 19,597 | 🍴 1,933 | Python | 现象级 🔥 |
+| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | ⭐ 8,952 | 🍴 991 | Python | 持续升温 📈 |
+| 4 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | ⭐ 5,482 | 🍴 963 | Python | 持续升温 📈 |
+| 5 | [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) | ⭐ 4,638 | 🍴 463 | Python | 持续升温 📈 |
+| 6 | [nykooi1/vibe-wise](https://github.com/nykooi1/vibe-wise) | ⭐ 3,961 | 🍴 155 | Python | 持续升温 📈 |
+| 7 | [Arekejoker/qwen21-nsfw-pose-skill](https://github.com/Arekejoker/qwen21-nsfw-pose-skill) | ⭐ 3,723 | 🍴 657 | Python | 持续升温 📈 |
+| 8 | [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | ⭐ 3,693 | 🍴 901 | Python | 持续升温 📈 |
+| 9 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | ⭐ 3,247 | 🍴 220 | Python | 持续升温 📈 |
+| 10 | [KingKongRobotics/jumper](https://github.com/KingKongRobotics/jumper) | ⭐ 2,886 | 🍴 312 | Python | 持续升温 📈 |
 
 ## 🔍 仓库详情
 
 ### 1. [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer)
 
-- ⭐ Star 数：**22,282** | 🍴 Fork 数：**2,563** | 👀 关注数：**0** | 🐛 未关闭 issue：**205**
+- ⭐ Star 数：**22,381** | 🍴 Fork 数：**2,586** | 👀 关注数：**0** | 🐛 未关闭 issue：**206**
 - 🧠 主要语言：**Python** | 归属：Organization | 创建：2026-10-16 | 最近推送：2026-10-25
 - 🏷️ 话题标签：-
 
@@ -40,7 +40,7 @@
 
 ### 2. [google-research/harness2](https://github.com/google-research/harness2)
 
-- ⭐ Star 数：**19,494** | 🍴 Fork 数：**1,922** | 👀 关注数：**0** | 🐛 未关闭 issue：**132**
+- ⭐ Star 数：**19,597** | 🍴 Fork 数：**1,933** | 👀 关注数：**0** | 🐛 未关闭 issue：**132**
 - 🧠 主要语言：**Python** | 归属：Organization | 创建：2026-10-06 | 最近推送：2026-10-14
 - 🏷️ 话题标签：-
 
@@ -48,7 +48,7 @@
 
 ### 3. [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder)
 
-- ⭐ Star 数：**8,935** | 🍴 Fork 数：**988** | 👀 关注数：**0** | 🐛 未关闭 issue：**42**
+- ⭐ Star 数：**8,952** | 🍴 Fork 数：**991** | 👀 关注数：**0** | 🐛 未关闭 issue：**43**
 - 🧠 主要语言：**Python** | 归属：User | 创建：2026-09-30 | 最近推送：2026-10-25
 - 🏷️ 话题标签：age-of-empires, claude-code, claude-code-plugin, fal, game-assets, game-modding
 
@@ -56,7 +56,7 @@
 
 ### 4. [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill)
 
-- ⭐ Star 数：**5,430** | 🍴 Fork 数：**951** | 👀 关注数：**0** | 🐛 未关闭 issue：**13**
+- ⭐ Star 数：**5,482** | 🍴 Fork 数：**963** | 👀 关注数：**0** | 🐛 未关闭 issue：**13**
 - 🧠 主要语言：**Python** | 归属：User | 创建：2026-10-03 | 最近推送：2026-10-03
 - 🏷️ 话题标签：agent, agent-skills, app-clone, claude, claude-code, claude-skills
 
@@ -64,7 +64,7 @@
 
 ### 5. [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use)
 
-- ⭐ Star 数：**4,635** | 🍴 Fork 数：**462** | 👀 关注数：**0** | 🐛 未关闭 issue：**29**
+- ⭐ Star 数：**4,638** | 🍴 Fork 数：**463** | 👀 关注数：**0** | 🐛 未关闭 issue：**29**
 - 🧠 主要语言：**Python** | 归属：User | 创建：2026-10-06 | 最近推送：2026-10-22
 - 🏷️ 话题标签：-
 
@@ -72,7 +72,7 @@
 
 ### 6. [nykooi1/vibe-wise](https://github.com/nykooi1/vibe-wise)
 
-- ⭐ Star 数：**3,946** | 🍴 Fork 数：**155** | 👀 关注数：**0** | 🐛 未关闭 issue：**24**
+- ⭐ Star 数：**3,961** | 🍴 Fork 数：**155** | 👀 关注数：**0** | 🐛 未关闭 issue：**24**
 - 🧠 主要语言：**Python** | 归属：User | 创建：2026-09-29 | 最近推送：2026-10-09
 - 🏷️ 话题标签：-
 
@@ -80,7 +80,7 @@
 
 ### 7. [Arekejoker/qwen21-nsfw-pose-skill](https://github.com/Arekejoker/qwen21-nsfw-pose-skill)
 
-- ⭐ Star 数：**3,721** | 🍴 Fork 数：**657** | 👀 关注数：**0** | 🐛 未关闭 issue：**7**
+- ⭐ Star 数：**3,723** | 🍴 Fork 数：**657** | 👀 关注数：**0** | 🐛 未关闭 issue：**7**
 - 🧠 主要语言：**Python** | 归属：User | 创建：2026-10-13 | 最近推送：2026-10-20
 - 🏷️ 话题标签：agent-skill, comfyui, image-generation, openclaw, pose-control, qwen-image
 
@@ -88,7 +88,7 @@
 
 ### 8. [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy)
 
-- ⭐ Star 数：**3,645** | 🍴 Fork 数：**889** | 👀 关注数：**0** | 🐛 未关闭 issue：**11**
+- ⭐ Star 数：**3,693** | 🍴 Fork 数：**901** | 👀 关注数：**0** | 🐛 未关闭 issue：**11**
 - 🧠 主要语言：**Python** | 归属：User | 创建：2026-10-18 | 最近推送：2026-10-25
 - 🏷️ 话题标签：chinese, curriculum, diagnostic, edtech, education, elementary-school
 
@@ -96,7 +96,7 @@
 
 ### 9. [feitangyuan/onetake](https://github.com/feitangyuan/onetake)
 
-- ⭐ Star 数：**3,233** | 🍴 Fork 数：**220** | 👀 关注数：**0** | 🐛 未关闭 issue：**3**
+- ⭐ Star 数：**3,247** | 🍴 Fork 数：**220** | 👀 关注数：**0** | 🐛 未关闭 issue：**3**
 - 🧠 主要语言：**Python** | 归属：User | 创建：2026-09-26 | 最近推送：2026-10-21
 - 🏷️ 话题标签：agent-skill, animation, canvas, claude-skill, launch-video, motion-graphics
 
@@ -104,7 +104,7 @@
 
 ### 10. [KingKongRobotics/jumper](https://github.com/KingKongRobotics/jumper)
 
-- ⭐ Star 数：**2,885** | 🍴 Fork 数：**312** | 👀 关注数：**0** | 🐛 未关闭 issue：**9**
+- ⭐ Star 数：**2,886** | 🍴 Fork 数：**312** | 👀 关注数：**0** | 🐛 未关闭 issue：**9**
 - 🧠 主要语言：**Python** | 归属：Organization | 创建：2026-09-28 | 最近推送：2026-10-19
 - 🏷️ 话题标签：crab-robot, robot, robotics
 

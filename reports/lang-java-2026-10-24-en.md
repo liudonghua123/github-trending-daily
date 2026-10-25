@@ -1,6 +1,6 @@
 # 🌟 GitHub Java Rising Stars Top 10 — 2026-10-24
 
-> Generated at 2026-10-25 16:49 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
+> Generated at 2026-10-25 23:41 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
 > Criteria: top Java repos created in the last 30 days (stars>=10)
 
 ## 📊 Snapshot
@@ -9,30 +9,30 @@
 | --- | --- |
 | Date | 2026-10-24 |
 | Repos listed | 10 |
-| Combined stars | ⭐ 45,077 |
-| Hottest repo | **Gathin23/cleanyourtv** (⭐ 34,133) |
+| Combined stars | ⭐ 46,035 |
+| Hottest repo | **Gathin23/cleanyourtv** (⭐ 34,923) |
 | Dominant language | **Java** |
 
 ## 🏆 Top 10 at a glance
 
 | # | Repository | Stars | Forks | Language | Verdict |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | ⭐ 34,133 | 🍴 4,060 | Java | Phenomenal 🔥 |
-| 2 | [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) | ⭐ 4,495 | 🍴 738 | Java | Trending ⭐ |
-| 3 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) | ⭐ 1,550 | 🍴 165 | Java | Trending ⭐ |
-| 4 | [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) | ⭐ 1,535 | 🍴 142 | Java | Trending ⭐ |
+| 1 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | ⭐ 34,923 | 🍴 4,156 | Java | Phenomenal 🔥 |
+| 2 | [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) | ⭐ 4,602 | 🍴 762 | Java | Trending ⭐ |
+| 3 | [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) | ⭐ 1,560 | 🍴 144 | Java | Trending ⭐ |
+| 4 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) | ⭐ 1,559 | 🍴 168 | Java | Trending ⭐ |
 | 5 | [blendi-remade/agentcraft](https://github.com/blendi-remade/agentcraft) | ⭐ 888 | 🍴 115 | Java | Rising 🌱 |
-| 6 | [LordixDemon/apple_watch_connector](https://github.com/LordixDemon/apple_watch_connector) | ⭐ 624 | 🍴 61 | Java | Rising 🌱 |
+| 6 | [LordixDemon/apple_watch_connector](https://github.com/LordixDemon/apple_watch_connector) | ⭐ 629 | 🍴 61 | Java | Rising 🌱 |
 | 7 | [noahdunnagan/mcopt](https://github.com/noahdunnagan/mcopt) | ⭐ 505 | 🍴 28 | Java | Rising 🌱 |
-| 8 | [opentrap/opentrap](https://github.com/opentrap/opentrap) | ⭐ 495 | 🍴 6 | Java | Rising 🌱 |
-| 9 | [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home) | ⭐ 461 | 🍴 77 | Java | Rising 🌱 |
-| 10 | [SysAdminDoc/HushFacebook](https://github.com/SysAdminDoc/HushFacebook) | ⭐ 391 | 🍴 14 | Java | Rising 🌱 |
+| 8 | [opentrap/opentrap](https://github.com/opentrap/opentrap) | ⭐ 503 | 🍴 7 | Java | Rising 🌱 |
+| 9 | [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home) | ⭐ 465 | 🍴 78 | Java | Rising 🌱 |
+| 10 | [NVIDIAGameWorks/rtx-remix-minecraft](https://github.com/NVIDIAGameWorks/rtx-remix-minecraft) | ⭐ 401 | 🍴 26 | Java | Rising 🌱 |
 
 ## 🔍 Repo details
 
 ### 1. [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv)
 
-- ⭐ Stars: **34,133** | 🍴 Forks: **4,060** | 👀 Watchers: **0** | 🐛 Open issues: **227**
+- ⭐ Stars: **34,923** | 🍴 Forks: **4,156** | 👀 Watchers: **0** | 🐛 Open issues: **227**
 - 🧠 Language: **Java** | Owner: User | Created: 2026-10-17 | Last push: 2026-10-25
 - 🏷️ Topics: adb, adblock, android-tv, android-tv-launcher, apple-tv, bloatware-removal
 
@@ -40,27 +40,27 @@
 
 ### 2. [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv)
 
-- ⭐ Stars: **4,495** | 🍴 Forks: **738** | 👀 Watchers: **0** | 🐛 Open issues: **86**
+- ⭐ Stars: **4,602** | 🍴 Forks: **762** | 👀 Watchers: **0** | 🐛 Open issues: **75**
 - 🧠 Language: **Java** | Owner: User | Created: 2026-10-19 | Last push: 2026-10-25
 - 🏷️ Topics: android-tv, claude-code, google-tv, home-screen, launcher, no-ads
 
 > A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.
 
-### 3. [Ansub/tv-detox](https://github.com/Ansub/tv-detox)
+### 3. [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv)
 
-- ⭐ Stars: **1,550** | 🍴 Forks: **165** | 👀 Watchers: **0** | 🐛 Open issues: **17**
+- ⭐ Stars: **1,560** | 🍴 Forks: **144** | 👀 Watchers: **0** | 🐛 Open issues: **6**
+- 🧠 Language: **Java** | Owner: User | Created: 2026-10-18 | Last push: 2026-10-25
+- 🏷️ Topics: ad-blocking, adb, android-tv, debloat, dns-filter, fire-os
+
+> Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.
+
+### 4. [Ansub/tv-detox](https://github.com/Ansub/tv-detox)
+
+- ⭐ Stars: **1,559** | 🍴 Forks: **168** | 👀 Watchers: **0** | 🐛 Open issues: **19**
 - 🧠 Language: **Java** | Owner: User | Created: 2026-10-18 | Last push: 2026-10-25
 - 🏷️ Topics: -
 
 > Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up
-
-### 4. [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv)
-
-- ⭐ Stars: **1,535** | 🍴 Forks: **142** | 👀 Watchers: **0** | 🐛 Open issues: **23**
-- 🧠 Language: **Java** | Owner: User | Created: 2026-10-18 | Last push: 2026-10-24
-- 🏷️ Topics: ad-blocking, adb, android-tv, debloat, dns-filter, fire-os
-
-> Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.
 
 ### 5. [blendi-remade/agentcraft](https://github.com/blendi-remade/agentcraft)
 
@@ -72,7 +72,7 @@
 
 ### 6. [LordixDemon/apple_watch_connector](https://github.com/LordixDemon/apple_watch_connector)
 
-- ⭐ Stars: **624** | 🍴 Forks: **61** | 👀 Watchers: **0** | 🐛 Open issues: **10**
+- ⭐ Stars: **629** | 🍴 Forks: **61** | 👀 Watchers: **0** | 🐛 Open issues: **10**
 - 🧠 Language: **Java** | Owner: User | Created: 2026-10-09 | Last push: 2026-10-13
 - 🏷️ Topics: -
 
@@ -88,7 +88,7 @@
 
 ### 8. [opentrap/opentrap](https://github.com/opentrap/opentrap)
 
-- ⭐ Stars: **495** | 🍴 Forks: **6** | 👀 Watchers: **0** | 🐛 Open issues: **0**
+- ⭐ Stars: **503** | 🍴 Forks: **7** | 👀 Watchers: **0** | 🐛 Open issues: **0**
 - 🧠 Language: **Java** | Owner: Organization | Created: 2026-10-19 | Last push: 2026-10-25
 - 🏷️ Topics: application-security, appsec, bug-bounty, burp-alternative, burp-suite, dast
 
@@ -96,19 +96,19 @@
 
 ### 9. [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home)
 
-- ⭐ Stars: **461** | 🍴 Forks: **77** | 👀 Watchers: **0** | 🐛 Open issues: **18**
+- ⭐ Stars: **465** | 🍴 Forks: **78** | 👀 Watchers: **0** | 🐛 Open issues: **18**
 - 🧠 Language: **Java** | Owner: User | Created: 2026-10-18 | Last push: 2026-10-18
 - 🏷️ Topics: adb, android-tv, claude-code, debloat, google-tv, launcher
 
 > Debloat a slow, ad-filled Android TV over Wi-Fi and give it a fast Apple TV-style home screen. One prompt for Claude Code, or do it by hand.
 
-### 10. [SysAdminDoc/HushFacebook](https://github.com/SysAdminDoc/HushFacebook)
+### 10. [NVIDIAGameWorks/rtx-remix-minecraft](https://github.com/NVIDIAGameWorks/rtx-remix-minecraft)
 
-- ⭐ Stars: **391** | 🍴 Forks: **14** | 👀 Watchers: **0** | 🐛 Open issues: **89**
-- 🧠 Language: **Java** | Owner: User | Created: 2026-09-24 | Last push: 2026-10-25
-- 🏷️ Topics: ad-blocker, android, customization, facebook, morphe, morphe-patches
+- ⭐ Stars: **401** | 🍴 Forks: **26** | 👀 Watchers: **0** | 🐛 Open issues: **40**
+- 🧠 Language: **Java** | Owner: Organization | Created: 2026-10-08 | Last push: 2026-10-23
+- 🏷️ Topics: fabric-mod, labpbr, minecraft, nvidia, path-tracing, ray-tracing
 
-> Hushfacebook Morphe patches for Facebook. Hide ads, suggested posts, save videos and photos, tune playback and Reels, and use a focused Marketplace mode, and much more.
+> Path-traced Minecraft Java 1.21.1 through NVIDIA RTX Remix: a Fabric mod (beta)
 
 ---
 

@@ -1,6 +1,6 @@
 # 🌟 GitHub Monthly Top 10 — 2026-10-24
 
-> Generated at 2026-10-25 16:49 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
+> Generated at 2026-10-25 23:41 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
 > Criteria: most starred repos (stars>=100) with pushes in the last 30 days
 
 ## 📊 Snapshot
@@ -9,30 +9,30 @@
 | --- | --- |
 | Date | 2026-10-24 |
 | Repos listed | 10 |
-| Combined stars | ⭐ 3,764,937 |
-| Hottest repo | **public-apis/public-apis** (⭐ 492,060) |
+| Combined stars | ⭐ 3,767,050 |
+| Hottest repo | **public-apis/public-apis** (⭐ 492,133) |
 | Dominant language | **TypeScript** |
 
 ## 🏆 Top 10 at a glance
 
 | # | Repository | Stars | Forks | Language | Verdict |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | ⭐ 492,060 | 🍴 54,779 | Python | Legendary 👑 |
-| 2 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | ⭐ 457,904 | 🍴 48,744 | TypeScript | Legendary 👑 |
-| 3 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | ⭐ 400,071 | 🍴 66,995 | Python | Legendary 👑 |
-| 4 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | ⭐ 393,023 | 🍴 82,608 | TypeScript | Legendary 👑 |
-| 5 | [morluto/rea](https://github.com/morluto/rea) | ⭐ 383,027 | 🍴 95,827 | TypeScript | Legendary 👑 |
-| 6 | [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | ⭐ 370,388 | 🍴 45,149 | TypeScript | Legendary 👑 |
-| 7 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | ⭐ 330,313 | 🍴 15,539 | Other | Legendary 👑 |
-| 8 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | ⭐ 330,196 | 🍴 28,999 | Python | Legendary 👑 |
-| 9 | [obra/superpowers](https://github.com/obra/superpowers) | ⭐ 304,917 | 🍴 27,162 | Shell | Legendary 👑 |
-| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | ⭐ 303,038 | 🍴 25,484 | Shell | Legendary 👑 |
+| 1 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | ⭐ 492,133 | 🍴 54,792 | Python | Legendary 👑 |
+| 2 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | ⭐ 457,917 | 🍴 48,642 | TypeScript | Legendary 👑 |
+| 3 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | ⭐ 400,103 | 🍴 66,997 | Python | Legendary 👑 |
+| 4 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | ⭐ 393,051 | 🍴 82,615 | TypeScript | Legendary 👑 |
+| 5 | [morluto/rea](https://github.com/morluto/rea) | ⭐ 384,493 | 🍴 96,226 | TypeScript | Legendary 👑 |
+| 6 | [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | ⭐ 370,414 | 🍴 45,152 | TypeScript | Legendary 👑 |
+| 7 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | ⭐ 330,421 | 🍴 15,543 | Other | Legendary 👑 |
+| 8 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | ⭐ 330,266 | 🍴 29,002 | Python | Legendary 👑 |
+| 9 | [obra/superpowers](https://github.com/obra/superpowers) | ⭐ 305,033 | 🍴 27,169 | Shell | Legendary 👑 |
+| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | ⭐ 303,219 | 🍴 25,508 | Shell | Legendary 👑 |
 
 ## 🔍 Repo details
 
 ### 1. [public-apis/public-apis](https://github.com/public-apis/public-apis)
 
-- ⭐ Stars: **492,060** | 🍴 Forks: **54,779** | 👀 Watchers: **0** | 🐛 Open issues: **2,359**
+- ⭐ Stars: **492,133** | 🍴 Forks: **54,792** | 👀 Watchers: **0** | 🐛 Open issues: **2,367**
 - 🧠 Language: **Python** | Owner: Organization | Created: 2016-03-20 | Last push: 2026-10-24
 - 🏷️ Topics: api, apis, dataset, development, free, list
 
@@ -40,7 +40,7 @@
 
 ### 2. [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
 
-- ⭐ Stars: **457,904** | 🍴 Forks: **48,744** | 👀 Watchers: **0** | 🐛 Open issues: **175**
+- ⭐ Stars: **457,917** | 🍴 Forks: **48,642** | 👀 Watchers: **0** | 🐛 Open issues: **178**
 - 🧠 Language: **TypeScript** | Owner: Organization | Created: 2014-12-24 | Last push: 2026-10-25
 - 🏷️ Topics: careers, certification, community, curriculum, d3, education
 
@@ -48,7 +48,7 @@
 
 ### 3. [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
-- ⭐ Stars: **400,071** | 🍴 Forks: **66,995** | 👀 Watchers: **0** | 🐛 Open issues: **96**
+- ⭐ Stars: **400,103** | 🍴 Forks: **66,997** | 👀 Watchers: **0** | 🐛 Open issues: **96**
 - 🧠 Language: **Python** | Owner: Organization | Created: 2013-10-11 | Last push: 2026-10-25
 - 🏷️ Topics: books, education, hacktoberfest, list, resource
 
@@ -56,7 +56,7 @@
 
 ### 4. [openclaw/openclaw](https://github.com/openclaw/openclaw)
 
-- ⭐ Stars: **393,023** | 🍴 Forks: **82,608** | 👀 Watchers: **0** | 🐛 Open issues: **7,863**
+- ⭐ Stars: **393,051** | 🍴 Forks: **82,615** | 👀 Watchers: **0** | 🐛 Open issues: **7,902**
 - 🧠 Language: **TypeScript** | Owner: Organization | Created: 2025-11-24 | Last push: 2026-10-25
 - 🏷️ Topics: ai, assistant, crustacean, molty, openclaw, own-your-data
 
@@ -64,7 +64,7 @@
 
 ### 5. [morluto/rea](https://github.com/morluto/rea)
 
-- ⭐ Stars: **383,027** | 🍴 Forks: **95,827** | 👀 Watchers: **0** | 🐛 Open issues: **1,065**
+- ⭐ Stars: **384,493** | 🍴 Forks: **96,226** | 👀 Watchers: **0** | 🐛 Open issues: **1,083**
 - 🧠 Language: **TypeScript** | Owner: User | Created: 2026-04-14 | Last push: 2026-10-25
 - 🏷️ Topics: agent-skills, ai-agents, binary-analysis, claude-code, cli, codex
 
@@ -72,7 +72,7 @@
 
 ### 6. [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)
 
-- ⭐ Stars: **370,388** | 🍴 Forks: **45,149** | 👀 Watchers: **0** | 🐛 Open issues: **6**
+- ⭐ Stars: **370,414** | 🍴 Forks: **45,152** | 👀 Watchers: **0** | 🐛 Open issues: **6**
 - 🧠 Language: **TypeScript** | Owner: User | Created: 2017-03-15 | Last push: 2026-10-25
 - 🏷️ Topics: angular-roadmap, backend-roadmap, blockchain-roadmap, computer-science, dba-roadmap, developer-roadmap
 
@@ -80,7 +80,7 @@
 
 ### 7. [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
-- ⭐ Stars: **330,313** | 🍴 Forks: **15,539** | 👀 Watchers: **0** | 🐛 Open issues: **0**
+- ⭐ Stars: **330,421** | 🍴 Forks: **15,543** | 👀 Watchers: **0** | 🐛 Open issues: **0**
 - 🧠 Language: **Other** | Owner: Organization | Created: 2015-06-01 | Last push: 2026-10-22
 - 🏷️ Topics: awesome, awesome-list, cloud, free-software, hosting, privacy
 
@@ -88,7 +88,7 @@
 
 ### 8. [vinta/awesome-python](https://github.com/vinta/awesome-python)
 
-- ⭐ Stars: **330,196** | 🍴 Forks: **28,999** | 👀 Watchers: **0** | 🐛 Open issues: **17**
+- ⭐ Stars: **330,266** | 🍴 Forks: **29,002** | 👀 Watchers: **0** | 🐛 Open issues: **18**
 - 🧠 Language: **Python** | Owner: User | Created: 2014-06-27 | Last push: 2026-10-25
 - 🏷️ Topics: awesome, awesome-list, python, python-frameworks, python-libraries, python-tools
 
@@ -96,7 +96,7 @@
 
 ### 9. [obra/superpowers](https://github.com/obra/superpowers)
 
-- ⭐ Stars: **304,917** | 🍴 Forks: **27,162** | 👀 Watchers: **0** | 🐛 Open issues: **364**
+- ⭐ Stars: **305,033** | 🍴 Forks: **27,169** | 👀 Watchers: **0** | 🐛 Open issues: **367**
 - 🧠 Language: **Shell** | Owner: User | Created: 2025-10-09 | Last push: 2026-10-23
 - 🏷️ Topics: ai, brainstorming, coding, obra, sdlc, skills
 
@@ -104,7 +104,7 @@
 
 ### 10. [mattpocock/skills](https://github.com/mattpocock/skills)
 
-- ⭐ Stars: **303,038** | 🍴 Forks: **25,484** | 👀 Watchers: **0** | 🐛 Open issues: **204**
+- ⭐ Stars: **303,219** | 🍴 Forks: **25,508** | 👀 Watchers: **0** | 🐛 Open issues: **206**
 - 🧠 Language: **Shell** | Owner: User | Created: 2026-02-03 | Last push: 2026-10-22
 - 🏷️ Topics: -
 

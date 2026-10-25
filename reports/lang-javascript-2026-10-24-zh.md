@@ -1,6 +1,6 @@
 # 🌟 GitHub Javascript 语言新星榜 Top 10 — 2026-10-24
 
-> 生成时间：2026-10-25 16:49 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
+> 生成时间：2026-10-25 23:41 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
 > 榜单口径：近 30 天新建的 Javascript 项目中 star ≥ 10 最多
 
 ## 📊 今日快照
@@ -9,30 +9,30 @@
 | --- | --- |
 | 统计日期 | 2026-10-24 |
 | 上榜仓库数 | 10 |
-| 合计 Star 数 | ⭐ 96,081 |
-| 最火仓库 | **Ebony-Vinyl/dsh-our-free-model** (⭐ 42,736) |
+| 合计 Star 数 | ⭐ 96,597 |
+| 最火仓库 | **Ebony-Vinyl/dsh-our-free-model** (⭐ 42,901) |
 | 主导语言 | **JavaScript** |
 
 ## 🏆 十强一览
 
 | 排名 | 仓库 | Star | Fork | 语言 | 点评 |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | ⭐ 42,736 | 🍴 1,213 | JavaScript | 现象级 🔥 |
-| 2 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | ⭐ 20,492 | 🍴 1,629 | JavaScript | 现象级 🔥 |
-| 3 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | ⭐ 7,204 | 🍴 808 | JavaScript | 持续升温 📈 |
-| 4 | [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | ⭐ 5,169 | 🍴 542 | JavaScript | 持续升温 📈 |
-| 5 | [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | ⭐ 4,414 | 🍴 297 | JavaScript | 持续升温 📈 |
-| 6 | [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) | ⭐ 4,259 | 🍴 124 | JavaScript | 持续升温 📈 |
-| 7 | [HeyPuter/everything](https://github.com/HeyPuter/everything) | ⭐ 3,864 | 🍴 483 | JavaScript | 持续升温 📈 |
-| 8 | [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot) | ⭐ 3,855 | 🍴 361 | JavaScript | 持续升温 📈 |
-| 9 | [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge) | ⭐ 2,325 | 🍴 2,843 | JavaScript | 持续升温 📈 |
+| 1 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | ⭐ 42,901 | 🍴 1,215 | JavaScript | 现象级 🔥 |
+| 2 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | ⭐ 20,579 | 🍴 1,640 | JavaScript | 现象级 🔥 |
+| 3 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | ⭐ 7,367 | 🍴 825 | JavaScript | 持续升温 📈 |
+| 4 | [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | ⭐ 5,188 | 🍴 544 | JavaScript | 持续升温 📈 |
+| 5 | [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | ⭐ 4,427 | 🍴 300 | JavaScript | 持续升温 📈 |
+| 6 | [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) | ⭐ 4,273 | 🍴 125 | JavaScript | 持续升温 📈 |
+| 7 | [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot) | ⭐ 3,883 | 🍴 364 | JavaScript | 持续升温 📈 |
+| 8 | [HeyPuter/everything](https://github.com/HeyPuter/everything) | ⭐ 3,872 | 🍴 483 | JavaScript | 持续升温 📈 |
+| 9 | [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge) | ⭐ 2,344 | 🍴 2,854 | JavaScript | 持续升温 📈 |
 | 10 | [sganggs/Stronghold-Protocol](https://github.com/sganggs/Stronghold-Protocol) | ⭐ 1,763 | 🍴 389 | JavaScript | 持续升温 📈 |
 
 ## 🔍 仓库详情
 
 ### 1. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
 
-- ⭐ Star 数：**42,736** | 🍴 Fork 数：**1,213** | 👀 关注数：**0** | 🐛 未关闭 issue：**334**
+- ⭐ Star 数：**42,901** | 🍴 Fork 数：**1,215** | 👀 关注数：**0** | 🐛 未关闭 issue：**334**
 - 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-09-24 | 最近推送：2026-10-25
 - 🏷️ 话题标签：ai-agents, deepseek, deepseek-harness, developer-tools, dsh, dsh-plugin
 
@@ -40,7 +40,7 @@
 
 ### 2. [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy)
 
-- ⭐ Star 数：**20,492** | 🍴 Fork 数：**1,629** | 👀 关注数：**0** | 🐛 未关闭 issue：**67**
+- ⭐ Star 数：**20,579** | 🍴 Fork 数：**1,640** | 👀 关注数：**0** | 🐛 未关闭 issue：**67**
 - 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-08 | 最近推送：2026-10-18
 - 🏷️ 话题标签：agent-skill, open-source, svg, vizualization
 
@@ -48,7 +48,7 @@
 
 ### 3. [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
 
-- ⭐ Star 数：**7,204** | 🍴 Fork 数：**808** | 👀 关注数：**0** | 🐛 未关闭 issue：**7**
+- ⭐ Star 数：**7,367** | 🍴 Fork 数：**825** | 👀 关注数：**0** | 🐛 未关闭 issue：**7**
 - 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-09-26 | 最近推送：2026-10-24
 - 🏷️ 话题标签：agent-skills, ai-agents, ai-short-film, ai-video, animation, canvas
 
@@ -56,7 +56,7 @@
 
 ### 4. [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)
 
-- ⭐ Star 数：**5,169** | 🍴 Fork 数：**542** | 👀 关注数：**0** | 🐛 未关闭 issue：**7**
+- ⭐ Star 数：**5,188** | 🍴 Fork 数：**544** | 👀 关注数：**0** | 🐛 未关闭 issue：**7**
 - 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-06 | 最近推送：2026-10-16
 - 🏷️ 话题标签：-
 
@@ -64,7 +64,7 @@
 
 ### 5. [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html)
 
-- ⭐ Star 数：**4,414** | 🍴 Fork 数：**297** | 👀 关注数：**0** | 🐛 未关闭 issue：**9**
+- ⭐ Star 数：**4,427** | 🍴 Fork 数：**300** | 👀 关注数：**0** | 🐛 未关闭 issue：**9**
 - 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-02 | 最近推送：2026-10-25
 - 🏷️ 话题标签：agent-skill, ai-agent, claude-code, claude-code-skill, claude-skill, claude-skills
 
@@ -72,31 +72,31 @@
 
 ### 6. [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops)
 
-- ⭐ Star 数：**4,259** | 🍴 Fork 数：**124** | 👀 关注数：**0** | 🐛 未关闭 issue：**23**
+- ⭐ Star 数：**4,273** | 🍴 Fork 数：**125** | 👀 关注数：**0** | 🐛 未关闭 issue：**24**
 - 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-08 | 最近推送：2026-10-25
 - 🏷️ 话题标签：dsh, dsh-plugin, dsh-plugins
 
 > A toolkit for low-level operations in DSH, designed to reduce token usage and task execution time / DSH 底层操作工具插件，旨在减少 Token 消耗与任务耗时
 
-### 7. [HeyPuter/everything](https://github.com/HeyPuter/everything)
+### 7. [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot)
 
-- ⭐ Star 数：**3,864** | 🍴 Fork 数：**483** | 👀 关注数：**0** | 🐛 未关闭 issue：**15**
-- 🧠 主要语言：**JavaScript** | 归属：Organization | 创建：2026-10-13 | 最近推送：2026-10-24
-- 🏷️ 话题标签：adobe, cad, microsoft, office, photoshop, saas
-
-> We're rebuilding and open-sourcing the world’s software from scratch.
-
-### 8. [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot)
-
-- ⭐ Star 数：**3,855** | 🍴 Fork 数：**361** | 👀 关注数：**0** | 🐛 未关闭 issue：**104**
+- ⭐ Star 数：**3,883** | 🍴 Fork 数：**364** | 👀 关注数：**0** | 🐛 未关闭 issue：**108**
 - 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-07 | 最近推送：2026-10-25
 - 🏷️ 话题标签：bot, deepseek-harness, dsh-plugin, multi-agent
 
 > A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.
 
+### 8. [HeyPuter/everything](https://github.com/HeyPuter/everything)
+
+- ⭐ Star 数：**3,872** | 🍴 Fork 数：**483** | 👀 关注数：**0** | 🐛 未关闭 issue：**18**
+- 🧠 主要语言：**JavaScript** | 归属：Organization | 创建：2026-10-13 | 最近推送：2026-10-25
+- 🏷️ 话题标签：adobe, cad, microsoft, office, photoshop, saas
+
+> We're rebuilding and open-sourcing the world’s software from scratch.
+
 ### 9. [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge)
 
-- ⭐ Star 数：**2,325** | 🍴 Fork 数：**2,843** | 👀 关注数：**0** | 🐛 未关闭 issue：**4**
+- ⭐ Star 数：**2,344** | 🍴 Fork 数：**2,854** | 👀 关注数：**0** | 🐛 未关闭 issue：**4**
 - 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-13 | 最近推送：2026-10-13
 - 🏷️ 话题标签：archive, deepseek, deepseek-harness, dsh-plugin, dsh-plugins, harness-jailbreak
 
