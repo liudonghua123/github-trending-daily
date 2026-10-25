@@ -1,6 +1,6 @@
 # 🌟 GitHub Javascript Rising Stars Top 10 — 2026-10-24
 
-> Generated at 2026-10-25 16:47 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
+> Generated at 2026-10-25 16:49 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
 > Criteria: top Javascript repos created in the last 30 days (stars>=10)
 
 ## 📊 Snapshot
@@ -9,22 +9,22 @@
 | --- | --- |
 | Date | 2026-10-24 |
 | Repos listed | 10 |
-| Combined stars | ⭐ 96,074 |
-| Hottest repo | **Ebony-Vinyl/dsh-our-free-model** (⭐ 42,733) |
+| Combined stars | ⭐ 96,081 |
+| Hottest repo | **Ebony-Vinyl/dsh-our-free-model** (⭐ 42,736) |
 | Dominant language | **JavaScript** |
 
 ## 🏆 Top 10 at a glance
 
 | # | Repository | Stars | Forks | Language | Verdict |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | ⭐ 42,733 | 🍴 1,213 | JavaScript | Phenomenal 🔥 |
-| 2 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | ⭐ 20,491 | 🍴 1,629 | JavaScript | Phenomenal 🔥 |
-| 3 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | ⭐ 7,202 | 🍴 808 | JavaScript | Trending ⭐ |
+| 1 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | ⭐ 42,736 | 🍴 1,213 | JavaScript | Phenomenal 🔥 |
+| 2 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | ⭐ 20,492 | 🍴 1,629 | JavaScript | Phenomenal 🔥 |
+| 3 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | ⭐ 7,204 | 🍴 808 | JavaScript | Trending ⭐ |
 | 4 | [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | ⭐ 5,169 | 🍴 542 | JavaScript | Trending ⭐ |
 | 5 | [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | ⭐ 4,414 | 🍴 297 | JavaScript | Trending ⭐ |
 | 6 | [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) | ⭐ 4,259 | 🍴 124 | JavaScript | Trending ⭐ |
 | 7 | [HeyPuter/everything](https://github.com/HeyPuter/everything) | ⭐ 3,864 | 🍴 483 | JavaScript | Trending ⭐ |
-| 8 | [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot) | ⭐ 3,854 | 🍴 361 | JavaScript | Trending ⭐ |
+| 8 | [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot) | ⭐ 3,855 | 🍴 361 | JavaScript | Trending ⭐ |
 | 9 | [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge) | ⭐ 2,325 | 🍴 2,843 | JavaScript | Trending ⭐ |
 | 10 | [sganggs/Stronghold-Protocol](https://github.com/sganggs/Stronghold-Protocol) | ⭐ 1,763 | 🍴 389 | JavaScript | Trending ⭐ |
 
@@ -32,7 +32,7 @@
 
 ### 1. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
 
-- ⭐ Stars: **42,733** | 🍴 Forks: **1,213** | 👀 Watchers: **0** | 🐛 Open issues: **334**
+- ⭐ Stars: **42,736** | 🍴 Forks: **1,213** | 👀 Watchers: **0** | 🐛 Open issues: **334**
 - 🧠 Language: **JavaScript** | Owner: User | Created: 2026-09-24 | Last push: 2026-10-25
 - 🏷️ Topics: ai-agents, deepseek, deepseek-harness, developer-tools, dsh, dsh-plugin
 
@@ -40,7 +40,7 @@
 
 ### 2. [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy)
 
-- ⭐ Stars: **20,491** | 🍴 Forks: **1,629** | 👀 Watchers: **0** | 🐛 Open issues: **67**
+- ⭐ Stars: **20,492** | 🍴 Forks: **1,629** | 👀 Watchers: **0** | 🐛 Open issues: **67**
 - 🧠 Language: **JavaScript** | Owner: User | Created: 2026-10-08 | Last push: 2026-10-18
 - 🏷️ Topics: agent-skill, open-source, svg, vizualization
 
@@ -48,7 +48,7 @@
 
 ### 3. [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
 
-- ⭐ Stars: **7,202** | 🍴 Forks: **808** | 👀 Watchers: **0** | 🐛 Open issues: **7**
+- ⭐ Stars: **7,204** | 🍴 Forks: **808** | 👀 Watchers: **0** | 🐛 Open issues: **7**
 - 🧠 Language: **JavaScript** | Owner: User | Created: 2026-09-26 | Last push: 2026-10-24
 - 🏷️ Topics: agent-skills, ai-agents, ai-short-film, ai-video, animation, canvas
 
@@ -88,7 +88,7 @@
 
 ### 8. [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot)
 
-- ⭐ Stars: **3,854** | 🍴 Forks: **361** | 👀 Watchers: **0** | 🐛 Open issues: **104**
+- ⭐ Stars: **3,855** | 🍴 Forks: **361** | 👀 Watchers: **0** | 🐛 Open issues: **104**
 - 🧠 Language: **JavaScript** | Owner: User | Created: 2026-10-07 | Last push: 2026-10-25
 - 🏷️ Topics: bot, deepseek-harness, dsh-plugin, multi-agent
 

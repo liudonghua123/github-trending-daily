@@ -1,6 +1,6 @@
 # 🌟 GitHub Java 语言新星榜 Top 10 — 2026-10-24
 
-> 生成时间：2026-10-25 16:47 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
+> 生成时间：2026-10-25 16:49 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
 > 榜单口径：近 30 天新建的 Java 项目中 star ≥ 10 最多
 
 ## 📊 今日快照
@@ -9,30 +9,30 @@
 | --- | --- |
 | 统计日期 | 2026-10-24 |
 | 上榜仓库数 | 10 |
-| 合计 Star 数 | ⭐ 45,072 |
-| 最火仓库 | **Gathin23/cleanyourtv** (⭐ 34,130) |
+| 合计 Star 数 | ⭐ 45,077 |
+| 最火仓库 | **Gathin23/cleanyourtv** (⭐ 34,133) |
 | 主导语言 | **Java** |
 
 ## 🏆 十强一览
 
 | 排名 | 仓库 | Star | Fork | 语言 | 点评 |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | ⭐ 34,130 | 🍴 4,059 | Java | 现象级 🔥 |
-| 2 | [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) | ⭐ 4,493 | 🍴 739 | Java | 持续升温 📈 |
+| 1 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | ⭐ 34,133 | 🍴 4,060 | Java | 现象级 🔥 |
+| 2 | [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) | ⭐ 4,495 | 🍴 738 | Java | 持续升温 📈 |
 | 3 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) | ⭐ 1,550 | 🍴 165 | Java | 持续升温 📈 |
-| 4 | [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) | ⭐ 1,535 | 🍴 141 | Java | 持续升温 📈 |
+| 4 | [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) | ⭐ 1,535 | 🍴 142 | Java | 持续升温 📈 |
 | 5 | [blendi-remade/agentcraft](https://github.com/blendi-remade/agentcraft) | ⭐ 888 | 🍴 115 | Java | 新星萌芽 🌱 |
 | 6 | [LordixDemon/apple_watch_connector](https://github.com/LordixDemon/apple_watch_connector) | ⭐ 624 | 🍴 61 | Java | 新星萌芽 🌱 |
 | 7 | [noahdunnagan/mcopt](https://github.com/noahdunnagan/mcopt) | ⭐ 505 | 🍴 28 | Java | 新星萌芽 🌱 |
 | 8 | [opentrap/opentrap](https://github.com/opentrap/opentrap) | ⭐ 495 | 🍴 6 | Java | 新星萌芽 🌱 |
-| 9 | [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home) | ⭐ 461 | 🍴 78 | Java | 新星萌芽 🌱 |
+| 9 | [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home) | ⭐ 461 | 🍴 77 | Java | 新星萌芽 🌱 |
 | 10 | [SysAdminDoc/HushFacebook](https://github.com/SysAdminDoc/HushFacebook) | ⭐ 391 | 🍴 14 | Java | 新星萌芽 🌱 |
 
 ## 🔍 仓库详情
 
 ### 1. [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv)
 
-- ⭐ Star 数：**34,130** | 🍴 Fork 数：**4,059** | 👀 关注数：**0** | 🐛 未关闭 issue：**225**
+- ⭐ Star 数：**34,133** | 🍴 Fork 数：**4,060** | 👀 关注数：**0** | 🐛 未关闭 issue：**227**
 - 🧠 主要语言：**Java** | 归属：User | 创建：2026-10-17 | 最近推送：2026-10-25
 - 🏷️ 话题标签：adb, adblock, android-tv, android-tv-launcher, apple-tv, bloatware-removal
 
@@ -40,7 +40,7 @@
 
 ### 2. [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv)
 
-- ⭐ Star 数：**4,493** | 🍴 Fork 数：**739** | 👀 关注数：**0** | 🐛 未关闭 issue：**86**
+- ⭐ Star 数：**4,495** | 🍴 Fork 数：**738** | 👀 关注数：**0** | 🐛 未关闭 issue：**86**
 - 🧠 主要语言：**Java** | 归属：User | 创建：2026-10-19 | 最近推送：2026-10-25
 - 🏷️ 话题标签：android-tv, claude-code, google-tv, home-screen, launcher, no-ads
 
@@ -56,7 +56,7 @@
 
 ### 4. [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv)
 
-- ⭐ Star 数：**1,535** | 🍴 Fork 数：**141** | 👀 关注数：**0** | 🐛 未关闭 issue：**23**
+- ⭐ Star 数：**1,535** | 🍴 Fork 数：**142** | 👀 关注数：**0** | 🐛 未关闭 issue：**23**
 - 🧠 主要语言：**Java** | 归属：User | 创建：2026-10-18 | 最近推送：2026-10-24
 - 🏷️ 话题标签：ad-blocking, adb, android-tv, debloat, dns-filter, fire-os
 
@@ -96,7 +96,7 @@
 
 ### 9. [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home)
 
-- ⭐ Star 数：**461** | 🍴 Fork 数：**78** | 👀 关注数：**0** | 🐛 未关闭 issue：**18**
+- ⭐ Star 数：**461** | 🍴 Fork 数：**77** | 👀 关注数：**0** | 🐛 未关闭 issue：**18**
 - 🧠 主要语言：**Java** | 归属：User | 创建：2026-10-18 | 最近推送：2026-10-18
 - 🏷️ 话题标签：adb, android-tv, claude-code, debloat, google-tv, launcher
 

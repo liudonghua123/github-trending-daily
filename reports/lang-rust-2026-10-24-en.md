@@ -1,6 +1,6 @@
 # 🌟 GitHub Rust Rising Stars Top 10 — 2026-10-24
 
-> Generated at 2026-10-25 16:47 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
+> Generated at 2026-10-25 16:49 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
 > Criteria: top Rust repos created in the last 30 days (stars>=10)
 
 ## 📊 Snapshot
@@ -9,7 +9,7 @@
 | --- | --- |
 | Date | 2026-10-24 |
 | Repos listed | 10 |
-| Combined stars | ⭐ 179,516 |
+| Combined stars | ⭐ 179,518 |
 | Hottest repo | **storytold/photocraft** (⭐ 72,709) |
 | Dominant language | **Rust** |
 
@@ -26,13 +26,13 @@
 | 7 | [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | ⭐ 10,375 | 🍴 1,284 | Rust | Phenomenal 🔥 |
 | 8 | [storytold/effectcraft](https://github.com/storytold/effectcraft) | ⭐ 7,877 | 🍴 4,224 | Rust | Trending ⭐ |
 | 9 | [storytold/cadcraft](https://github.com/storytold/cadcraft) | ⭐ 6,771 | 🍴 2,956 | Rust | Trending ⭐ |
-| 10 | [storytold/gridcraft](https://github.com/storytold/gridcraft) | ⭐ 6,489 | 🍴 3,017 | Rust | Trending ⭐ |
+| 10 | [storytold/gridcraft](https://github.com/storytold/gridcraft) | ⭐ 6,491 | 🍴 3,017 | Rust | Trending ⭐ |
 
 ## 🔍 Repo details
 
 ### 1. [storytold/photocraft](https://github.com/storytold/photocraft)
 
-- ⭐ Stars: **72,709** | 🍴 Forks: **12,875** | 👀 Watchers: **0** | 🐛 Open issues: **3,115**
+- ⭐ Stars: **72,709** | 🍴 Forks: **12,875** | 👀 Watchers: **0** | 🐛 Open issues: **3,116**
 - 🧠 Language: **Rust** | Owner: Organization | Created: 2026-09-30 | Last push: 2026-10-25
 - 🏷️ Topics: art, image-editing, image-editing-software, image-editor, images, photo-editing
 
@@ -40,7 +40,7 @@
 
 ### 2. [storytold/pdfcraft](https://github.com/storytold/pdfcraft)
 
-- ⭐ Stars: **17,778** | 🍴 Forks: **6,796** | 👀 Watchers: **0** | 🐛 Open issues: **2,012**
+- ⭐ Stars: **17,778** | 🍴 Forks: **6,796** | 👀 Watchers: **0** | 🐛 Open issues: **2,013**
 - 🧠 Language: **Rust** | Owner: Organization | Created: 2026-09-30 | Last push: 2026-10-25
 - 🏷️ Topics: document-processing, documents, pdf, pdf-generation, pdf-processing, pdf-tools
 
@@ -80,7 +80,7 @@
 
 ### 7. [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft)
 
-- ⭐ Stars: **10,375** | 🍴 Forks: **1,284** | 👀 Watchers: **0** | 🐛 Open issues: **3,325**
+- ⭐ Stars: **10,375** | 🍴 Forks: **1,284** | 👀 Watchers: **0** | 🐛 Open issues: **3,327**
 - 🧠 Language: **Rust** | Owner: Organization | Created: 2026-10-07 | Last push: 2026-10-25
 - 🏷️ Topics: 3d-modeling, brep, cad, egui, mcp, parametric-cad
 
@@ -104,7 +104,7 @@
 
 ### 10. [storytold/gridcraft](https://github.com/storytold/gridcraft)
 
-- ⭐ Stars: **6,489** | 🍴 Forks: **3,017** | 👀 Watchers: **0** | 🐛 Open issues: **1,219**
+- ⭐ Stars: **6,491** | 🍴 Forks: **3,017** | 👀 Watchers: **0** | 🐛 Open issues: **1,220**
 - 🧠 Language: **Rust** | Owner: Organization | Created: 2026-10-07 | Last push: 2026-10-25
 - 🏷️ Topics: -
 

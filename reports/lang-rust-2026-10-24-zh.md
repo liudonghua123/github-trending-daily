@@ -1,6 +1,6 @@
 # 🌟 GitHub Rust 语言新星榜 Top 10 — 2026-10-24
 
-> 生成时间：2026-10-25 16:47 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
+> 生成时间：2026-10-25 16:49 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
 > 榜单口径：近 30 天新建的 Rust 项目中 star ≥ 10 最多
 
 ## 📊 今日快照
@@ -9,7 +9,7 @@
 | --- | --- |
 | 统计日期 | 2026-10-24 |
 | 上榜仓库数 | 10 |
-| 合计 Star 数 | ⭐ 179,516 |
+| 合计 Star 数 | ⭐ 179,518 |
 | 最火仓库 | **storytold/photocraft** (⭐ 72,709) |
 | 主导语言 | **Rust** |
 
@@ -26,13 +26,13 @@
 | 7 | [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | ⭐ 10,375 | 🍴 1,284 | Rust | 现象级 🔥 |
 | 8 | [storytold/effectcraft](https://github.com/storytold/effectcraft) | ⭐ 7,877 | 🍴 4,224 | Rust | 持续升温 📈 |
 | 9 | [storytold/cadcraft](https://github.com/storytold/cadcraft) | ⭐ 6,771 | 🍴 2,956 | Rust | 持续升温 📈 |
-| 10 | [storytold/gridcraft](https://github.com/storytold/gridcraft) | ⭐ 6,489 | 🍴 3,017 | Rust | 持续升温 📈 |
+| 10 | [storytold/gridcraft](https://github.com/storytold/gridcraft) | ⭐ 6,491 | 🍴 3,017 | Rust | 持续升温 📈 |
 
 ## 🔍 仓库详情
 
 ### 1. [storytold/photocraft](https://github.com/storytold/photocraft)
 
-- ⭐ Star 数：**72,709** | 🍴 Fork 数：**12,875** | 👀 关注数：**0** | 🐛 未关闭 issue：**3,115**
+- ⭐ Star 数：**72,709** | 🍴 Fork 数：**12,875** | 👀 关注数：**0** | 🐛 未关闭 issue：**3,116**
 - 🧠 主要语言：**Rust** | 归属：Organization | 创建：2026-09-30 | 最近推送：2026-10-25
 - 🏷️ 话题标签：art, image-editing, image-editing-software, image-editor, images, photo-editing
 
@@ -40,7 +40,7 @@
 
 ### 2. [storytold/pdfcraft](https://github.com/storytold/pdfcraft)
 
-- ⭐ Star 数：**17,778** | 🍴 Fork 数：**6,796** | 👀 关注数：**0** | 🐛 未关闭 issue：**2,012**
+- ⭐ Star 数：**17,778** | 🍴 Fork 数：**6,796** | 👀 关注数：**0** | 🐛 未关闭 issue：**2,013**
 - 🧠 主要语言：**Rust** | 归属：Organization | 创建：2026-09-30 | 最近推送：2026-10-25
 - 🏷️ 话题标签：document-processing, documents, pdf, pdf-generation, pdf-processing, pdf-tools
 
@@ -80,7 +80,7 @@
 
 ### 7. [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft)
 
-- ⭐ Star 数：**10,375** | 🍴 Fork 数：**1,284** | 👀 关注数：**0** | 🐛 未关闭 issue：**3,325**
+- ⭐ Star 数：**10,375** | 🍴 Fork 数：**1,284** | 👀 关注数：**0** | 🐛 未关闭 issue：**3,327**
 - 🧠 主要语言：**Rust** | 归属：Organization | 创建：2026-10-07 | 最近推送：2026-10-25
 - 🏷️ 话题标签：3d-modeling, brep, cad, egui, mcp, parametric-cad
 
@@ -104,7 +104,7 @@
 
 ### 10. [storytold/gridcraft](https://github.com/storytold/gridcraft)
 
-- ⭐ Star 数：**6,489** | 🍴 Fork 数：**3,017** | 👀 关注数：**0** | 🐛 未关闭 issue：**1,219**
+- ⭐ Star 数：**6,491** | 🍴 Fork 数：**3,017** | 👀 关注数：**0** | 🐛 未关闭 issue：**1,220**
 - 🧠 主要语言：**Rust** | 归属：Organization | 创建：2026-10-07 | 最近推送：2026-10-25
 - 🏷️ 话题标签：-
 

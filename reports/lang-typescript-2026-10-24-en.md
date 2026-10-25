@@ -1,6 +1,6 @@
 # 🌟 GitHub Typescript Rising Stars Top 10 — 2026-10-24
 
-> Generated at 2026-10-25 16:47 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
+> Generated at 2026-10-25 16:49 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
 > Criteria: top Typescript repos created in the last 30 days (stars>=10)
 
 ## 📊 Snapshot

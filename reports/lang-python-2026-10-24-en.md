@@ -1,6 +1,6 @@
 # 🌟 GitHub Python Rising Stars Top 10 — 2026-10-24
 
-> Generated at 2026-10-25 16:47 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
+> Generated at 2026-10-25 16:49 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
 > Criteria: top Python repos created in the last 30 days (stars>=10)
 
 ## 📊 Snapshot
@@ -9,30 +9,30 @@
 | --- | --- |
 | Date | 2026-10-24 |
 | Repos listed | 10 |
-| Combined stars | ⭐ 78,203 |
-| Hottest repo | **deepseek-ai/DeepInfer** (⭐ 22,281) |
+| Combined stars | ⭐ 78,206 |
+| Hottest repo | **deepseek-ai/DeepInfer** (⭐ 22,282) |
 | Dominant language | **Python** |
 
 ## 🏆 Top 10 at a glance
 
 | # | Repository | Stars | Forks | Language | Verdict |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | ⭐ 22,281 | 🍴 2,563 | Python | Phenomenal 🔥 |
+| 1 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | ⭐ 22,282 | 🍴 2,563 | Python | Phenomenal 🔥 |
 | 2 | [google-research/harness2](https://github.com/google-research/harness2) | ⭐ 19,494 | 🍴 1,922 | Python | Phenomenal 🔥 |
 | 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | ⭐ 8,935 | 🍴 988 | Python | Trending ⭐ |
-| 4 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | ⭐ 5,429 | 🍴 951 | Python | Trending ⭐ |
+| 4 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | ⭐ 5,430 | 🍴 951 | Python | Trending ⭐ |
 | 5 | [zhongerxin/iPhone-use](https://github.com/zhongerxin/iPhone-use) | ⭐ 4,635 | 🍴 462 | Python | Trending ⭐ |
 | 6 | [nykooi1/vibe-wise](https://github.com/nykooi1/vibe-wise) | ⭐ 3,946 | 🍴 155 | Python | Trending ⭐ |
 | 7 | [Arekejoker/qwen21-nsfw-pose-skill](https://github.com/Arekejoker/qwen21-nsfw-pose-skill) | ⭐ 3,721 | 🍴 657 | Python | Trending ⭐ |
 | 8 | [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | ⭐ 3,645 | 🍴 889 | Python | Trending ⭐ |
-| 9 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | ⭐ 3,232 | 🍴 220 | Python | Trending ⭐ |
+| 9 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | ⭐ 3,233 | 🍴 220 | Python | Trending ⭐ |
 | 10 | [KingKongRobotics/jumper](https://github.com/KingKongRobotics/jumper) | ⭐ 2,885 | 🍴 312 | Python | Trending ⭐ |
 
 ## 🔍 Repo details
 
 ### 1. [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer)
 
-- ⭐ Stars: **22,281** | 🍴 Forks: **2,563** | 👀 Watchers: **0** | 🐛 Open issues: **205**
+- ⭐ Stars: **22,282** | 🍴 Forks: **2,563** | 👀 Watchers: **0** | 🐛 Open issues: **205**
 - 🧠 Language: **Python** | Owner: Organization | Created: 2026-10-16 | Last push: 2026-10-25
 - 🏷️ Topics: -
 
@@ -56,7 +56,7 @@
 
 ### 4. [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill)
 
-- ⭐ Stars: **5,429** | 🍴 Forks: **951** | 👀 Watchers: **0** | 🐛 Open issues: **13**
+- ⭐ Stars: **5,430** | 🍴 Forks: **951** | 👀 Watchers: **0** | 🐛 Open issues: **13**
 - 🧠 Language: **Python** | Owner: User | Created: 2026-10-03 | Last push: 2026-10-03
 - 🏷️ Topics: agent, agent-skills, app-clone, claude, claude-code, claude-skills
 
@@ -96,7 +96,7 @@
 
 ### 9. [feitangyuan/onetake](https://github.com/feitangyuan/onetake)
 
-- ⭐ Stars: **3,232** | 🍴 Forks: **220** | 👀 Watchers: **0** | 🐛 Open issues: **3**
+- ⭐ Stars: **3,233** | 🍴 Forks: **220** | 👀 Watchers: **0** | 🐛 Open issues: **3**
 - 🧠 Language: **Python** | Owner: User | Created: 2026-09-26 | Last push: 2026-10-21
 - 🏷️ Topics: agent-skill, animation, canvas, claude-skill, launch-video, motion-graphics
 

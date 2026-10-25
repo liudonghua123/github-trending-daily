@@ -1,6 +1,6 @@
 # 🌟 GitHub Javascript 语言新星榜 Top 10 — 2026-10-24
 
-> 生成时间：2026-10-25 16:47 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
+> 生成时间：2026-10-25 16:49 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
 > 榜单口径：近 30 天新建的 Javascript 项目中 star ≥ 10 最多
 
 ## 📊 今日快照
@@ -9,22 +9,22 @@
 | --- | --- |
 | 统计日期 | 2026-10-24 |
 | 上榜仓库数 | 10 |
-| 合计 Star 数 | ⭐ 96,074 |
-| 最火仓库 | **Ebony-Vinyl/dsh-our-free-model** (⭐ 42,733) |
+| 合计 Star 数 | ⭐ 96,081 |
+| 最火仓库 | **Ebony-Vinyl/dsh-our-free-model** (⭐ 42,736) |
 | 主导语言 | **JavaScript** |
 
 ## 🏆 十强一览
 
 | 排名 | 仓库 | Star | Fork | 语言 | 点评 |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | ⭐ 42,733 | 🍴 1,213 | JavaScript | 现象级 🔥 |
-| 2 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | ⭐ 20,491 | 🍴 1,629 | JavaScript | 现象级 🔥 |
-| 3 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | ⭐ 7,202 | 🍴 808 | JavaScript | 持续升温 📈 |
+| 1 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | ⭐ 42,736 | 🍴 1,213 | JavaScript | 现象级 🔥 |
+| 2 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | ⭐ 20,492 | 🍴 1,629 | JavaScript | 现象级 🔥 |
+| 3 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | ⭐ 7,204 | 🍴 808 | JavaScript | 持续升温 📈 |
 | 4 | [alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | ⭐ 5,169 | 🍴 542 | JavaScript | 持续升温 📈 |
 | 5 | [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | ⭐ 4,414 | 🍴 297 | JavaScript | 持续升温 📈 |
 | 6 | [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) | ⭐ 4,259 | 🍴 124 | JavaScript | 持续升温 📈 |
 | 7 | [HeyPuter/everything](https://github.com/HeyPuter/everything) | ⭐ 3,864 | 🍴 483 | JavaScript | 持续升温 📈 |
-| 8 | [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot) | ⭐ 3,854 | 🍴 361 | JavaScript | 持续升温 📈 |
+| 8 | [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot) | ⭐ 3,855 | 🍴 361 | JavaScript | 持续升温 📈 |
 | 9 | [mmparko/dsh-purge](https://github.com/mmparko/dsh-purge) | ⭐ 2,325 | 🍴 2,843 | JavaScript | 持续升温 📈 |
 | 10 | [sganggs/Stronghold-Protocol](https://github.com/sganggs/Stronghold-Protocol) | ⭐ 1,763 | 🍴 389 | JavaScript | 持续升温 📈 |
 
@@ -32,7 +32,7 @@
 
 ### 1. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
 
-- ⭐ Star 数：**42,733** | 🍴 Fork 数：**1,213** | 👀 关注数：**0** | 🐛 未关闭 issue：**334**
+- ⭐ Star 数：**42,736** | 🍴 Fork 数：**1,213** | 👀 关注数：**0** | 🐛 未关闭 issue：**334**
 - 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-09-24 | 最近推送：2026-10-25
 - 🏷️ 话题标签：ai-agents, deepseek, deepseek-harness, developer-tools, dsh, dsh-plugin
 
@@ -40,7 +40,7 @@
 
 ### 2. [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy)
 
-- ⭐ Star 数：**20,491** | 🍴 Fork 数：**1,629** | 👀 关注数：**0** | 🐛 未关闭 issue：**67**
+- ⭐ Star 数：**20,492** | 🍴 Fork 数：**1,629** | 👀 关注数：**0** | 🐛 未关闭 issue：**67**
 - 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-08 | 最近推送：2026-10-18
 - 🏷️ 话题标签：agent-skill, open-source, svg, vizualization
 
@@ -48,7 +48,7 @@
 
 ### 3. [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
 
-- ⭐ Star 数：**7,202** | 🍴 Fork 数：**808** | 👀 关注数：**0** | 🐛 未关闭 issue：**7**
+- ⭐ Star 数：**7,204** | 🍴 Fork 数：**808** | 👀 关注数：**0** | 🐛 未关闭 issue：**7**
 - 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-09-26 | 最近推送：2026-10-24
 - 🏷️ 话题标签：agent-skills, ai-agents, ai-short-film, ai-video, animation, canvas
 
@@ -88,7 +88,7 @@
 
 ### 8. [Fei2411/DS-Bot](https://github.com/Fei2411/DS-Bot)
 
-- ⭐ Star 数：**3,854** | 🍴 Fork 数：**361** | 👀 关注数：**0** | 🐛 未关闭 issue：**104**
+- ⭐ Star 数：**3,855** | 🍴 Fork 数：**361** | 👀 关注数：**0** | 🐛 未关闭 issue：**104**
 - 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-07 | 最近推送：2026-10-25
 - 🏷️ 话题标签：bot, deepseek-harness, dsh-plugin, multi-agent
 

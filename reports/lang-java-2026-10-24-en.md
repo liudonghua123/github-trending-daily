@@ -1,6 +1,6 @@
 # 🌟 GitHub Java Rising Stars Top 10 — 2026-10-24
 
-> Generated at 2026-10-25 16:47 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
+> Generated at 2026-10-25 16:49 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
 > Criteria: top Java repos created in the last 30 days (stars>=10)
 
 ## 📊 Snapshot
@@ -9,30 +9,30 @@
 | --- | --- |
 | Date | 2026-10-24 |
 | Repos listed | 10 |
-| Combined stars | ⭐ 45,072 |
-| Hottest repo | **Gathin23/cleanyourtv** (⭐ 34,130) |
+| Combined stars | ⭐ 45,077 |
+| Hottest repo | **Gathin23/cleanyourtv** (⭐ 34,133) |
 | Dominant language | **Java** |
 
 ## 🏆 Top 10 at a glance
 
 | # | Repository | Stars | Forks | Language | Verdict |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | ⭐ 34,130 | 🍴 4,059 | Java | Phenomenal 🔥 |
-| 2 | [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) | ⭐ 4,493 | 🍴 739 | Java | Trending ⭐ |
+| 1 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | ⭐ 34,133 | 🍴 4,060 | Java | Phenomenal 🔥 |
+| 2 | [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) | ⭐ 4,495 | 🍴 738 | Java | Trending ⭐ |
 | 3 | [Ansub/tv-detox](https://github.com/Ansub/tv-detox) | ⭐ 1,550 | 🍴 165 | Java | Trending ⭐ |
-| 4 | [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) | ⭐ 1,535 | 🍴 141 | Java | Trending ⭐ |
+| 4 | [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv) | ⭐ 1,535 | 🍴 142 | Java | Trending ⭐ |
 | 5 | [blendi-remade/agentcraft](https://github.com/blendi-remade/agentcraft) | ⭐ 888 | 🍴 115 | Java | Rising 🌱 |
 | 6 | [LordixDemon/apple_watch_connector](https://github.com/LordixDemon/apple_watch_connector) | ⭐ 624 | 🍴 61 | Java | Rising 🌱 |
 | 7 | [noahdunnagan/mcopt](https://github.com/noahdunnagan/mcopt) | ⭐ 505 | 🍴 28 | Java | Rising 🌱 |
 | 8 | [opentrap/opentrap](https://github.com/opentrap/opentrap) | ⭐ 495 | 🍴 6 | Java | Rising 🌱 |
-| 9 | [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home) | ⭐ 461 | 🍴 78 | Java | Rising 🌱 |
+| 9 | [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home) | ⭐ 461 | 🍴 77 | Java | Rising 🌱 |
 | 10 | [SysAdminDoc/HushFacebook](https://github.com/SysAdminDoc/HushFacebook) | ⭐ 391 | 🍴 14 | Java | Rising 🌱 |
 
 ## 🔍 Repo details
 
 ### 1. [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv)
 
-- ⭐ Stars: **34,130** | 🍴 Forks: **4,059** | 👀 Watchers: **0** | 🐛 Open issues: **225**
+- ⭐ Stars: **34,133** | 🍴 Forks: **4,060** | 👀 Watchers: **0** | 🐛 Open issues: **227**
 - 🧠 Language: **Java** | Owner: User | Created: 2026-10-17 | Last push: 2026-10-25
 - 🏷️ Topics: adb, adblock, android-tv, android-tv-launcher, apple-tv, bloatware-removal
 
@@ -40,7 +40,7 @@
 
 ### 2. [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv)
 
-- ⭐ Stars: **4,493** | 🍴 Forks: **739** | 👀 Watchers: **0** | 🐛 Open issues: **86**
+- ⭐ Stars: **4,495** | 🍴 Forks: **738** | 👀 Watchers: **0** | 🐛 Open issues: **86**
 - 🧠 Language: **Java** | Owner: User | Created: 2026-10-19 | Last push: 2026-10-25
 - 🏷️ Topics: android-tv, claude-code, google-tv, home-screen, launcher, no-ads
 
@@ -56,7 +56,7 @@
 
 ### 4. [humblemuzzu/dumbtv](https://github.com/humblemuzzu/dumbtv)
 
-- ⭐ Stars: **1,535** | 🍴 Forks: **141** | 👀 Watchers: **0** | 🐛 Open issues: **23**
+- ⭐ Stars: **1,535** | 🍴 Forks: **142** | 👀 Watchers: **0** | 🐛 Open issues: **23**
 - 🧠 Language: **Java** | Owner: User | Created: 2026-10-18 | Last push: 2026-10-24
 - 🏷️ Topics: ad-blocking, adb, android-tv, debloat, dns-filter, fire-os
 
@@ -96,7 +96,7 @@
 
 ### 9. [mihirgupta0900/tv-home](https://github.com/mihirgupta0900/tv-home)
 
-- ⭐ Stars: **461** | 🍴 Forks: **78** | 👀 Watchers: **0** | 🐛 Open issues: **18**
+- ⭐ Stars: **461** | 🍴 Forks: **77** | 👀 Watchers: **0** | 🐛 Open issues: **18**
 - 🧠 Language: **Java** | Owner: User | Created: 2026-10-18 | Last push: 2026-10-18
 - 🏷️ Topics: adb, android-tv, claude-code, debloat, google-tv, launcher
 

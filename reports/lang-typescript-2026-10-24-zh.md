@@ -1,6 +1,6 @@
 # 🌟 GitHub Typescript 语言新星榜 Top 10 — 2026-10-24
 
-> 生成时间：2026-10-25 16:47 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
+> 生成时间：2026-10-25 16:49 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
 > 榜单口径：近 30 天新建的 Typescript 项目中 star ≥ 10 最多
 
 ## 📊 今日快照
