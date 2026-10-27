@@ -1,6 +1,14 @@
 {
   "daily": [
     {
+      "date": "2026-10-26",
+      "top_repo": "andyhuo520/digital-human-koubo",
+      "top_stars": 698,
+      "total_stars": 2990,
+      "top_repo_desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+      "top_repo_lang": "TypeScript"
+    },
+    {
       "date": "2026-10-24",
       "top_repo": "rddmwmddr/android-ad-cleaner",
       "top_stars": 752,
@@ -58,6 +66,14 @@
     }
   ],
   "weekly": [
+    {
+      "date": "2026-10-26",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492442,
+      "total_stars": 3776910,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
     {
       "date": "2026-10-24",
       "top_repo": "public-apis/public-apis",
@@ -117,6 +133,14 @@
   ],
   "monthly": [
     {
+      "date": "2026-10-26",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492442,
+      "total_stars": 3776911,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
       "date": "2026-10-24",
       "top_repo": "public-apis/public-apis",
       "top_stars": 492133,
@@ -136,6 +160,15 @@
   "languages": {
     "python": [
       {
+        "date": "2026-10-26",
+        "top_repo": "Gathin23/cleanyourtv",
+        "top_stars": 39296,
+        "total_stars": 117060,
+        "top_repo_desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "top_repo_lang": "Python",
+        "language": "python"
+      },
+      {
         "date": "2026-10-24",
         "top_repo": "deepseek-ai/DeepInfer",
         "top_stars": 22381,
@@ -146,6 +179,15 @@
       }
     ],
     "javascript": [
+      {
+        "date": "2026-10-26",
+        "top_repo": "wheresryan22/anatomy",
+        "top_stars": 21075,
+        "total_stars": 58833,
+        "top_repo_desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+        "top_repo_lang": "JavaScript",
+        "language": "javascript"
+      },
       {
         "date": "2026-10-24",
         "top_repo": "Ebony-Vinyl/dsh-our-free-model",
@@ -158,6 +200,15 @@
     ],
     "typescript": [
       {
+        "date": "2026-10-26",
+        "top_repo": "KKKKhazix/AIHOT",
+        "top_stars": 8675,
+        "total_stars": 39481,
+        "top_repo_desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+        "top_repo_lang": "TypeScript",
+        "language": "typescript"
+      },
+      {
         "date": "2026-10-24",
         "top_repo": "KKKKhazix/AIHOT",
         "top_stars": 8602,
@@ -168,6 +219,15 @@
       }
     ],
     "rust": [
+      {
+        "date": "2026-10-26",
+        "top_repo": "storytold/photocraft",
+        "top_stars": 73377,
+        "total_stars": 181901,
+        "top_repo_desc": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+        "top_repo_lang": "Rust",
+        "language": "rust"
+      },
       {
         "date": "2026-10-24",
         "top_repo": "storytold/photocraft",
@@ -180,6 +240,15 @@
     ],
     "go": [
       {
+        "date": "2026-10-26",
+        "top_repo": "egoist/mygo",
+        "top_stars": 3216,
+        "total_stars": 15120,
+        "top_repo_desc": "Develop desktop apps with native UI or web frontend in Go",
+        "top_repo_lang": "Go",
+        "language": "go"
+      },
+      {
         "date": "2026-10-24",
         "top_repo": "egoist/mygo",
         "top_stars": 2982,
@@ -191,6 +260,15 @@
     ],
     "java": [
       {
+        "date": "2026-10-26",
+        "top_repo": "simbasjungles/free-my-tv",
+        "top_stars": 4863,
+        "total_stars": 12120,
+        "top_repo_desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+        "top_repo_lang": "Java",
+        "language": "java"
+      },
+      {
         "date": "2026-10-24",
         "top_repo": "Gathin23/cleanyourtv",
         "top_stars": 34923,
@@ -201,6 +279,15 @@
       }
     ],
     "c++": [
+      {
+        "date": "2026-10-26",
+        "top_repo": "deadinside28/bloodborne_pc",
+        "top_stars": 3650,
+        "total_stars": 17738,
+        "top_repo_desc": "",
+        "top_repo_lang": "C++",
+        "language": "c++"
+      },
       {
         "date": "2026-10-24",
         "top_repo": "Niko1221/Strata",
