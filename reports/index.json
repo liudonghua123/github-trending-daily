@@ -1,6 +1,14 @@
 {
   "daily": [
     {
+      "date": "2026-10-27",
+      "top_repo": "DLSS-5-Swaper-New/.github",
+      "top_stars": 688,
+      "total_stars": 2220,
+      "top_repo_desc": "DLSS 5 Swapper is a specialized Windows utility for PC gaming enthusiasts interested in managing compatible graphics components and exploring rendering configurations.",
+      "top_repo_lang": "Other"
+    },
+    {
       "date": "2026-10-26",
       "top_repo": "andyhuo520/digital-human-koubo",
       "top_stars": 698,
@@ -66,6 +74,14 @@
     }
   ],
   "weekly": [
+    {
+      "date": "2026-10-27",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492720,
+      "total_stars": 3785417,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
     {
       "date": "2026-10-26",
       "top_repo": "public-apis/public-apis",
@@ -133,6 +149,14 @@
   ],
   "monthly": [
     {
+      "date": "2026-10-27",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 492720,
+      "total_stars": 3785417,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
       "date": "2026-10-26",
       "top_repo": "public-apis/public-apis",
       "top_stars": 492442,
@@ -160,6 +184,15 @@
   "languages": {
     "python": [
       {
+        "date": "2026-10-27",
+        "top_repo": "Gathin23/cleanyourtv",
+        "top_stars": 41876,
+        "total_stars": 121069,
+        "top_repo_desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "top_repo_lang": "Python",
+        "language": "python"
+      },
+      {
         "date": "2026-10-26",
         "top_repo": "Gathin23/cleanyourtv",
         "top_stars": 39296,
@@ -179,6 +212,15 @@
       }
     ],
     "javascript": [
+      {
+        "date": "2026-10-27",
+        "top_repo": "wheresryan22/anatomy",
+        "top_stars": 21458,
+        "total_stars": 54181,
+        "top_repo_desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+        "top_repo_lang": "JavaScript",
+        "language": "javascript"
+      },
       {
         "date": "2026-10-26",
         "top_repo": "wheresryan22/anatomy",
@@ -200,6 +242,15 @@
     ],
     "typescript": [
       {
+        "date": "2026-10-27",
+        "top_repo": "KKKKhazix/AIHOT",
+        "top_stars": 8733,
+        "total_stars": 40266,
+        "top_repo_desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+        "top_repo_lang": "TypeScript",
+        "language": "typescript"
+      },
+      {
         "date": "2026-10-26",
         "top_repo": "KKKKhazix/AIHOT",
         "top_stars": 8675,
@@ -219,6 +270,15 @@
       }
     ],
     "rust": [
+      {
+        "date": "2026-10-27",
+        "top_repo": "storytold/photocraft",
+        "top_stars": 73943,
+        "total_stars": 183851,
+        "top_repo_desc": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+        "top_repo_lang": "Rust",
+        "language": "rust"
+      },
       {
         "date": "2026-10-26",
         "top_repo": "storytold/photocraft",
@@ -240,6 +300,15 @@
     ],
     "go": [
       {
+        "date": "2026-10-27",
+        "top_repo": "rohit267/net-merge",
+        "top_stars": 2458,
+        "total_stars": 12881,
+        "top_repo_desc": "Use all your internet connections at once on Windows, macOS, Linux and Android: per-connection load balancing over Wi-Fi, Ethernet, mobile data and phone tethers",
+        "top_repo_lang": "Go",
+        "language": "go"
+      },
+      {
         "date": "2026-10-26",
         "top_repo": "egoist/mygo",
         "top_stars": 3216,
@@ -260,6 +329,15 @@
     ],
     "java": [
       {
+        "date": "2026-10-27",
+        "top_repo": "simbasjungles/free-my-tv",
+        "top_stars": 5056,
+        "total_stars": 12548,
+        "top_repo_desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+        "top_repo_lang": "Java",
+        "language": "java"
+      },
+      {
         "date": "2026-10-26",
         "top_repo": "simbasjungles/free-my-tv",
         "top_stars": 4863,
@@ -279,6 +357,15 @@
       }
     ],
     "c++": [
+      {
+        "date": "2026-10-27",
+        "top_repo": "deadinside28/bloodborne_pc",
+        "top_stars": 3676,
+        "total_stars": 17683,
+        "top_repo_desc": "",
+        "top_repo_lang": "C++",
+        "language": "c++"
+      },
       {
         "date": "2026-10-26",
         "top_repo": "deadinside28/bloodborne_pc",
