@@ -1,6 +1,14 @@
 {
   "daily": [
     {
+      "date": "2026-10-28",
+      "top_repo": "smithjohn78390/tongjiang-lab",
+      "top_stars": 517,
+      "total_stars": 2093,
+      "top_repo_desc": "Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app",
+      "top_repo_lang": "HTML"
+    },
+    {
       "date": "2026-10-27",
       "top_repo": "DLSS-5-Swaper-New/.github",
       "top_stars": 688,
@@ -74,6 +82,14 @@
     }
   ],
   "weekly": [
+    {
+      "date": "2026-10-28",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 493032,
+      "total_stars": 3793910,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
     {
       "date": "2026-10-27",
       "top_repo": "public-apis/public-apis",
@@ -149,6 +165,14 @@
   ],
   "monthly": [
     {
+      "date": "2026-10-28",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 493032,
+      "total_stars": 3793910,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
       "date": "2026-10-27",
       "top_repo": "public-apis/public-apis",
       "top_stars": 492720,
@@ -184,6 +208,15 @@
   "languages": {
     "python": [
       {
+        "date": "2026-10-28",
+        "top_repo": "Gathin23/cleanyourtv",
+        "top_stars": 43895,
+        "total_stars": 126010,
+        "top_repo_desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "top_repo_lang": "Python",
+        "language": "python"
+      },
+      {
         "date": "2026-10-27",
         "top_repo": "Gathin23/cleanyourtv",
         "top_stars": 41876,
@@ -212,6 +245,15 @@
       }
     ],
     "javascript": [
+      {
+        "date": "2026-10-28",
+        "top_repo": "wheresryan22/anatomy",
+        "top_stars": 22128,
+        "total_stars": 56250,
+        "top_repo_desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+        "top_repo_lang": "JavaScript",
+        "language": "javascript"
+      },
       {
         "date": "2026-10-27",
         "top_repo": "wheresryan22/anatomy",
@@ -242,6 +284,15 @@
     ],
     "typescript": [
       {
+        "date": "2026-10-28",
+        "top_repo": "KKKKhazix/AIHOT",
+        "top_stars": 8818,
+        "total_stars": 42387,
+        "top_repo_desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+        "top_repo_lang": "TypeScript",
+        "language": "typescript"
+      },
+      {
         "date": "2026-10-27",
         "top_repo": "KKKKhazix/AIHOT",
         "top_stars": 8733,
@@ -270,6 +321,15 @@
       }
     ],
     "rust": [
+      {
+        "date": "2026-10-28",
+        "top_repo": "storytold/photocraft",
+        "top_stars": 74427,
+        "total_stars": 185640,
+        "top_repo_desc": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+        "top_repo_lang": "Rust",
+        "language": "rust"
+      },
       {
         "date": "2026-10-27",
         "top_repo": "storytold/photocraft",
@@ -300,6 +360,15 @@
     ],
     "go": [
       {
+        "date": "2026-10-28",
+        "top_repo": "net-merge/net-merge",
+        "top_stars": 2557,
+        "total_stars": 13518,
+        "top_repo_desc": "Use all your internet connections at once on Windows, macOS, Linux and Android: per-connection load balancing over Wi-Fi, Ethernet, mobile data and phone tethers",
+        "top_repo_lang": "Go",
+        "language": "go"
+      },
+      {
         "date": "2026-10-27",
         "top_repo": "rohit267/net-merge",
         "top_stars": 2458,
@@ -329,6 +398,15 @@
     ],
     "java": [
       {
+        "date": "2026-10-28",
+        "top_repo": "simbasjungles/free-my-tv",
+        "top_stars": 5238,
+        "total_stars": 12910,
+        "top_repo_desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+        "top_repo_lang": "Java",
+        "language": "java"
+      },
+      {
         "date": "2026-10-27",
         "top_repo": "simbasjungles/free-my-tv",
         "top_stars": 5056,
@@ -357,6 +435,15 @@
       }
     ],
     "c++": [
+      {
+        "date": "2026-10-28",
+        "top_repo": "deadinside28/bloodborne_pc",
+        "top_stars": 3707,
+        "total_stars": 17919,
+        "top_repo_desc": "",
+        "top_repo_lang": "C++",
+        "language": "c++"
+      },
       {
         "date": "2026-10-27",
         "top_repo": "deadinside28/bloodborne_pc",
