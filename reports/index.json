@@ -1,6 +1,14 @@
 {
   "daily": [
     {
+      "date": "2026-10-30",
+      "top_repo": "kevinraymond/florilegium",
+      "top_stars": 625,
+      "total_stars": 2467,
+      "top_repo_desc": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
+      "top_repo_lang": "Lua"
+    },
+    {
       "date": "2026-10-29",
       "top_repo": "valentderah/totk-pc-recomp",
       "top_stars": 524,
@@ -90,6 +98,14 @@
     }
   ],
   "weekly": [
+    {
+      "date": "2026-10-30",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 493563,
+      "total_stars": 3809591,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
     {
       "date": "2026-10-29",
       "top_repo": "public-apis/public-apis",
@@ -181,6 +197,14 @@
   ],
   "monthly": [
     {
+      "date": "2026-10-30",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 493563,
+      "total_stars": 3809591,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
       "date": "2026-10-29",
       "top_repo": "public-apis/public-apis",
       "top_stars": 493277,
@@ -232,6 +256,15 @@
   "languages": {
     "python": [
       {
+        "date": "2026-10-30",
+        "top_repo": "Gathin23/cleanyourtv",
+        "top_stars": 46771,
+        "total_stars": 138168,
+        "top_repo_desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "top_repo_lang": "Python",
+        "language": "python"
+      },
+      {
         "date": "2026-10-29",
         "top_repo": "Gathin23/cleanyourtv",
         "top_stars": 45530,
@@ -278,6 +311,15 @@
       }
     ],
     "javascript": [
+      {
+        "date": "2026-10-30",
+        "top_repo": "wheresryan22/anatomy",
+        "top_stars": 23034,
+        "total_stars": 59715,
+        "top_repo_desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+        "top_repo_lang": "JavaScript",
+        "language": "javascript"
+      },
       {
         "date": "2026-10-29",
         "top_repo": "wheresryan22/anatomy",
@@ -326,6 +368,15 @@
     ],
     "typescript": [
       {
+        "date": "2026-10-30",
+        "top_repo": "amosblomqvist/learnharness",
+        "top_stars": 4302,
+        "total_stars": 29851,
+        "top_repo_desc": "Agent harness for learning difficult things.",
+        "top_repo_lang": "TypeScript",
+        "language": "typescript"
+      },
+      {
         "date": "2026-10-29",
         "top_repo": "CopilotKit/OpenDots",
         "top_stars": 6200,
@@ -372,6 +423,15 @@
       }
     ],
     "rust": [
+      {
+        "date": "2026-10-30",
+        "top_repo": "storytold/photocraft",
+        "top_stars": 75234,
+        "total_stars": 188645,
+        "top_repo_desc": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+        "top_repo_lang": "Rust",
+        "language": "rust"
+      },
       {
         "date": "2026-10-29",
         "top_repo": "storytold/photocraft",
@@ -420,6 +480,15 @@
     ],
     "go": [
       {
+        "date": "2026-10-30",
+        "top_repo": "net-merge/net-merge",
+        "top_stars": 2666,
+        "total_stars": 14690,
+        "top_repo_desc": "Use all your internet connections at once on Windows, macOS, Linux and Android: per-connection load balancing over Wi-Fi, Ethernet, mobile data and phone tethers",
+        "top_repo_lang": "Go",
+        "language": "go"
+      },
+      {
         "date": "2026-10-29",
         "top_repo": "net-merge/net-merge",
         "top_stars": 2629,
@@ -467,6 +536,15 @@
     ],
     "java": [
       {
+        "date": "2026-10-30",
+        "top_repo": "simbasjungles/free-my-tv",
+        "top_stars": 5489,
+        "total_stars": 13587,
+        "top_repo_desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+        "top_repo_lang": "Java",
+        "language": "java"
+      },
+      {
         "date": "2026-10-29",
         "top_repo": "simbasjungles/free-my-tv",
         "top_stars": 5394,
@@ -513,6 +591,15 @@
       }
     ],
     "c++": [
+      {
+        "date": "2026-10-30",
+        "top_repo": "deadinside28/bloodborne_pc",
+        "top_stars": 3780,
+        "total_stars": 18293,
+        "top_repo_desc": "Bloodborne (v1.09) running natively on Linux and Windows: the game's x86-64 code runs as is, GPU side translated to Vulkan; FSR 4 / DLSS, co-op (BBSC). Bring your own dump.",
+        "top_repo_lang": "C++",
+        "language": "c++"
+      },
       {
         "date": "2026-10-29",
         "top_repo": "deadinside28/bloodborne_pc",
