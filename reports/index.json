@@ -1,6 +1,14 @@
 {
   "daily": [
     {
+      "date": "2026-11-01",
+      "top_repo": "CheetahEstimate/KMS-Pico",
+      "top_stars": 401,
+      "total_stars": 3185,
+      "top_repo_desc": "Kms Pico Free 2026 - Complete standalone setup with full working installer, ready to run on your desktop.",
+      "top_repo_lang": "Other"
+    },
+    {
       "date": "2026-10-31",
       "top_repo": "deepseek-ai/dsh-superagent-prototype",
       "top_stars": 2346,
@@ -106,6 +114,14 @@
     }
   ],
   "weekly": [
+    {
+      "date": "2026-11-01",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 494618,
+      "total_stars": 3821614,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
     {
       "date": "2026-10-31",
       "top_repo": "public-apis/public-apis",
@@ -213,6 +229,14 @@
   ],
   "monthly": [
     {
+      "date": "2026-11-01",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 494618,
+      "total_stars": 3821614,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
       "date": "2026-10-31",
       "top_repo": "public-apis/public-apis",
       "top_stars": 493827,
@@ -280,6 +304,15 @@
   "languages": {
     "python": [
       {
+        "date": "2026-11-01",
+        "top_repo": "Gathin23/cleanyourtv",
+        "top_stars": 49203,
+        "total_stars": 138688,
+        "top_repo_desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "top_repo_lang": "Python",
+        "language": "python"
+      },
+      {
         "date": "2026-10-31",
         "top_repo": "Gathin23/cleanyourtv",
         "top_stars": 47937,
@@ -344,6 +377,15 @@
       }
     ],
     "javascript": [
+      {
+        "date": "2026-11-01",
+        "top_repo": "wheresryan22/anatomy",
+        "top_stars": 23774,
+        "total_stars": 65435,
+        "top_repo_desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+        "top_repo_lang": "JavaScript",
+        "language": "javascript"
+      },
       {
         "date": "2026-10-31",
         "top_repo": "wheresryan22/anatomy",
@@ -410,6 +452,15 @@
     ],
     "typescript": [
       {
+        "date": "2026-11-01",
+        "top_repo": "deepseek-ai/dsh-superagent-prototype",
+        "top_stars": 7431,
+        "total_stars": 40543,
+        "top_repo_desc": "Towards a More Autonomous Agent System",
+        "top_repo_lang": "TypeScript",
+        "language": "typescript"
+      },
+      {
         "date": "2026-10-31",
         "top_repo": "anhao/ai-pose-gallery-zh",
         "top_stars": 4674,
@@ -474,6 +525,15 @@
       }
     ],
     "rust": [
+      {
+        "date": "2026-11-01",
+        "top_repo": "storytold/wordcraft",
+        "top_stars": 16957,
+        "total_stars": 71325,
+        "top_repo_desc": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+        "top_repo_lang": "Rust",
+        "language": "rust"
+      },
       {
         "date": "2026-10-31",
         "top_repo": "storytold/wordcraft",
@@ -540,6 +600,15 @@
     ],
     "go": [
       {
+        "date": "2026-11-01",
+        "top_repo": "net-merge/net-merge",
+        "top_stars": 2767,
+        "total_stars": 15894,
+        "top_repo_desc": "Use all your internet connections at once on Windows, macOS, Linux and Android: per-connection load balancing over Wi-Fi, Ethernet, mobile data and phone tethers",
+        "top_repo_lang": "Go",
+        "language": "go"
+      },
+      {
         "date": "2026-10-31",
         "top_repo": "net-merge/net-merge",
         "top_stars": 2714,
@@ -605,6 +674,15 @@
     ],
     "java": [
       {
+        "date": "2026-11-01",
+        "top_repo": "simbasjungles/free-my-tv",
+        "top_stars": 5677,
+        "total_stars": 14276,
+        "top_repo_desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+        "top_repo_lang": "Java",
+        "language": "java"
+      },
+      {
         "date": "2026-10-31",
         "top_repo": "simbasjungles/free-my-tv",
         "top_stars": 5573,
@@ -669,6 +747,15 @@
       }
     ],
     "c++": [
+      {
+        "date": "2026-11-01",
+        "top_repo": "LoreanXavier/pt-pc",
+        "top_stars": 2346,
+        "total_stars": 16321,
+        "top_repo_desc": "Native PC port of P.T. (runs from your own PS4 game files)",
+        "top_repo_lang": "C++",
+        "language": "c++"
+      },
       {
         "date": "2026-10-31",
         "top_repo": "deadinside28/bloodborne_pc",
