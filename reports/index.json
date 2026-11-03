@@ -1,6 +1,14 @@
 {
   "daily": [
     {
+      "date": "2026-11-02",
+      "top_repo": "AssassinCreator/steam-stash-value-report-card",
+      "top_stars": 613,
+      "total_stars": 4544,
+      "top_repo_desc": "Value your Steam stash in the terminal and print it as a share card: per game, per market, what sold and what sits. One Windows portable build, no account.",
+      "top_repo_lang": "Python"
+    },
+    {
       "date": "2026-11-01",
       "top_repo": "CheetahEstimate/KMS-Pico",
       "top_stars": 401,
@@ -114,6 +122,14 @@
     }
   ],
   "weekly": [
+    {
+      "date": "2026-11-02",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 495563,
+      "total_stars": 3829895,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
     {
       "date": "2026-11-01",
       "top_repo": "public-apis/public-apis",
@@ -229,6 +245,14 @@
   ],
   "monthly": [
     {
+      "date": "2026-11-02",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 495563,
+      "total_stars": 3829895,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
       "date": "2026-11-01",
       "top_repo": "public-apis/public-apis",
       "top_stars": 494618,
@@ -304,6 +328,15 @@
   "languages": {
     "python": [
       {
+        "date": "2026-11-02",
+        "top_repo": "Gathin23/cleanyourtv",
+        "top_stars": 50521,
+        "total_stars": 142569,
+        "top_repo_desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "top_repo_lang": "Python",
+        "language": "python"
+      },
+      {
         "date": "2026-11-01",
         "top_repo": "Gathin23/cleanyourtv",
         "top_stars": 49203,
@@ -377,6 +410,15 @@
       }
     ],
     "javascript": [
+      {
+        "date": "2026-11-02",
+        "top_repo": "wheresryan22/anatomy",
+        "top_stars": 24157,
+        "total_stars": 67186,
+        "top_repo_desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+        "top_repo_lang": "JavaScript",
+        "language": "javascript"
+      },
       {
         "date": "2026-11-01",
         "top_repo": "wheresryan22/anatomy",
@@ -452,6 +494,15 @@
     ],
     "typescript": [
       {
+        "date": "2026-11-02",
+        "top_repo": "deepseek-ai/dsh-superagent-prototype",
+        "top_stars": 13768,
+        "total_stars": 49935,
+        "top_repo_desc": "Towards a More Autonomous Agent System",
+        "top_repo_lang": "TypeScript",
+        "language": "typescript"
+      },
+      {
         "date": "2026-11-01",
         "top_repo": "deepseek-ai/dsh-superagent-prototype",
         "top_stars": 7431,
@@ -525,6 +576,15 @@
       }
     ],
     "rust": [
+      {
+        "date": "2026-11-02",
+        "top_repo": "storytold/wordcraft",
+        "top_stars": 17093,
+        "total_stars": 73110,
+        "top_repo_desc": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+        "top_repo_lang": "Rust",
+        "language": "rust"
+      },
       {
         "date": "2026-11-01",
         "top_repo": "storytold/wordcraft",
@@ -600,6 +660,15 @@
     ],
     "go": [
       {
+        "date": "2026-11-02",
+        "top_repo": "net-merge/net-merge",
+        "top_stars": 2817,
+        "total_stars": 16088,
+        "top_repo_desc": "Use all your internet connections at once on Windows, macOS, Linux and Android: per-connection load balancing over Wi-Fi, Ethernet, mobile data and phone tethers",
+        "top_repo_lang": "Go",
+        "language": "go"
+      },
+      {
         "date": "2026-11-01",
         "top_repo": "net-merge/net-merge",
         "top_stars": 2767,
@@ -674,6 +743,15 @@
     ],
     "java": [
       {
+        "date": "2026-11-02",
+        "top_repo": "simbasjungles/free-my-tv",
+        "top_stars": 5770,
+        "total_stars": 14529,
+        "top_repo_desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+        "top_repo_lang": "Java",
+        "language": "java"
+      },
+      {
         "date": "2026-11-01",
         "top_repo": "simbasjungles/free-my-tv",
         "top_stars": 5677,
@@ -747,6 +825,15 @@
       }
     ],
     "c++": [
+      {
+        "date": "2026-11-02",
+        "top_repo": "Djihads80/Eglantine",
+        "top_stars": 2566,
+        "total_stars": 16479,
+        "top_repo_desc": "VERY experimental Nintendo Switch 2 emulator",
+        "top_repo_lang": "C++",
+        "language": "c++"
+      },
       {
         "date": "2026-11-01",
         "top_repo": "LoreanXavier/pt-pc",
