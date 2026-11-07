@@ -1,6 +1,14 @@
 {
   "daily": [
     {
+      "date": "2026-11-06",
+      "top_repo": "JenkinWoo/sheeridVerify",
+      "top_stars": 782,
+      "total_stars": 3707,
+      "top_repo_desc": "",
+      "top_repo_lang": "JavaScript"
+    },
+    {
       "date": "2026-11-05",
       "top_repo": "AtomIllusionistDwell/watson-username-footprint-finder",
       "top_stars": 429,
@@ -146,6 +154,14 @@
     }
   ],
   "weekly": [
+    {
+      "date": "2026-11-06",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 496762,
+      "total_stars": 3908504,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
     {
       "date": "2026-11-05",
       "top_repo": "public-apis/public-apis",
@@ -293,6 +309,14 @@
   ],
   "monthly": [
     {
+      "date": "2026-11-06",
+      "top_repo": "public-apis/public-apis",
+      "top_stars": 496762,
+      "total_stars": 3908504,
+      "top_repo_desc": "A collective list of free APIs",
+      "top_repo_lang": "Python"
+    },
+    {
       "date": "2026-11-05",
       "top_repo": "public-apis/public-apis",
       "top_stars": 496433,
@@ -399,6 +423,15 @@
   ],
   "languages": {
     "python": [
+      {
+        "date": "2026-11-06",
+        "top_repo": "Gathin23/cleanyourtv",
+        "top_stars": 53328,
+        "total_stars": 128979,
+        "top_repo_desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "top_repo_lang": "Python",
+        "language": "python"
+      },
       {
         "date": "2026-11-05",
         "top_repo": "Gathin23/cleanyourtv",
@@ -510,6 +543,15 @@
     ],
     "javascript": [
       {
+        "date": "2026-11-06",
+        "top_repo": "wheresryan22/anatomy",
+        "top_stars": 25560,
+        "total_stars": 75506,
+        "top_repo_desc": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+        "top_repo_lang": "JavaScript",
+        "language": "javascript"
+      },
+      {
         "date": "2026-11-05",
         "top_repo": "wheresryan22/anatomy",
         "top_stars": 25260,
@@ -619,6 +661,15 @@
       }
     ],
     "typescript": [
+      {
+        "date": "2026-11-06",
+        "top_repo": "deepseek-ai/dsh-superagent-prototype",
+        "top_stars": 20260,
+        "total_stars": 57111,
+        "top_repo_desc": "Towards a More Autonomous Agent System",
+        "top_repo_lang": "TypeScript",
+        "language": "typescript"
+      },
       {
         "date": "2026-11-05",
         "top_repo": "deepseek-ai/dsh-superagent-prototype",
@@ -730,6 +781,15 @@
     ],
     "rust": [
       {
+        "date": "2026-11-06",
+        "top_repo": "storytold/craft-anything",
+        "top_stars": 18148,
+        "total_stars": 87708,
+        "top_repo_desc": "Craft Anything: understand how any software works, and craft your own.",
+        "top_repo_lang": "Rust",
+        "language": "rust"
+      },
+      {
         "date": "2026-11-05",
         "top_repo": "storytold/wordcraft",
         "top_stars": 17412,
@@ -839,6 +899,15 @@
       }
     ],
     "go": [
+      {
+        "date": "2026-11-06",
+        "top_repo": "net-merge/net-merge",
+        "top_stars": 2931,
+        "total_stars": 13193,
+        "top_repo_desc": "Use all your internet connections at once on Windows, macOS, Linux and Android: per-connection load balancing over Wi-Fi, Ethernet, mobile data and phone tethers",
+        "top_repo_lang": "Go",
+        "language": "go"
+      },
       {
         "date": "2026-11-05",
         "top_repo": "net-merge/net-merge",
@@ -950,6 +1019,15 @@
     ],
     "java": [
       {
+        "date": "2026-11-06",
+        "top_repo": "simbasjungles/free-my-tv",
+        "top_stars": 5979,
+        "total_stars": 14152,
+        "top_repo_desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+        "top_repo_lang": "Java",
+        "language": "java"
+      },
+      {
         "date": "2026-11-05",
         "top_repo": "simbasjungles/free-my-tv",
         "top_stars": 5932,
@@ -1059,6 +1137,15 @@
       }
     ],
     "c++": [
+      {
+        "date": "2026-11-06",
+        "top_repo": "Djihads80/Eglantine",
+        "top_stars": 4897,
+        "total_stars": 22417,
+        "top_repo_desc": "VERY experimental Nintendo Switch 2 emulator",
+        "top_repo_lang": "C++",
+        "language": "c++"
+      },
       {
         "date": "2026-11-05",
         "top_repo": "Djihads80/Eglantine",

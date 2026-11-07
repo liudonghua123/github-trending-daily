@@ -1,0 +1,115 @@
+# 🌟 GitHub Monthly Top 10 — 2026-11-06
+
+> Generated at 2026-11-07 01:28 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
+> Criteria: most starred repos (stars>=100) with pushes in the last 30 days
+
+## 📊 Snapshot
+
+| Metric | Value |
+| --- | --- |
+| Date | 2026-11-06 |
+| Repos listed | 10 |
+| Combined stars | ⭐ 3,908,504 |
+| Hottest repo | **public-apis/public-apis** (⭐ 496,762) |
+| Dominant language | **TypeScript** |
+
+## 🏆 Top 10 at a glance
+
+| # | Repository | Stars | Forks | Language | Verdict |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | ⭐ 496,762 | 🍴 55,511 | Python | Legendary 👑 |
+| 2 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | ⭐ 458,674 | 🍴 48,134 | TypeScript | Legendary 👑 |
+| 3 | [morluto/rea](https://github.com/morluto/rea) | ⭐ 438,090 | 🍴 108,538 | TypeScript | Legendary 👑 |
+| 4 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | ⭐ 401,147 | 🍴 67,257 | Python | Legendary 👑 |
+| 5 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | ⭐ 394,074 | 🍴 82,812 | TypeScript | Legendary 👑 |
+| 6 | [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | ⭐ 371,418 | 🍴 45,356 | TypeScript | Legendary 👑 |
+| 7 | [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | ⭐ 364,049 | 🍴 85,321 | Other | Legendary 👑 |
+| 8 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | ⭐ 334,532 | 🍴 15,753 | Other | Legendary 👑 |
+| 9 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | ⭐ 333,019 | 🍴 29,057 | Python | Legendary 👑 |
+| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | ⭐ 316,739 | 🍴 26,498 | Shell | Legendary 👑 |
+
+## 🔍 Repo details
+
+### 1. [public-apis/public-apis](https://github.com/public-apis/public-apis)
+
+- ⭐ Stars: **496,762** | 🍴 Forks: **55,511** | 👀 Watchers: **0** | 🐛 Open issues: **2,595**
+- 🧠 Language: **Python** | Owner: Organization | Created: 2016-03-20 | Last push: 2026-11-05
+- 🏷️ Topics: api, apis, dataset, development, free, list
+
+> A collective list of free APIs
+
+### 2. [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
+
+- ⭐ Stars: **458,674** | 🍴 Forks: **48,134** | 👀 Watchers: **0** | 🐛 Open issues: **181**
+- 🧠 Language: **TypeScript** | Owner: Organization | Created: 2014-12-24 | Last push: 2026-11-06
+- 🏷️ Topics: careers, certification, community, curriculum, d3, education
+
+> freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
+
+### 3. [morluto/rea](https://github.com/morluto/rea)
+
+- ⭐ Stars: **438,090** | 🍴 Forks: **108,538** | 👀 Watchers: **0** | 🐛 Open issues: **1,605**
+- 🧠 Language: **TypeScript** | Owner: User | Created: 2026-04-14 | Last push: 2026-11-06
+- 🏷️ Topics: agent-skills, ai, android, claude-code, cli, cpp
+
+> Reverse engineer anything with agents, from app behavior down to native binaries.
+
+### 4. [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
+
+- ⭐ Stars: **401,147** | 🍴 Forks: **67,257** | 👀 Watchers: **0** | 🐛 Open issues: **103**
+- 🧠 Language: **Python** | Owner: Organization | Created: 2013-10-11 | Last push: 2026-11-01
+- 🏷️ Topics: books, education, hacktoberfest, list, resource
+
+> :books: Freely available programming books
+
+### 5. [openclaw/openclaw](https://github.com/openclaw/openclaw)
+
+- ⭐ Stars: **394,074** | 🍴 Forks: **82,812** | 👀 Watchers: **0** | 🐛 Open issues: **7,649**
+- 🧠 Language: **TypeScript** | Owner: Organization | Created: 2025-11-24 | Last push: 2026-11-07
+- 🏷️ Topics: ai, assistant, crustacean, molty, openclaw, own-your-data
+
+> The AI that really does things. Any OS. Any Platform. The lobster way. 🦞
+
+### 6. [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)
+
+- ⭐ Stars: **371,418** | 🍴 Forks: **45,356** | 👀 Watchers: **0** | 🐛 Open issues: **3**
+- 🧠 Language: **TypeScript** | Owner: User | Created: 2017-03-15 | Last push: 2026-11-06
+- 🏷️ Topics: angular-roadmap, backend-roadmap, blockchain-roadmap, computer-science, dba-roadmap, developer-roadmap
+
+> Interactive roadmaps, guides and other educational content to help developers grow in their careers.
+
+### 7. [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
+
+- ⭐ Stars: **364,049** | 🍴 Forks: **85,321** | 👀 Watchers: **0** | 🐛 Open issues: **132**
+- 🧠 Language: **Other** | Owner: User | Created: 2016-06-06 | Last push: 2026-11-06
+- 🏷️ Topics: algorithm, algorithms, coding-interview, coding-interviews, computer-science, data-structures
+
+> A complete computer science study plan to become a software engineer.
+
+### 8. [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+
+- ⭐ Stars: **334,532** | 🍴 Forks: **15,753** | 👀 Watchers: **0** | 🐛 Open issues: **0**
+- 🧠 Language: **Other** | Owner: Organization | Created: 2015-06-01 | Last push: 2026-11-06
+- 🏷️ Topics: awesome, awesome-list, cloud, free-software, hosting, privacy
+
+> A list of Free Software network services and web applications which can be hosted on your own servers
+
+### 9. [vinta/awesome-python](https://github.com/vinta/awesome-python)
+
+- ⭐ Stars: **333,019** | 🍴 Forks: **29,057** | 👀 Watchers: **0** | 🐛 Open issues: **19**
+- 🧠 Language: **Python** | Owner: User | Created: 2014-06-27 | Last push: 2026-11-06
+- 🏷️ Topics: awesome, awesome-list, python, python-frameworks, python-libraries, python-tools
+
+> The definitive list that answers "I want to do X in Python, which tool should I use?"
+
+### 10. [mattpocock/skills](https://github.com/mattpocock/skills)
+
+- ⭐ Stars: **316,739** | 🍴 Forks: **26,498** | 👀 Watchers: **0** | 🐛 Open issues: **217**
+- 🧠 Language: **Shell** | Owner: User | Created: 2026-02-03 | Last push: 2026-11-05
+- 🏷️ Topics: -
+
+> Skills for Real Engineers. Straight from my .agents directory.
+
+---
+
+*Auto-generated by [github-trending-daily](https://github.com/liudonghua123/github-trending-daily).*
