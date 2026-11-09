@@ -1,6 +1,14 @@
 {
   "daily": [
     {
+      "date": "2026-11-08",
+      "top_repo": "PaladinSmash84/aida-64-extreme",
+      "top_stars": 402,
+      "total_stars": 4010,
+      "top_repo_desc": "AI Prompt Engineering Toolkit Aida 64 Extreme, pre-configured environment for advanced LLM training and deployment in isolated local...",
+      "top_repo_lang": "Other"
+    },
+    {
       "date": "2026-11-07",
       "top_repo": "Th0rgal/satmux",
       "top_stars": 442,
@@ -162,6 +170,14 @@
     }
   ],
   "weekly": [
+    {
+      "date": "2026-11-08",
+      "top_repo": "codecrafters-io/build-your-own-x",
+      "top_stars": 561095,
+      "total_stars": 4160891,
+      "top_repo_desc": "Master programming by recreating your favorite technologies from scratch.",
+      "top_repo_lang": "Markdown"
+    },
     {
       "date": "2026-11-07",
       "top_repo": "public-apis/public-apis",
@@ -325,6 +341,14 @@
   ],
   "monthly": [
     {
+      "date": "2026-11-08",
+      "top_repo": "codecrafters-io/build-your-own-x",
+      "top_stars": 561095,
+      "total_stars": 4160892,
+      "top_repo_desc": "Master programming by recreating your favorite technologies from scratch.",
+      "top_repo_lang": "Markdown"
+    },
+    {
       "date": "2026-11-07",
       "top_repo": "public-apis/public-apis",
       "top_stars": 497022,
@@ -447,6 +471,15 @@
   ],
   "languages": {
     "python": [
+      {
+        "date": "2026-11-08",
+        "top_repo": "Gathin23/cleanyourtv",
+        "top_stars": 54773,
+        "total_stars": 133281,
+        "top_repo_desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "top_repo_lang": "Python",
+        "language": "python"
+      },
       {
         "date": "2026-11-07",
         "top_repo": "Gathin23/cleanyourtv",
@@ -576,6 +609,15 @@
     ],
     "javascript": [
       {
+        "date": "2026-11-08",
+        "top_repo": "heydamir/unslop",
+        "top_stars": 12012,
+        "total_stars": 49252,
+        "top_repo_desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+        "top_repo_lang": "JavaScript",
+        "language": "javascript"
+      },
+      {
         "date": "2026-11-07",
         "top_repo": "wheresryan22/anatomy",
         "top_stars": 25776,
@@ -703,6 +745,15 @@
       }
     ],
     "typescript": [
+      {
+        "date": "2026-11-08",
+        "top_repo": "deepseek-ai/dsh-superagent-prototype",
+        "top_stars": 21207,
+        "total_stars": 63039,
+        "top_repo_desc": "Towards a More Autonomous Agent System",
+        "top_repo_lang": "TypeScript",
+        "language": "typescript"
+      },
       {
         "date": "2026-11-07",
         "top_repo": "deepseek-ai/dsh-superagent-prototype",
@@ -832,6 +883,15 @@
     ],
     "rust": [
       {
+        "date": "2026-11-08",
+        "top_repo": "storytold/craft-anything",
+        "top_stars": 22681,
+        "total_stars": 52937,
+        "top_repo_desc": "Craft Anything: understand how any software works, and craft your own.",
+        "top_repo_lang": "Rust",
+        "language": "rust"
+      },
+      {
         "date": "2026-11-07",
         "top_repo": "storytold/craft-anything",
         "top_stars": 20636,
@@ -959,6 +1019,15 @@
       }
     ],
     "go": [
+      {
+        "date": "2026-11-08",
+        "top_repo": "net-merge/net-merge",
+        "top_stars": 2979,
+        "total_stars": 12788,
+        "top_repo_desc": "Use all your internet connections at once on Windows, macOS, Linux and Android: per-connection load balancing over Wi-Fi, Ethernet, mobile data and phone tethers",
+        "top_repo_lang": "Go",
+        "language": "go"
+      },
       {
         "date": "2026-11-07",
         "top_repo": "net-merge/net-merge",
@@ -1088,6 +1157,15 @@
     ],
     "java": [
       {
+        "date": "2026-11-08",
+        "top_repo": "simbasjungles/free-my-tv",
+        "top_stars": 6134,
+        "total_stars": 14107,
+        "top_repo_desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+        "top_repo_lang": "Java",
+        "language": "java"
+      },
+      {
         "date": "2026-11-07",
         "top_repo": "simbasjungles/free-my-tv",
         "top_stars": 6034,
@@ -1215,6 +1293,15 @@
       }
     ],
     "c++": [
+      {
+        "date": "2026-11-08",
+        "top_repo": "zortos293/Lichii",
+        "top_stars": 6869,
+        "total_stars": 25342,
+        "top_repo_desc": "VERY experimental Nintendo Switch 2 emulator",
+        "top_repo_lang": "C++",
+        "language": "c++"
+      },
       {
         "date": "2026-11-07",
         "top_repo": "zortos293/Lichii",
