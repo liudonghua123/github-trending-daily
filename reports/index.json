@@ -1,6 +1,14 @@
 {
   "daily": [
     {
+      "date": "2026-11-11",
+      "top_repo": "setyamickala/fastmint-fcfs-agentic",
+      "top_stars": 214,
+      "total_stars": 1137,
+      "top_repo_desc": "FCFS mint di BNB Smart Chain lewat Binance Agentic Wallet, masuk blok ±2 detik setelah jam buka.",
+      "top_repo_lang": "JavaScript"
+    },
+    {
       "date": "2026-11-10",
       "top_repo": "Kianuni/Erosion-CN",
       "top_stars": 1065,
@@ -186,6 +194,14 @@
     }
   ],
   "weekly": [
+    {
+      "date": "2026-11-11",
+      "top_repo": "codecrafters-io/build-your-own-x",
+      "top_stars": 561892,
+      "total_stars": 4174351,
+      "top_repo_desc": "Master programming by recreating your favorite technologies from scratch.",
+      "top_repo_lang": "Markdown"
+    },
     {
       "date": "2026-11-10",
       "top_repo": "codecrafters-io/build-your-own-x",
@@ -373,6 +389,14 @@
   ],
   "monthly": [
     {
+      "date": "2026-11-11",
+      "top_repo": "codecrafters-io/build-your-own-x",
+      "top_stars": 561892,
+      "total_stars": 4174351,
+      "top_repo_desc": "Master programming by recreating your favorite technologies from scratch.",
+      "top_repo_lang": "Markdown"
+    },
+    {
       "date": "2026-11-10",
       "top_repo": "codecrafters-io/build-your-own-x",
       "top_stars": 561618,
@@ -519,6 +543,15 @@
   ],
   "languages": {
     "python": [
+      {
+        "date": "2026-11-11",
+        "top_repo": "Gathin23/cleanyourtv",
+        "top_stars": 56582,
+        "total_stars": 141867,
+        "top_repo_desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "top_repo_lang": "Python",
+        "language": "python"
+      },
       {
         "date": "2026-11-10",
         "top_repo": "Gathin23/cleanyourtv",
@@ -675,6 +708,15 @@
     ],
     "javascript": [
       {
+        "date": "2026-11-11",
+        "top_repo": "heydamir/unslop",
+        "top_stars": 14585,
+        "total_stars": 57639,
+        "top_repo_desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+        "top_repo_lang": "JavaScript",
+        "language": "javascript"
+      },
+      {
         "date": "2026-11-10",
         "top_repo": "heydamir/unslop",
         "top_stars": 13766,
@@ -829,6 +871,15 @@
       }
     ],
     "typescript": [
+      {
+        "date": "2026-11-11",
+        "top_repo": "deepseek-ai/dsh-superagent-prototype",
+        "top_stars": 22518,
+        "total_stars": 69704,
+        "top_repo_desc": "Towards a More Autonomous Agent System",
+        "top_repo_lang": "TypeScript",
+        "language": "typescript"
+      },
       {
         "date": "2026-11-10",
         "top_repo": "deepseek-ai/dsh-superagent-prototype",
@@ -985,6 +1036,15 @@
     ],
     "rust": [
       {
+        "date": "2026-11-11",
+        "top_repo": "storytold/craft-anything",
+        "top_stars": 28576,
+        "total_stars": 59740,
+        "top_repo_desc": "Craft Anything: understand how any software works, and craft your own.",
+        "top_repo_lang": "Rust",
+        "language": "rust"
+      },
+      {
         "date": "2026-11-10",
         "top_repo": "storytold/craft-anything",
         "top_stars": 26405,
@@ -1139,6 +1199,15 @@
       }
     ],
     "go": [
+      {
+        "date": "2026-11-11",
+        "top_repo": "Lee-xeo/Claude-Cage",
+        "top_stars": 3437,
+        "total_stars": 17587,
+        "top_repo_desc": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+        "top_repo_lang": "Go",
+        "language": "go"
+      },
       {
         "date": "2026-11-10",
         "top_repo": "net-merge/net-merge",
@@ -1295,6 +1364,15 @@
     ],
     "java": [
       {
+        "date": "2026-11-11",
+        "top_repo": "simbasjungles/free-my-tv",
+        "top_stars": 6281,
+        "total_stars": 14615,
+        "top_repo_desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+        "top_repo_lang": "Java",
+        "language": "java"
+      },
+      {
         "date": "2026-11-10",
         "top_repo": "simbasjungles/free-my-tv",
         "top_stars": 6254,
@@ -1449,6 +1527,15 @@
       }
     ],
     "c++": [
+      {
+        "date": "2026-11-11",
+        "top_repo": "zortos293/Lichii",
+        "top_stars": 8565,
+        "total_stars": 31753,
+        "top_repo_desc": "VERY experimental Nintendo Switch 2 emulator",
+        "top_repo_lang": "C++",
+        "language": "c++"
+      },
       {
         "date": "2026-11-10",
         "top_repo": "zortos293/Lichii",
