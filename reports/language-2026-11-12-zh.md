@@ -1,0 +1,115 @@
+# 🌟 GitHub C++ 语言新星榜 Top 10 — 2026-11-12
+
+> 生成时间：2026-11-13 02:17 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
+> 榜单口径：近 30 天新建的 C++ 项目中 star ≥ 10 最多
+
+## 📊 今日快照
+
+| 指标 | 数值 |
+| --- | --- |
+| 统计日期 | 2026-11-12 |
+| 上榜仓库数 | 10 |
+| 合计 Star 数 | ⭐ 31,802 |
+| 最火仓库 | **NotRexed/Hookshot** (⭐ 8,831) |
+| 主导语言 | **C++** |
+
+## 🏆 十强一览
+
+| 排名 | 仓库 | Star | Fork | 语言 | 点评 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [NotRexed/Hookshot](https://github.com/NotRexed/Hookshot) | ⭐ 8,831 | 🍴 813 | C++ | 持续升温 📈 |
+| 2 | [zortos293/Lichii](https://github.com/zortos293/Lichii) | ⭐ 8,793 | 🍴 1,409 | C++ | 持续升温 📈 |
+| 3 | [Eglantine-Community/Eglantine](https://github.com/Eglantine-Community/Eglantine) | ⭐ 5,897 | 🍴 634 | C++ | 持续升温 📈 |
+| 4 | [Supermedo/uncharted_pc](https://github.com/Supermedo/uncharted_pc) | ⭐ 2,279 | 🍴 142 | C++ | 持续升温 📈 |
+| 5 | [cutetailbud/ff-ruyijs](https://github.com/cutetailbud/ff-ruyijs) | ⭐ 1,225 | 🍴 345 | C++ | 持续升温 📈 |
+| 6 | [HayatoG/iss_pc](https://github.com/HayatoG/iss_pc) | ⭐ 1,182 | 🍴 87 | C++ | 持续升温 📈 |
+| 7 | [OverkillLabs3/driveclub-recomp](https://github.com/OverkillLabs3/driveclub-recomp) | ⭐ 1,018 | 🍴 51 | C++ | 持续升温 📈 |
+| 8 | [apex-compute/ANR](https://github.com/apex-compute/ANR) | ⭐ 998 | 🍴 9 | C++ | 新星萌芽 🌱 |
+| 9 | [bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port](https://github.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port) | ⭐ 810 | 🍴 27 | C++ | 新星萌芽 🌱 |
+| 10 | [nace-ai/kapitsa](https://github.com/nace-ai/kapitsa) | ⭐ 769 | 🍴 103 | C++ | 新星萌芽 🌱 |
+
+## 🔍 仓库详情
+
+### 1. [NotRexed/Hookshot](https://github.com/NotRexed/Hookshot)
+
+- ⭐ Star 数：**8,831** | 🍴 Fork 数：**813** | 👀 关注数：**0** | 🐛 未关闭 issue：**392**
+- 🧠 主要语言：**C++** | 归属：User | 创建：2026-11-05 | 最近推送：2026-11-13
+- 🏷️ 话题标签：-
+
+> A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake
+
+### 2. [zortos293/Lichii](https://github.com/zortos293/Lichii)
+
+- ⭐ Star 数：**8,793** | 🍴 Fork 数：**1,409** | 👀 关注数：**0** | 🐛 未关闭 issue：**724**
+- 🧠 主要语言：**C++** | 归属：User | 创建：2026-10-31 | 最近推送：2026-11-13
+- 🏷️ 话题标签：-
+
+> VERY experimental Nintendo Switch 2 emulator
+
+### 3. [Eglantine-Community/Eglantine](https://github.com/Eglantine-Community/Eglantine)
+
+- ⭐ Star 数：**5,897** | 🍴 Fork 数：**634** | 👀 关注数：**0** | 🐛 未关闭 issue：**373**
+- 🧠 主要语言：**C++** | 归属：Organization | 创建：2026-10-29 | 最近推送：2026-11-13
+- 🏷️ 话题标签：-
+
+> VERY experimental Nintendo Switch 2 emulator
+
+### 4. [Supermedo/uncharted_pc](https://github.com/Supermedo/uncharted_pc)
+
+- ⭐ Star 数：**2,279** | 🍴 Fork 数：**142** | 👀 关注数：**0** | 🐛 未关闭 issue：**485**
+- 🧠 主要语言：**C++** | 归属：User | 创建：2026-10-15 | 最近推送：2026-11-07
+- 🏷️ 话题标签：-
+
+> Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo
+
+### 5. [cutetailbud/ff-ruyijs](https://github.com/cutetailbud/ff-ruyijs)
+
+- ⭐ Star 数：**1,225** | 🍴 Fork 数：**345** | 👀 关注数：**0** | 🐛 未关闭 issue：**12**
+- 🧠 主要语言：**C++** | 归属：User | 创建：2026-10-28 | 最近推送：2026-11-11
+- 🏷️ 话题标签：anti-bot, automation, firefox, headless-browser, javascript, python
+
+> This is a lightweight, headless browser purpose-built for AI agents (such as Codex or Claude Code) to perform browser automation tasks; it is designed to navigate through various web protection systems, login processes, and reverse-engineering scenarios
+
+### 6. [HayatoG/iss_pc](https://github.com/HayatoG/iss_pc)
+
+- ⭐ Star 数：**1,182** | 🍴 Fork 数：**87** | 👀 关注数：**0** | 🐛 未关闭 issue：**392**
+- 🧠 主要语言：**C++** | 归属：User | 创建：2026-10-13 | 最近推送：2026-11-12
+- 🏷️ 话题标签：game-preservation, homebrew, infamous-second-son, linux, native-port, pc-port
+
+> Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.
+
+### 7. [OverkillLabs3/driveclub-recomp](https://github.com/OverkillLabs3/driveclub-recomp)
+
+- ⭐ Star 数：**1,018** | 🍴 Fork 数：**51** | 👀 关注数：**0** | 🐛 未关闭 issue：**97**
+- 🧠 主要语言：**C++** | 归属：User | 创建：2026-10-16 | 最近推送：2026-11-09
+- 🏷️ 话题标签：-
+
+> DriveClub (PS4, version 1.28) running natively on Windows
+
+### 8. [apex-compute/ANR](https://github.com/apex-compute/ANR)
+
+- ⭐ Star 数：**998** | 🍴 Fork 数：**9** | 👀 关注数：**0** | 🐛 未关闭 issue：**17**
+- 🧠 主要语言：**C++** | 归属：Organization | 创建：2026-11-11 | 最近推送：2026-11-12
+- 🏷️ 话题标签：-
+
+> Apex Neural Rendering (ANR) by Apex Compute
+
+### 9. [bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port](https://github.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port)
+
+- ⭐ Star 数：**810** | 🍴 Fork 数：**27** | 👀 关注数：**0** | 🐛 未关闭 issue：**120**
+- 🧠 主要语言：**C++** | 归属：User | 创建：2026-10-14 | 最近推送：2026-11-08
+- 🏷️ 话题标签：-
+
+> Uncharted: The Nathan Drake Collection PC port (no game files)
+
+### 10. [nace-ai/kapitsa](https://github.com/nace-ai/kapitsa)
+
+- ⭐ Star 数：**769** | 🍴 Fork 数：**103** | 👀 关注数：**0** | 🐛 未关闭 issue：**35**
+- 🧠 主要语言：**C++** | 归属：Organization | 创建：2026-10-16 | 最近推送：2026-11-13
+- 🏷️ 话题标签：apple-silicon, clover, coding-agents, decision-models, drex, drex-max
+
+> Blazing fast Apple Silicon inference engine optimized for Qwen & Nemotron. OpenAI + Anthropic API compatible. Built by folks from nace.ai
+
+---
+
+*本报告由 [github-trending-daily](https://github.com/liudonghua123/github-trending-daily) 自动生成。*

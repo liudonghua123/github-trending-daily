@@ -1,6 +1,14 @@
 {
   "daily": [
     {
+      "date": "2026-11-12",
+      "top_repo": "AIRzZ90/study-materials-fork",
+      "top_stars": 382,
+      "total_stars": 1465,
+      "top_repo_desc": "A cross-platform Tauri 2 interface and interaction practice project",
+      "top_repo_lang": "TypeScript"
+    },
+    {
       "date": "2026-11-11",
       "top_repo": "setyamickala/fastmint-fcfs-agentic",
       "top_stars": 214,
@@ -194,6 +202,14 @@
     }
   ],
   "weekly": [
+    {
+      "date": "2026-11-12",
+      "top_repo": "codecrafters-io/build-your-own-x",
+      "top_stars": 562152,
+      "total_stars": 4178174,
+      "top_repo_desc": "Master programming by recreating your favorite technologies from scratch.",
+      "top_repo_lang": "Markdown"
+    },
     {
       "date": "2026-11-11",
       "top_repo": "codecrafters-io/build-your-own-x",
@@ -389,6 +405,14 @@
   ],
   "monthly": [
     {
+      "date": "2026-11-12",
+      "top_repo": "codecrafters-io/build-your-own-x",
+      "top_stars": 562152,
+      "total_stars": 4178174,
+      "top_repo_desc": "Master programming by recreating your favorite technologies from scratch.",
+      "top_repo_lang": "Markdown"
+    },
+    {
       "date": "2026-11-11",
       "top_repo": "codecrafters-io/build-your-own-x",
       "top_stars": 561892,
@@ -543,6 +567,15 @@
   ],
   "languages": {
     "python": [
+      {
+        "date": "2026-11-12",
+        "top_repo": "Gathin23/cleanyourtv",
+        "top_stars": 57044,
+        "total_stars": 143981,
+        "top_repo_desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "top_repo_lang": "Python",
+        "language": "python"
+      },
       {
         "date": "2026-11-11",
         "top_repo": "Gathin23/cleanyourtv",
@@ -708,6 +741,15 @@
     ],
     "javascript": [
       {
+        "date": "2026-11-12",
+        "top_repo": "heydamir/unslop",
+        "top_stars": 15166,
+        "total_stars": 59711,
+        "top_repo_desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+        "top_repo_lang": "JavaScript",
+        "language": "javascript"
+      },
+      {
         "date": "2026-11-11",
         "top_repo": "heydamir/unslop",
         "top_stars": 14585,
@@ -871,6 +913,15 @@
       }
     ],
     "typescript": [
+      {
+        "date": "2026-11-12",
+        "top_repo": "deepseek-ai/dsh-superagent-prototype",
+        "top_stars": 22760,
+        "total_stars": 71255,
+        "top_repo_desc": "Towards a More Autonomous Agent System",
+        "top_repo_lang": "TypeScript",
+        "language": "typescript"
+      },
       {
         "date": "2026-11-11",
         "top_repo": "deepseek-ai/dsh-superagent-prototype",
@@ -1036,6 +1087,15 @@
     ],
     "rust": [
       {
+        "date": "2026-11-12",
+        "top_repo": "storytold/craft-anything",
+        "top_stars": 30004,
+        "total_stars": 63445,
+        "top_repo_desc": "Craft Anything: understand how any software works, and craft your own.",
+        "top_repo_lang": "Rust",
+        "language": "rust"
+      },
+      {
         "date": "2026-11-11",
         "top_repo": "storytold/craft-anything",
         "top_stars": 28576,
@@ -1199,6 +1259,15 @@
       }
     ],
     "go": [
+      {
+        "date": "2026-11-12",
+        "top_repo": "Lee-xeo/Claude-Cage",
+        "top_stars": 4838,
+        "total_stars": 17076,
+        "top_repo_desc": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+        "top_repo_lang": "Go",
+        "language": "go"
+      },
       {
         "date": "2026-11-11",
         "top_repo": "Lee-xeo/Claude-Cage",
@@ -1364,6 +1433,15 @@
     ],
     "java": [
       {
+        "date": "2026-11-12",
+        "top_repo": "simbasjungles/free-my-tv",
+        "top_stars": 6318,
+        "total_stars": 14825,
+        "top_repo_desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+        "top_repo_lang": "Java",
+        "language": "java"
+      },
+      {
         "date": "2026-11-11",
         "top_repo": "simbasjungles/free-my-tv",
         "top_stars": 6281,
@@ -1527,6 +1605,15 @@
       }
     ],
     "c++": [
+      {
+        "date": "2026-11-12",
+        "top_repo": "NotRexed/Hookshot",
+        "top_stars": 8831,
+        "total_stars": 31802,
+        "top_repo_desc": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+        "top_repo_lang": "C++",
+        "language": "c++"
+      },
       {
         "date": "2026-11-11",
         "top_repo": "zortos293/Lichii",
