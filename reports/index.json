@@ -1,6 +1,14 @@
 {
   "daily": [
     {
+      "date": "2026-11-18",
+      "top_repo": "sfewer-r7/CVE-2026-123007",
+      "top_stars": 144,
+      "total_stars": 882,
+      "top_repo_desc": "Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2.",
+      "top_repo_lang": "Python"
+    },
+    {
       "date": "2026-11-17",
       "top_repo": "gylive/google-ultra",
       "top_stars": 1800,
@@ -242,6 +250,14 @@
     }
   ],
   "weekly": [
+    {
+      "date": "2026-11-18",
+      "top_repo": "codecrafters-io/build-your-own-x",
+      "top_stars": 563718,
+      "total_stars": 4162160,
+      "top_repo_desc": "Master programming by recreating your favorite technologies from scratch.",
+      "top_repo_lang": "Markdown"
+    },
     {
       "date": "2026-11-17",
       "top_repo": "codecrafters-io/build-your-own-x",
@@ -485,6 +501,14 @@
   ],
   "monthly": [
     {
+      "date": "2026-11-18",
+      "top_repo": "codecrafters-io/build-your-own-x",
+      "top_stars": 563718,
+      "total_stars": 4199157,
+      "top_repo_desc": "Master programming by recreating your favorite technologies from scratch.",
+      "top_repo_lang": "Markdown"
+    },
+    {
       "date": "2026-11-17",
       "top_repo": "codecrafters-io/build-your-own-x",
       "top_stars": 563493,
@@ -687,6 +711,15 @@
   ],
   "languages": {
     "python": [
+      {
+        "date": "2026-11-18",
+        "top_repo": "JuneYaooo/rea-video",
+        "top_stars": 10732,
+        "total_stars": 55980,
+        "top_repo_desc": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
+        "top_repo_lang": "Python",
+        "language": "python"
+      },
       {
         "date": "2026-11-17",
         "top_repo": "JuneYaooo/rea-video",
@@ -906,6 +939,15 @@
     ],
     "javascript": [
       {
+        "date": "2026-11-18",
+        "top_repo": "heydamir/unslop",
+        "top_stars": 18329,
+        "total_stars": 55702,
+        "top_repo_desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+        "top_repo_lang": "JavaScript",
+        "language": "javascript"
+      },
+      {
         "date": "2026-11-17",
         "top_repo": "heydamir/unslop",
         "top_stars": 17836,
@@ -1123,6 +1165,15 @@
       }
     ],
     "typescript": [
+      {
+        "date": "2026-11-18",
+        "top_repo": "deepseek-ai/dsh-superagent-prototype",
+        "top_stars": 23842,
+        "total_stars": 76295,
+        "top_repo_desc": "Towards a More Autonomous Agent System",
+        "top_repo_lang": "TypeScript",
+        "language": "typescript"
+      },
       {
         "date": "2026-11-17",
         "top_repo": "deepseek-ai/dsh-superagent-prototype",
@@ -1342,6 +1393,15 @@
     ],
     "rust": [
       {
+        "date": "2026-11-18",
+        "top_repo": "storytold/craft-anything",
+        "top_stars": 37199,
+        "total_stars": 95303,
+        "top_repo_desc": "Craft Anything: understand how any software works, and craft your own.",
+        "top_repo_lang": "Rust",
+        "language": "rust"
+      },
+      {
         "date": "2026-11-17",
         "top_repo": "storytold/craft-anything",
         "top_stars": 35879,
@@ -1559,6 +1619,15 @@
       }
     ],
     "go": [
+      {
+        "date": "2026-11-18",
+        "top_repo": "Lee-xeo/Claude-Cage",
+        "top_stars": 6657,
+        "total_stars": 20938,
+        "top_repo_desc": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+        "top_repo_lang": "Go",
+        "language": "go"
+      },
       {
         "date": "2026-11-17",
         "top_repo": "Lee-xeo/Claude-Cage",
@@ -1778,6 +1847,15 @@
     ],
     "java": [
       {
+        "date": "2026-11-18",
+        "top_repo": "simbasjungles/free-my-tv",
+        "top_stars": 6534,
+        "total_stars": 11401,
+        "top_repo_desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+        "top_repo_lang": "Java",
+        "language": "java"
+      },
+      {
         "date": "2026-11-17",
         "top_repo": "simbasjungles/free-my-tv",
         "top_stars": 6505,
@@ -1995,6 +2073,15 @@
       }
     ],
     "c++": [
+      {
+        "date": "2026-11-18",
+        "top_repo": "zortos293/Lichii",
+        "top_stars": 9741,
+        "total_stars": 28229,
+        "top_repo_desc": "VERY experimental Nintendo Switch 2 emulator",
+        "top_repo_lang": "C++",
+        "language": "c++"
+      },
       {
         "date": "2026-11-17",
         "top_repo": "zortos293/Lichii",
