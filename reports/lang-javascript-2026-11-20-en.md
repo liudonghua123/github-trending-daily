@@ -1,0 +1,115 @@
+# 🌟 GitHub Javascript Rising Stars Top 10 — 2026-11-20
+
+> Generated at 2026-11-21 02:55 UTC · Data source: [GitHub Search API](https://docs.github.com/en/rest/search)
+> Criteria: top Javascript repos created in the last 30 days (stars>=10)
+
+## 📊 Snapshot
+
+| Metric | Value |
+| --- | --- |
+| Date | 2026-11-20 |
+| Repos listed | 10 |
+| Combined stars | ⭐ 62,697 |
+| Hottest repo | **heydamir/unslop** (⭐ 19,291) |
+| Dominant language | **JavaScript** |
+
+## 🏆 Top 10 at a glance
+
+| # | Repository | Stars | Forks | Language | Verdict |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [heydamir/unslop](https://github.com/heydamir/unslop) | ⭐ 19,291 | 🍴 1,164 | JavaScript | Phenomenal 🔥 |
+| 2 | [RoutineMiku/apkstart](https://github.com/RoutineMiku/apkstart) | ⭐ 8,731 | 🍴 844 | JavaScript | Trending ⭐ |
+| 3 | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | ⭐ 8,515 | 🍴 1,111 | JavaScript | Trending ⭐ |
+| 4 | [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork) | ⭐ 6,034 | 🍴 449 | JavaScript | Trending ⭐ |
+| 5 | [haydenschmitty/floorplan](https://github.com/haydenschmitty/floorplan) | ⭐ 5,662 | 🍴 490 | JavaScript | Trending ⭐ |
+| 6 | [JenkinWoo/sheeridVerify](https://github.com/JenkinWoo/sheeridVerify) | ⭐ 3,954 | 🍴 1,771 | JavaScript | Trending ⭐ |
+| 7 | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) | ⭐ 3,923 | 🍴 585 | JavaScript | Trending ⭐ |
+| 8 | [Noniv/abyssal-garden](https://github.com/Noniv/abyssal-garden) | ⭐ 2,615 | 🍴 388 | JavaScript | Trending ⭐ |
+| 9 | [ZiChuanLan/agent-purge](https://github.com/ZiChuanLan/agent-purge) | ⭐ 2,002 | 🍴 1,085 | JavaScript | Trending ⭐ |
+| 10 | [NiazMorshed2007/reanimate](https://github.com/NiazMorshed2007/reanimate) | ⭐ 1,970 | 🍴 170 | JavaScript | Trending ⭐ |
+
+## 🔍 Repo details
+
+### 1. [heydamir/unslop](https://github.com/heydamir/unslop)
+
+- ⭐ Stars: **19,291** | 🍴 Forks: **1,164** | 👀 Watchers: **0** | 🐛 Open issues: **7**
+- 🧠 Language: **JavaScript** | Owner: User | Created: 2026-10-29 | Last push: 2026-11-15
+- 🏷️ Topics: -
+
+> A Claude skill that turns vibecoded, AI-looking UI into a designed interface
+
+### 2. [RoutineMiku/apkstart](https://github.com/RoutineMiku/apkstart)
+
+- ⭐ Stars: **8,731** | 🍴 Forks: **844** | 👀 Watchers: **0** | 🐛 Open issues: **98**
+- 🧠 Language: **JavaScript** | Owner: User | Created: 2026-10-29 | Last push: 2026-11-20
+- 🏷️ Topics: android, android-x86, apk, electron, emulator, freeform
+
+> Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时
+
+### 3. [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx)
+
+- ⭐ Stars: **8,515** | 🍴 Forks: **1,111** | 👀 Watchers: **0** | 🐛 Open issues: **15**
+- 🧠 Language: **JavaScript** | Owner: Organization | Created: 2026-10-30 | Last push: 2026-11-13
+- 🏷️ Topics: agent-skills, animation, canvas, claude-code-plugin, gamedev, pixel-art
+
+> 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.
+
+### 4. [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork)
+
+- ⭐ Stars: **6,034** | 🍴 Forks: **449** | 👀 Watchers: **0** | 🐛 Open issues: **248**
+- 🧠 Language: **JavaScript** | Owner: Organization | Created: 2026-10-29 | Last push: 2026-11-21
+- 🏷️ Topics: agent-harness, agent-orchestration, agent-workflows, ai-agents, ai-workflows, anti-slop
+
+> The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.
+
+### 5. [haydenschmitty/floorplan](https://github.com/haydenschmitty/floorplan)
+
+- ⭐ Stars: **5,662** | 🍴 Forks: **490** | 👀 Watchers: **0** | 🐛 Open issues: **61**
+- 🧠 Language: **JavaScript** | Owner: User | Created: 2026-10-27 | Last push: 2026-11-16
+- 🏷️ Topics: ai-coding, architecture-diagram, claude, claude-code, claude-code-plugin, codebase-visualization
+
+> See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.
+
+### 6. [JenkinWoo/sheeridVerify](https://github.com/JenkinWoo/sheeridVerify)
+
+- ⭐ Stars: **3,954** | 🍴 Forks: **1,771** | 👀 Watchers: **0** | 🐛 Open issues: **0**
+- 🧠 Language: **JavaScript** | Owner: User | Created: 2026-11-06 | Last push: 2026-11-06
+- 🏷️ Topics: -
+
+> _No description provided._
+
+### 7. [elvarofficial/teardown](https://github.com/elvarofficial/teardown)
+
+- ⭐ Stars: **3,923** | 🍴 Forks: **585** | 👀 Watchers: **0** | 🐛 Open issues: **9**
+- 🧠 Language: **JavaScript** | Owner: User | Created: 2026-10-30 | Last push: 2026-10-31
+- 🏷️ Topics: -
+
+> A Claude Code skill that turns any machine into a 3D simulator you can take apart
+
+### 8. [Noniv/abyssal-garden](https://github.com/Noniv/abyssal-garden)
+
+- ⭐ Stars: **2,615** | 🍴 Forks: **388** | 👀 Watchers: **0** | 🐛 Open issues: **14**
+- 🧠 Language: **JavaScript** | Owner: User | Created: 2026-11-12 | Last push: 2026-11-14
+- 🏷️ Topics: -
+
+> A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file.
+
+### 9. [ZiChuanLan/agent-purge](https://github.com/ZiChuanLan/agent-purge)
+
+- ⭐ Stars: **2,002** | 🍴 Forks: **1,085** | 👀 Watchers: **0** | 🐛 Open issues: **0**
+- 🧠 Language: **JavaScript** | Owner: User | Created: 2026-10-25 | Last push: 2026-11-20
+- 🏷️ Topics: claude-code, codex, coding-agent, deepseek-harness, dsh, harness
+
+> One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.
+
+### 10. [NiazMorshed2007/reanimate](https://github.com/NiazMorshed2007/reanimate)
+
+- ⭐ Stars: **1,970** | 🍴 Forks: **170** | 👀 Watchers: **0** | 🐛 Open issues: **8**
+- 🧠 Language: **JavaScript** | Owner: User | Created: 2026-10-29 | Last push: 2026-10-31
+- 🏷️ Topics: agent-skills, animation, claude-code, claude-skills, frontend, motion
+
+> A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.
+
+---
+
+*Auto-generated by [github-trending-daily](https://github.com/liudonghua123/github-trending-daily).*
