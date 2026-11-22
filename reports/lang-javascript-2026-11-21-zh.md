@@ -1,0 +1,115 @@
+# 🌟 GitHub Javascript 语言新星榜 Top 10 — 2026-11-21
+
+> 生成时间：2026-11-22 01:50 UTC · 数据来源：[GitHub Search API](https://docs.github.com/en/rest/search)
+> 榜单口径：近 30 天新建的 Javascript 项目中 star ≥ 10 最多
+
+## 📊 今日快照
+
+| 指标 | 数值 |
+| --- | --- |
+| 统计日期 | 2026-11-21 |
+| 上榜仓库数 | 10 |
+| 合计 Star 数 | ⭐ 67,373 |
+| 最火仓库 | **heydamir/unslop** (⭐ 19,790) |
+| 主导语言 | **JavaScript** |
+
+## 🏆 十强一览
+
+| 排名 | 仓库 | Star | Fork | 语言 | 点评 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [heydamir/unslop](https://github.com/heydamir/unslop) | ⭐ 19,790 | 🍴 1,201 | JavaScript | 现象级 🔥 |
+| 2 | [RoutineMiku/apkstart](https://github.com/RoutineMiku/apkstart) | ⭐ 9,007 | 🍴 859 | JavaScript | 持续升温 📈 |
+| 3 | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | ⭐ 8,621 | 🍴 1,130 | JavaScript | 持续升温 📈 |
+| 4 | [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork) | ⭐ 6,453 | 🍴 507 | JavaScript | 持续升温 📈 |
+| 5 | [haydenschmitty/floorplan](https://github.com/haydenschmitty/floorplan) | ⭐ 5,993 | 🍴 523 | JavaScript | 持续升温 📈 |
+| 6 | [ersinkoc/phonebox](https://github.com/ersinkoc/phonebox) | ⭐ 4,663 | 🍴 584 | JavaScript | 持续升温 📈 |
+| 7 | [JenkinWoo/sheeridVerify](https://github.com/JenkinWoo/sheeridVerify) | ⭐ 4,062 | 🍴 1,811 | JavaScript | 持续升温 📈 |
+| 8 | [elvarofficial/teardown](https://github.com/elvarofficial/teardown) | ⭐ 3,978 | 🍴 592 | JavaScript | 持续升温 📈 |
+| 9 | [Noniv/abyssal-garden](https://github.com/Noniv/abyssal-garden) | ⭐ 2,714 | 🍴 402 | JavaScript | 持续升温 📈 |
+| 10 | [NiazMorshed2007/reanimate](https://github.com/NiazMorshed2007/reanimate) | ⭐ 2,092 | 🍴 181 | JavaScript | 持续升温 📈 |
+
+## 🔍 仓库详情
+
+### 1. [heydamir/unslop](https://github.com/heydamir/unslop)
+
+- ⭐ Star 数：**19,790** | 🍴 Fork 数：**1,201** | 👀 关注数：**0** | 🐛 未关闭 issue：**9**
+- 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-29 | 最近推送：2026-11-15
+- 🏷️ 话题标签：-
+
+> A Claude skill that turns vibecoded, AI-looking UI into a designed interface
+
+### 2. [RoutineMiku/apkstart](https://github.com/RoutineMiku/apkstart)
+
+- ⭐ Star 数：**9,007** | 🍴 Fork 数：**859** | 👀 关注数：**0** | 🐛 未关闭 issue：**109**
+- 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-29 | 最近推送：2026-11-20
+- 🏷️ 话题标签：android, android-x86, apk, electron, emulator, freeform
+
+> Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时
+
+### 3. [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx)
+
+- ⭐ Star 数：**8,621** | 🍴 Fork 数：**1,130** | 👀 关注数：**0** | 🐛 未关闭 issue：**16**
+- 🧠 主要语言：**JavaScript** | 归属：Organization | 创建：2026-10-30 | 最近推送：2026-11-13
+- 🏷️ 话题标签：agent-skills, animation, canvas, claude-code-plugin, gamedev, pixel-art
+
+> 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.
+
+### 4. [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork)
+
+- ⭐ Star 数：**6,453** | 🍴 Fork 数：**507** | 👀 关注数：**0** | 🐛 未关闭 issue：**303**
+- 🧠 主要语言：**JavaScript** | 归属：Organization | 创建：2026-10-29 | 最近推送：2026-11-22
+- 🏷️ 话题标签：agent-harness, agent-orchestration, agent-workflows, ai-agents, ai-workflows, anti-slop
+
+> The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.
+
+### 5. [haydenschmitty/floorplan](https://github.com/haydenschmitty/floorplan)
+
+- ⭐ Star 数：**5,993** | 🍴 Fork 数：**523** | 👀 关注数：**0** | 🐛 未关闭 issue：**66**
+- 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-27 | 最近推送：2026-11-16
+- 🏷️ 话题标签：ai-coding, architecture-diagram, claude, claude-code, claude-code-plugin, codebase-visualization
+
+> See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.
+
+### 6. [ersinkoc/phonebox](https://github.com/ersinkoc/phonebox)
+
+- ⭐ Star 数：**4,663** | 🍴 Fork 数：**584** | 👀 关注数：**0** | 🐛 未关闭 issue：**10**
+- 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-11-07 | 最近推送：2026-11-21
+- 🏷️ 话题标签：android, claude-code, codex, dashboard, desk-panel, dotnet
+
+> Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.
+
+### 7. [JenkinWoo/sheeridVerify](https://github.com/JenkinWoo/sheeridVerify)
+
+- ⭐ Star 数：**4,062** | 🍴 Fork 数：**1,811** | 👀 关注数：**0** | 🐛 未关闭 issue：**0**
+- 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-11-06 | 最近推送：2026-11-06
+- 🏷️ 话题标签：-
+
+> _（仓库未填写简介）_
+
+### 8. [elvarofficial/teardown](https://github.com/elvarofficial/teardown)
+
+- ⭐ Star 数：**3,978** | 🍴 Fork 数：**592** | 👀 关注数：**0** | 🐛 未关闭 issue：**9**
+- 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-30 | 最近推送：2026-10-31
+- 🏷️ 话题标签：-
+
+> A Claude Code skill that turns any machine into a 3D simulator you can take apart
+
+### 9. [Noniv/abyssal-garden](https://github.com/Noniv/abyssal-garden)
+
+- ⭐ Star 数：**2,714** | 🍴 Fork 数：**402** | 👀 关注数：**0** | 🐛 未关闭 issue：**14**
+- 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-11-12 | 最近推送：2026-11-14
+- 🏷️ 话题标签：-
+
+> A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file.
+
+### 10. [NiazMorshed2007/reanimate](https://github.com/NiazMorshed2007/reanimate)
+
+- ⭐ Star 数：**2,092** | 🍴 Fork 数：**181** | 👀 关注数：**0** | 🐛 未关闭 issue：**9**
+- 🧠 主要语言：**JavaScript** | 归属：User | 创建：2026-10-29 | 最近推送：2026-10-31
+- 🏷️ 话题标签：agent-skills, animation, claude-code, claude-skills, frontend, motion
+
+> A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.
+
+---
+
+*本报告由 [github-trending-daily](https://github.com/liudonghua123/github-trending-daily) 自动生成。*
