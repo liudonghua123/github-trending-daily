@@ -1,6 +1,14 @@
 {
   "daily": [
     {
+      "date": "2026-11-23",
+      "top_repo": "Marvisak/VIctory",
+      "top_stars": 4897,
+      "total_stars": 7698,
+      "top_repo_desc": "An attempt at running GTA VI on PC",
+      "top_repo_lang": "Rust"
+    },
+    {
       "date": "2026-11-22",
       "top_repo": "os6/nospeaker",
       "top_stars": 453,
@@ -282,6 +290,14 @@
     }
   ],
   "weekly": [
+    {
+      "date": "2026-11-23",
+      "top_repo": "codecrafters-io/build-your-own-x",
+      "top_stars": 565060,
+      "total_stars": 4179798,
+      "top_repo_desc": "Master programming by recreating your favorite technologies from scratch.",
+      "top_repo_lang": "Markdown"
+    },
     {
       "date": "2026-11-22",
       "top_repo": "codecrafters-io/build-your-own-x",
@@ -565,6 +581,14 @@
   ],
   "monthly": [
     {
+      "date": "2026-11-23",
+      "top_repo": "codecrafters-io/build-your-own-x",
+      "top_stars": 565060,
+      "total_stars": 4213130,
+      "top_repo_desc": "Master programming by recreating your favorite technologies from scratch.",
+      "top_repo_lang": "Markdown"
+    },
+    {
       "date": "2026-11-22",
       "top_repo": "codecrafters-io/build-your-own-x",
       "top_stars": 564759,
@@ -807,6 +831,15 @@
   ],
   "languages": {
     "python": [
+      {
+        "date": "2026-11-23",
+        "top_repo": "JuneYaooo/rea-video",
+        "top_stars": 12753,
+        "total_stars": 54911,
+        "top_repo_desc": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
+        "top_repo_lang": "Python",
+        "language": "python"
+      },
       {
         "date": "2026-11-22",
         "top_repo": "ItsNotRexed/Leonida",
@@ -1071,6 +1104,15 @@
     ],
     "javascript": [
       {
+        "date": "2026-11-23",
+        "top_repo": "heydamir/unslop",
+        "top_stars": 20935,
+        "total_stars": 74445,
+        "top_repo_desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+        "top_repo_lang": "JavaScript",
+        "language": "javascript"
+      },
+      {
         "date": "2026-11-22",
         "top_repo": "heydamir/unslop",
         "top_stars": 20313,
@@ -1333,6 +1375,15 @@
       }
     ],
     "typescript": [
+      {
+        "date": "2026-11-23",
+        "top_repo": "deepseek-ai/dsh-superagent-prototype",
+        "top_stars": 24395,
+        "total_stars": 75923,
+        "top_repo_desc": "Towards a More Autonomous Agent System",
+        "top_repo_lang": "TypeScript",
+        "language": "typescript"
+      },
       {
         "date": "2026-11-22",
         "top_repo": "deepseek-ai/dsh-superagent-prototype",
@@ -1597,6 +1648,15 @@
     ],
     "rust": [
       {
+        "date": "2026-11-23",
+        "top_repo": "storytold/craft-anything",
+        "top_stars": 42274,
+        "total_stars": 113421,
+        "top_repo_desc": "Craft Anything: understand how any software works, and craft your own.",
+        "top_repo_lang": "Rust",
+        "language": "rust"
+      },
+      {
         "date": "2026-11-22",
         "top_repo": "storytold/craft-anything",
         "top_stars": 41277,
@@ -1859,6 +1919,15 @@
       }
     ],
     "go": [
+      {
+        "date": "2026-11-23",
+        "top_repo": "Lee-xeo/Claude-Cage",
+        "top_stars": 8120,
+        "total_stars": 22573,
+        "top_repo_desc": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+        "top_repo_lang": "Go",
+        "language": "go"
+      },
       {
         "date": "2026-11-22",
         "top_repo": "Lee-xeo/Claude-Cage",
@@ -2123,6 +2192,15 @@
     ],
     "java": [
       {
+        "date": "2026-11-23",
+        "top_repo": "Pilipala9919/MarcoMovie",
+        "top_stars": 1115,
+        "total_stars": 4983,
+        "top_repo_desc": "由 Pilipala 开发的多端自适应播放器（支持 Android 电视/手机/平板、Apple TV、HarmonyOS NEXT、iOS/iPadOS、Windows、macOS）。仅提供工具，不含影视资源；内容和配置由用户自行合法获取。",
+        "top_repo_lang": "Java",
+        "language": "java"
+      },
+      {
         "date": "2026-11-22",
         "top_repo": "Pilipala9919/MarcoMovie",
         "top_stars": 1080,
@@ -2385,6 +2463,15 @@
       }
     ],
     "c++": [
+      {
+        "date": "2026-11-23",
+        "top_repo": "zortos293/Lichii",
+        "top_stars": 10167,
+        "total_stars": 26747,
+        "top_repo_desc": "VERY experimental Nintendo Switch 2 emulator",
+        "top_repo_lang": "C++",
+        "language": "c++"
+      },
       {
         "date": "2026-11-22",
         "top_repo": "zortos293/Lichii",
